@@ -20604,9 +20604,10 @@
 			)
 		)
 		(symbol "Sil9132_1_1"
-			(rectangle
-				(start -52.07 54.61)
-				(end 58.42 -52.07)
+			(polyline
+				(pts
+					(xy -52.07 -52.07) (xy 58.42 -52.07) (xy 58.42 54.61) (xy -46.99 54.61) (xy -52.07 48.26) (xy -52.07 -52.07)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -20849,10 +20850,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -54.61 -8.89 0)
 				(length 2.54)
-				(name "GND"
+				(name "V??"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20906,7 +20907,7 @@
 			(pin unspecified line
 				(at -54.61 11.43 0)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20942,7 +20943,7 @@
 			(pin unspecified line
 				(at -54.61 6.35 0)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20975,10 +20976,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -54.61 1.27 0)
 				(length 2.54)
-				(name "GND"
+				(name "V??"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21014,7 +21015,7 @@
 			(pin unspecified line
 				(at -54.61 -3.81 0)
 				(length 2.54)
-				(name "GND"
+				(name "V??"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21050,7 +21051,7 @@
 			(pin unspecified line
 				(at -54.61 -16.51 0)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21065,10 +21066,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -54.61 -39.37 0)
 				(length 2.54)
-				(name "GND"
+				(name "V??"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21173,10 +21174,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -54.61 -26.67 0)
 				(length 2.54)
-				(name "GND"
+				(name "V??"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21209,10 +21210,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -54.61 -31.75 0)
 				(length 2.54)
-				(name "GND"
+				(name "V??"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21245,10 +21246,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -54.61 -36.83 0)
 				(length 2.54)
-				(name "GND"
+				(name "V??"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21264,7 +21265,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -44.45 -54.61 90)
+				(at -43.18 -54.61 90)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -21282,7 +21283,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -21.59 -54.61 90)
+				(at -20.32 -54.61 90)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -21300,7 +21301,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -19.05 -54.61 90)
+				(at -17.78 -54.61 90)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -21318,7 +21319,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 -54.61 90)
+				(at -15.24 -54.61 90)
 				(length 2.54)
 				(name "SII0_WS"
 					(effects
@@ -21336,7 +21337,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -41.91 -54.61 90)
+				(at -40.64 -54.61 90)
 				(length 2.54)
 				(name "HDMI_I2C_SDA"
 					(effects
@@ -21354,9 +21355,9 @@
 				)
 			)
 			(pin unspecified line
-				(at -39.37 -54.61 90)
+				(at -38.1 -54.61 90)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21372,7 +21373,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -36.83 -54.61 90)
+				(at -35.56 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21390,7 +21391,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -34.29 -54.61 90)
+				(at -33.02 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21408,7 +21409,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -31.75 -54.61 90)
+				(at -30.48 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21426,7 +21427,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -29.21 -54.61 90)
+				(at -27.94 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21444,7 +21445,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -26.67 -54.61 90)
+				(at -25.4 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21462,7 +21463,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -24.13 -54.61 90)
+				(at -22.86 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21480,9 +21481,9 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 -54.61 90)
+				(at -12.7 -54.61 90)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21498,7 +21499,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -54.61 90)
+				(at 10.16 -54.61 90)
 				(length 2.54)
 				(name "HDMI"
 					(effects
@@ -21516,7 +21517,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -54.61 90)
+				(at 12.7 -54.61 90)
 				(length 2.54)
 				(name "SII0_SD0"
 					(effects
@@ -21534,7 +21535,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 -54.61 90)
+				(at 15.24 -54.61 90)
 				(length 2.54)
 				(name "SII0_SCK"
 					(effects
@@ -21552,7 +21553,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 -54.61 90)
+				(at -10.16 -54.61 90)
 				(length 2.54)
 				(name "HDMI_I2C_SCL"
 					(effects
@@ -21570,9 +21571,9 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 -54.61 90)
+				(at -7.62 -54.61 90)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21588,7 +21589,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -6.35 -54.61 90)
+				(at -5.08 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21606,7 +21607,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -3.81 -54.61 90)
+				(at -2.54 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21624,7 +21625,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -1.27 -54.61 90)
+				(at 0 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21642,7 +21643,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 1.27 -54.61 90)
+				(at 2.54 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21660,7 +21661,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 3.81 -54.61 90)
+				(at 5.08 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21678,7 +21679,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 -54.61 90)
+				(at 7.62 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21696,7 +21697,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 16.51 -54.61 90)
+				(at 17.78 -54.61 90)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -21714,9 +21715,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 39.37 -54.61 90)
+				(at 40.64 -54.61 90)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21732,7 +21733,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 41.91 -54.61 90)
+				(at 43.18 -54.61 90)
 				(length 2.54)
 				(name "SII0_SD2"
 					(effects
@@ -21750,7 +21751,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 44.45 -54.61 90)
+				(at 45.72 -54.61 90)
 				(length 2.54)
 				(name "SII0_SD1"
 					(effects
@@ -21768,7 +21769,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 19.05 -54.61 90)
+				(at 20.32 -54.61 90)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -21786,7 +21787,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 21.59 -54.61 90)
+				(at 22.86 -54.61 90)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -21804,7 +21805,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 24.13 -54.61 90)
+				(at 25.4 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21822,7 +21823,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 26.67 -54.61 90)
+				(at 27.94 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21840,7 +21841,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 29.21 -54.61 90)
+				(at 30.48 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21858,7 +21859,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 31.75 -54.61 90)
+				(at 33.02 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21876,7 +21877,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 34.29 -54.61 90)
+				(at 35.56 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -21894,7 +21895,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 -54.61 90)
+				(at 38.1 -54.61 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -22004,7 +22005,7 @@
 			(pin unspecified line
 				(at 60.96 -38.1 180)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22148,7 +22149,7 @@
 			(pin unspecified line
 				(at 60.96 10.16 180)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22166,7 +22167,7 @@
 			(pin unspecified line
 				(at 60.96 12.7 180)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22220,7 +22221,7 @@
 			(pin unspecified line
 				(at 60.96 -7.62 180)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22364,7 +22365,7 @@
 			(pin unspecified line
 				(at 60.96 40.64 180)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22436,7 +22437,7 @@
 			(pin unspecified line
 				(at 60.96 22.86 180)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22560,7 +22561,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 44.45 57.15 270)
+				(at 45.72 57.15 270)
 				(length 2.54)
 				(name "SII0_D30"
 					(effects
@@ -22578,7 +22579,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 21.59 57.15 270)
+				(at 22.86 57.15 270)
 				(length 2.54)
 				(name "SII0_D0"
 					(effects
@@ -22596,7 +22597,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 19.05 57.15 270)
+				(at 20.32 57.15 270)
 				(length 2.54)
 				(name "SII0_D1"
 					(effects
@@ -22614,7 +22615,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 16.51 57.15 270)
+				(at 17.78 57.15 270)
 				(length 2.54)
 				(name "SII0_D2"
 					(effects
@@ -22632,7 +22633,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 41.91 57.15 270)
+				(at 43.18 57.15 270)
 				(length 2.54)
 				(name "SII0_D29"
 					(effects
@@ -22650,9 +22651,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 39.37 57.15 270)
+				(at 40.64 57.15 270)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22668,7 +22669,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 36.83 57.15 270)
+				(at 38.1 57.15 270)
 				(length 2.54)
 				(name "SII0_D20"
 					(effects
@@ -22686,9 +22687,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 34.29 57.15 270)
+				(at 35.56 57.15 270)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22704,7 +22705,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 31.75 57.15 270)
+				(at 33.02 57.15 270)
 				(length 2.54)
 				(name "SII0_IDCK"
 					(effects
@@ -22722,9 +22723,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 29.21 57.15 270)
+				(at 30.48 57.15 270)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22740,7 +22741,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 26.67 57.15 270)
+				(at 27.94 57.15 270)
 				(length 2.54)
 				(name "SII0_D11"
 					(effects
@@ -22758,9 +22759,9 @@
 				)
 			)
 			(pin unspecified line
-				(at 24.13 57.15 270)
+				(at 25.4 57.15 270)
 				(length 2.54)
-				(name "GND"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22776,7 +22777,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 13.97 57.15 270)
+				(at 15.24 57.15 270)
 				(length 2.54)
 				(name "SII0_D28"
 					(effects
@@ -22794,7 +22795,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -8.89 57.15 270)
+				(at -7.62 57.15 270)
 				(length 2.54)
 				(name "SII0_D7"
 					(effects
@@ -22812,7 +22813,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -11.43 57.15 270)
+				(at -10.16 57.15 270)
 				(length 2.54)
 				(name "SII0_D5"
 					(effects
@@ -22830,7 +22831,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -13.97 57.15 270)
+				(at -12.7 57.15 270)
 				(length 2.54)
 				(name "SII0_D3"
 					(effects
@@ -22848,7 +22849,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 57.15 270)
+				(at 12.7 57.15 270)
 				(length 2.54)
 				(name "SII0_D27"
 					(effects
@@ -22866,7 +22867,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 57.15 270)
+				(at 10.16 57.15 270)
 				(length 2.54)
 				(name "SII0_D23"
 					(effects
@@ -22884,7 +22885,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 6.35 57.15 270)
+				(at 7.62 57.15 270)
 				(length 2.54)
 				(name "SII0_D21"
 					(effects
@@ -22902,7 +22903,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 3.81 57.15 270)
+				(at 5.08 57.15 270)
 				(length 2.54)
 				(name "SII0_D18"
 					(effects
@@ -22920,7 +22921,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 1.27 57.15 270)
+				(at 2.54 57.15 270)
 				(length 2.54)
 				(name "SII0_D16"
 					(effects
@@ -22938,7 +22939,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -1.27 57.15 270)
+				(at 0 57.15 270)
 				(length 2.54)
 				(name "SII0_D14"
 					(effects
@@ -22956,7 +22957,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -3.81 57.15 270)
+				(at -2.54 57.15 270)
 				(length 2.54)
 				(name "SII0_D12"
 					(effects
@@ -22974,7 +22975,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -6.35 57.15 270)
+				(at -5.08 57.15 270)
 				(length 2.54)
 				(name "SII0_D9"
 					(effects
@@ -22992,7 +22993,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -16.51 57.15 270)
+				(at -15.24 57.15 270)
 				(length 2.54)
 				(name "SII0_D26"
 					(effects
@@ -23010,7 +23011,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -39.37 57.15 270)
+				(at -38.1 57.15 270)
 				(length 2.54)
 				(name "SII0_D8"
 					(effects
@@ -23028,7 +23029,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -41.91 57.15 270)
+				(at -40.64 57.15 270)
 				(length 2.54)
 				(name "SII0_D6"
 					(effects
@@ -23046,7 +23047,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -44.45 57.15 270)
+				(at -43.18 57.15 270)
 				(length 2.54)
 				(name "SII0_D4"
 					(effects
@@ -23064,7 +23065,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -19.05 57.15 270)
+				(at -17.78 57.15 270)
 				(length 2.54)
 				(name "SII0_D25"
 					(effects
@@ -23082,7 +23083,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 57.15 270)
+				(at -20.32 57.15 270)
 				(length 2.54)
 				(name "SII0_D24"
 					(effects
@@ -23100,7 +23101,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -24.13 57.15 270)
+				(at -22.86 57.15 270)
 				(length 2.54)
 				(name "SII0_D22"
 					(effects
@@ -23118,7 +23119,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -26.67 57.15 270)
+				(at -25.4 57.15 270)
 				(length 2.54)
 				(name "SII0_D19"
 					(effects
@@ -23136,7 +23137,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -29.21 57.15 270)
+				(at -27.94 57.15 270)
 				(length 2.54)
 				(name "SII0_D17"
 					(effects
@@ -23154,7 +23155,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -31.75 57.15 270)
+				(at -30.48 57.15 270)
 				(length 2.54)
 				(name "SII0_D15"
 					(effects
@@ -23172,7 +23173,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -34.29 57.15 270)
+				(at -33.02 57.15 270)
 				(length 2.54)
 				(name "SII0_D13"
 					(effects
@@ -23190,7 +23191,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -36.83 57.15 270)
+				(at -35.56 57.15 270)
 				(length 2.54)
 				(name "SII0_D10"
 					(effects
