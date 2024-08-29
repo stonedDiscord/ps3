@@ -3853,7 +3853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 267.97 73.66 0)
 			(effects
 				(font
@@ -4388,7 +4388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20b225cd-eff9-43ec-bcb1-36d92ddddbcc")
-		(property "Reference" "RN1"
+		(property "Reference" "RN1101"
 			(at 256.54 48.2599 0)
 			(effects
 				(font
@@ -4397,7 +4397,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Pack04"
+		(property "Value" "10k"
 			(at 256.54 50.7999 0)
 			(effects
 				(font
@@ -4406,7 +4406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
 			(at 258.445 49.53 90)
 			(effects
 				(font
@@ -4460,7 +4460,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/edea7873-2074-40c6-a93e-4af210829a02"
-					(reference "RN1")
+					(reference "RN1101")
 					(unit 1)
 				)
 			)
@@ -4836,7 +4836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 161.29 90.17 0)
 			(effects
 				(font
@@ -5052,7 +5052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 267.97 66.04 0)
 			(effects
 				(font
@@ -5328,7 +5328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 267.97 71.12 0)
 			(effects
 				(font
@@ -7293,6 +7293,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 177.8 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a977da55-388c-494d-9db0-4f679aaedf76")
+		(property "Reference" "#PWR0172"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d82b521-deef-40b4-acef-f24825d22ff1")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/edea7873-2074-40c6-a93e-4af210829a02"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 181.61 53.34 180)
 		(unit 1)
@@ -7425,6 +7492,73 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/edea7873-2074-40c6-a93e-4af210829a02"
 					(reference "C1492")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae287e74-8e69-49f1-9e52-92a2c95c0b14")
+		(property "Reference" "#PWR0173"
+			(at 181.61 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f388c5a1-32d6-4806-a0a0-1a023b1ce885")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/edea7873-2074-40c6-a93e-4af210829a02"
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -7731,7 +7865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -7946,7 +8080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 267.97 63.5 0)
 			(effects
 				(font
@@ -8432,7 +8566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 267.97 68.58 0)
 			(effects
 				(font
