@@ -5,6 +5,176 @@
 	(uuid "1559a56c-50f3-4e4d-9481-bd01443ab2d9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PS3:BD35xxFVM-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -235,14 +405,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -383,6 +553,126 @@
 				)
 			)
 		)
+		(symbol "power:+5F"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5F"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5F\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5F_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5F_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -480,18 +770,212 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 111.76 110.49) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7f0e58-50ce-4710-9068-fb4d122ae497")
+	)
+	(wire
+		(pts
+			(xy 113.03 135.89) (xy 127 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d29ae8-8ecd-4c8d-bfbb-d8d9a68d0226")
+	)
+	(wire
+		(pts
+			(xy 114.3 189.23) (xy 127 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b25f19a-9603-42b4-9e71-9581c8f6cfa3")
+	)
+	(wire
+		(pts
+			(xy 114.3 162.56) (xy 128.27 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916ac116-9c0c-47b8-978f-eebe0726ffdc")
+	)
+	(global_label "SW3.3"
+		(shape input)
+		(at 166.37 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f86e817-be50-47fb-a852-37ecf1a9b1c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.7001 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW2.5"
+		(shape input)
+		(at 124.46 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "558a2392-35a9-4c6d-a90f-15bac4aaeff5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.7901 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW_3"
+		(shape input)
+		(at 114.3 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b3ed002-3028-418d-b227-028624319eb7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.4768 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW_6"
+		(shape input)
+		(at 113.03 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa08d3c0-5031-46b5-bcda-4b5c284d01a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.2068 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW_8_A"
+		(shape input)
+		(at 114.3 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b09fa4e7-175f-40ef-bb7b-01add5ce8509")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.4206 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW3.1"
+		(shape input)
+		(at 123.19 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b28934bf-b8b7-4303-96f0-e4aa2a0390a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.5201 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW_1.2"
+		(shape input)
+		(at 111.76 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d69bdf9e-f765-4613-af81-eefc74109a3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.1225 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
-		(lib_id "power:GND")
-		(at 171.45 135.89 270)
+		(lib_id "power:+5F")
+		(at 127 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0bf1236c-7bc1-4aa9-8199-d6132acbedf1")
-		(property "Reference" "#PWR0510"
-			(at 165.1 135.89 0)
+		(uuid "0b66e984-ddef-44bf-b2b2-2cbcd700e189")
+		(property "Reference" "#PWR0704"
+			(at 130.81 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -499,17 +983,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 167.64 135.8899 90)
+		(property "Value" "+5V_MISC"
+			(at 123.19 138.4299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 135.89 0)
+			(at 127 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,7 +1002,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 135.89 0)
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5F\""
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85719043-273b-4143-b7df-876043ff6a51")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bf1236c-7bc1-4aa9-8199-d6132acbedf1")
+		(property "Reference" "#PWR0510"
+			(at 121.92 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,7 +1078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 135.89 0)
+			(at 128.27 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,7 +1100,7 @@
 	)
 	(symbol
 		(lib_id "PS3:BD35xxFVM-TR")
-		(at 179.07 160.02 0)
+		(at 135.89 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -558,7 +1109,7 @@
 		(fields_autoplaced yes)
 		(uuid "162bcbe3-0fb4-4ffd-8c25-6e55e93b3095")
 		(property "Reference" "U6305"
-			(at 179.07 154.94 0)
+			(at 135.89 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -566,7 +1117,7 @@
 			)
 		)
 		(property "Value" "BD3520FVM-TR"
-			(at 179.07 157.48 0)
+			(at 135.89 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -574,7 +1125,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 170.18 160.02 0)
+			(at 127 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -583,7 +1134,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4118/BD3520FVM.pdf"
-			(at 170.18 160.02 0)
+			(at 127 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,7 +1143,7 @@
 			)
 		)
 		(property "Description" "Single Channel Series Regulator Driver IC"
-			(at 170.18 160.02 0)
+			(at 127 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,7 +1186,7 @@
 	)
 	(symbol
 		(lib_id "PS3:BD35xxFVM-TR")
-		(at 177.8 69.85 0)
+		(at 134.62 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -644,7 +1195,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a3282bf-449d-4739-a09c-c25247744a26")
 		(property "Reference" "U6602"
-			(at 177.8 64.77 0)
+			(at 134.62 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,7 +1203,7 @@
 			)
 		)
 		(property "Value" "BD3504FVM-TR"
-			(at 177.8 67.31 0)
+			(at 134.62 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -660,7 +1211,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 168.91 69.85 0)
+			(at 125.73 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,7 +1220,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4118/BD3520FVM.pdf"
-			(at 168.91 69.85 0)
+			(at 125.73 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,7 +1229,7 @@
 			)
 		)
 		(property "Description" "Single Channel Series Regulator Driver IC"
-			(at 168.91 69.85 0)
+			(at 125.73 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,34 +1271,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 162.56 44.45 0)
+		(lib_id "PS3:NCP511")
+		(at 133.35 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2cdce5ed-1b37-4ae9-a7f5-6e62237af010")
-		(property "Reference" "#PWR0506"
-			(at 162.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.56 49.53 0)
+		(uuid "1b19a233-998d-432d-bb40-b4c8d9686361")
+		(property "Reference" "U6600"
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 162.56 44.45 0)
+		(property "Value" "MM3143"
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
+			(at 133.35 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,7 +1306,155 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 44.45 0)
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "e360dee1-38ed-4d4a-833a-58978548952d")
+		)
+		(pin "5"
+			(uuid "c13d3f5d-061b-446e-ad1f-f7c4997d1584")
+		)
+		(pin "2"
+			(uuid "caa2b07e-d9a0-4632-bfe9-a47c0d8fb858")
+		)
+		(pin "1"
+			(uuid "3a14339d-c05c-437f-8800-989774b27ff3")
+		)
+		(pin "3"
+			(uuid "224de576-27a6-467e-9afe-21755ea7791c")
+		)
+		(instances
+			(project ""
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "U6600")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 111.76 114.3 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b660c49-5fdc-4a6a-9a14-73b838336796")
+		(property "Reference" "R6623"
+			(at 109.22 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.22 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 112.776 114.046 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2643f89-0b3a-4caa-a07a-d024a79f3847")
+		)
+		(pin "1"
+			(uuid "cf097783-20a8-48f7-bff4-a5148dc7269b")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "R6623")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cdce5ed-1b37-4ae9-a7f5-6e62237af010")
+		(property "Reference" "#PWR0506"
+			(at 135.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,7 +1463,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 44.45 0)
+			(at 135.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,33 +1484,34 @@
 		)
 	)
 	(symbol
-		(lib_id "PS3:NCP511")
-		(at 161.29 30.48 0)
+		(lib_id "power:GND")
+		(at 179.07 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "52e10a84-3bee-4bdc-bece-be7e5a467f83")
-		(property "Reference" "U6601"
-			(at 161.29 27.94 0)
+		(uuid "2eeb990a-dd0d-48f1-a21a-e1f76c06acad")
+		(property "Reference" "#PWR0708"
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 161.29 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
-			(at 161.29 30.48 0)
+		(property "Footprint" ""
+			(at 179.07 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,7 +1520,344 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 30.48 0)
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fdcd8f8-ca17-4dca-9743-4827827a60b2")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0708")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3673c5b4-9e68-4893-8c0f-169e50dc9492")
+		(property "Reference" "#PWR0706"
+			(at 134.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d856ca5-f37f-405f-8919-f9a3ea149bb7")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0706")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41658ecf-890b-4533-843c-e2d21975c631")
+		(property "Reference" "#PWR0701"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a61bc39-17ff-4993-87af-148e4db82df3")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 124.46 53.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45cb7469-814c-4954-b87f-43d5c0b81447")
+		(property "Reference" "R6619"
+			(at 121.92 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 121.92 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 125.476 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5158531e-c860-48c4-8c1e-806c14d883b4")
+		)
+		(pin "1"
+			(uuid "bc557964-1428-4207-b638-b65a424cd2ff")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "R6619")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 166.37 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51dd2271-4513-4cf5-ae04-374abe83431d")
+		(property "Reference" "R6621"
+			(at 163.83 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 163.83 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 167.386 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f528670c-914e-4150-ab43-288cf43f2b44")
+		)
+		(pin "1"
+			(uuid "ae2bbc55-5e42-415e-b106-a801fd9017a7")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "R6621")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PS3:NCP511")
+		(at 134.62 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52e10a84-3bee-4bdc-bece-be7e5a467f83")
+		(property "Reference" "U6601"
+			(at 134.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCP511"
+			(at 134.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
+			(at 134.62 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,7 +1866,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 30.48 0)
+			(at 134.62 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,7 +1900,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 162.56 270)
+		(at 127 186.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -873,7 +1909,7 @@
 		(fields_autoplaced yes)
 		(uuid "5751f451-0591-4a20-8e6e-4ea8f0d009a6")
 		(property "Reference" "#PWR0511"
-			(at 163.83 162.56 0)
+			(at 120.65 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +1918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 162.5599 90)
+			(at 123.19 186.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +1927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 162.56 0)
+			(at 127 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +1936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 162.56 0)
+			(at 127 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +1945,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 162.56 0)
+			(at 127 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,8 +1966,764 @@
 		)
 	)
 	(symbol
+		(lib_id "PS3:NCP511")
+		(at 177.8 15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "6157ff09-a5e5-4f07-8665-f4993e7a7dd1")
+		(property "Reference" "U6604"
+			(at 177.8 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XX"
+			(at 177.8 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
+			(at 177.8 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d7d43213-40ab-4455-aecd-a3076af45b0c")
+		)
+		(pin "5"
+			(uuid "8f9774f2-a9fe-4666-b20f-6bbd77b7b6dc")
+		)
+		(pin "2"
+			(uuid "6e339d08-9ff6-400e-8a2a-1aabdc5fdb4a")
+		)
+		(pin "1"
+			(uuid "eef20fed-1168-4f70-befc-bd07a3ff7f5b")
+		)
+		(pin "3"
+			(uuid "fccbaf73-f97e-4675-becb-cd1c78a27660")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "U6604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a24baa9-c819-473b-b75f-227fc11e9430")
+		(property "Reference" "#PWR0707"
+			(at 177.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "028826be-67cb-4c82-88c4-d97deb2c5374")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f8918c7-3835-4a56-88d4-91d3b29a4abe")
+		(property "Reference" "#PWR0711"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33a89660-5fa7-473c-aa69-3bc83c7e1c37")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0711")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 123.19 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d42df22-110f-4b0e-8d42-9594d3cc016d")
+		(property "Reference" "R6622"
+			(at 120.65 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 120.65 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 124.206 86.106 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 123.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e8eb12e-618c-4293-a818-d57df372b9f6")
+		)
+		(pin "1"
+			(uuid "d162d6bc-7c7a-45ae-9117-38d20954991e")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "R6622")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5F")
+		(at 128.27 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90287fd4-cdf8-4c49-890e-5febc9b3e51d")
+		(property "Reference" "#PWR0703"
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_MISC"
+			(at 124.46 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5F\""
+			(at 128.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c34638e-07b6-45fb-84ac-b358739e38a9")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5F")
+		(at 127 191.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "931d37b0-a90d-4c43-97d8-5efb51ff6fb6")
+		(property "Reference" "#PWR0702"
+			(at 130.81 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_MISC"
+			(at 123.19 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5F\""
+			(at 127 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec10054d-316e-4eb6-ae8c-61a7c35d62b9")
+		)
+		(instances
+			(project ""
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PS3:NCP511")
+		(at 176.53 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3ce3cab-15a4-4b72-81dc-e4793dd714ae")
+		(property "Reference" "U6605"
+			(at 176.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MM1573"
+			(at 176.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0f1bb06e-1c00-4b76-a21f-e808e20425eb")
+		)
+		(pin "5"
+			(uuid "b9973021-e037-443d-a5e6-3834aeac708b")
+		)
+		(pin "2"
+			(uuid "50e54951-9e1f-442e-a362-043af9726afa")
+		)
+		(pin "1"
+			(uuid "e6bd62a9-a6d6-4b53-9670-a3710e7fbb53")
+		)
+		(pin "3"
+			(uuid "38437e72-ad34-4181-99bf-c96a393a0fbe")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "U6605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae6e83eb-a7a0-4db2-8ae6-34e6775355c0")
+		(property "Reference" "#PWR0713"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4897701-0e5c-4d3f-9f5b-f8871c2b8951")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0713")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5F")
+		(at 125.73 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b27bed02-eecd-4bd3-895c-19a9b659f40d")
+		(property "Reference" "#PWR0705"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_MISC"
+			(at 121.92 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5F\""
+			(at 125.73 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5648a6ae-4085-4eeb-89e8-41dfc8c860e0")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0705")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2b5f2a5-a74a-4874-af29-a742354df947")
+		(property "Reference" "#PWR0712"
+			(at 123.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a78fe1c0-f230-4fe0-81d3-7c9ab9b7be92")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0712")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5F")
+		(at 166.37 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d06de825-e4ed-4f03-96fc-6b2510c934d1")
+		(property "Reference" "#PWR0710"
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_MISC"
+			(at 162.56 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5F\""
+			(at 166.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3752519-3eb2-47a4-af22-4dc1555025af")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0710")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PS3:BD35xxFVM-TR")
-		(at 180.34 133.35 0)
+		(at 137.16 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -940,7 +2732,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0f39d7c-67aa-4a22-bfe1-f7fe1c5f82fa")
 		(property "Reference" "U6304"
-			(at 180.34 128.27 0)
+			(at 137.16 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,7 +2740,7 @@
 			)
 		)
 		(property "Value" "BD3504FVM-TR"
-			(at 180.34 130.81 0)
+			(at 137.16 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,7 +2748,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 171.45 133.35 0)
+			(at 128.27 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,7 +2757,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4118/BD3520FVM.pdf"
-			(at 171.45 133.35 0)
+			(at 128.27 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +2766,7 @@
 			)
 		)
 		(property "Description" "Single Channel Series Regulator Driver IC"
-			(at 171.45 133.35 0)
+			(at 128.27 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,8 +2808,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5F")
+		(at 123.19 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edcc7dfa-c78b-472e-a881-9f703f8cb16a")
+		(property "Reference" "#PWR0709"
+			(at 127 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_MISC"
+			(at 119.38 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5F\""
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41a84a9c-cf3a-4d0c-8fb6-b651a7af210f")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "#PWR0709")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PS3:BD35xxFVM-TR")
-		(at 179.07 106.68 0)
+		(at 135.89 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1026,7 +2885,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6262f83-237a-4ec1-858c-7e2d5ee2ce08")
 		(property "Reference" "U6303"
-			(at 179.07 101.6 0)
+			(at 135.89 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1034,7 +2893,7 @@
 			)
 		)
 		(property "Value" "BD3520FVM-TR"
-			(at 179.07 104.14 0)
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +2901,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 170.18 106.68 0)
+			(at 127 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +2910,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4118/BD3520FVM.pdf"
-			(at 170.18 106.68 0)
+			(at 127 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +2919,7 @@
 			)
 		)
 		(property "Description" "Single Channel Series Regulator Driver IC"
-			(at 170.18 106.68 0)
+			(at 127 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +2962,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 72.39 270)
+		(at 125.73 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1112,7 +2971,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa20143d-04f4-4e0e-a59b-b62359330827")
 		(property "Reference" "#PWR0508"
-			(at 162.56 72.39 0)
+			(at 119.38 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,7 +2980,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 72.3899 90)
+			(at 121.92 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +2989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 72.39 0)
+			(at 125.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +2998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 72.39 0)
+			(at 125.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1148,7 +3007,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 72.39 0)
+			(at 125.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +3029,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 109.22 270)
+		(at 127 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1179,7 +3038,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe2eccba-5277-4eef-b204-52934ea09870")
 		(property "Reference" "#PWR0509"
-			(at 163.83 109.22 0)
+			(at 120.65 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +3047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 109.2199 90)
+			(at 123.19 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +3056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 109.22 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +3065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 109.22 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,7 +3074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 109.22 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)

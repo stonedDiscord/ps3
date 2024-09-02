@@ -180,7 +180,9 @@
       "track_widths": [
         0.0,
         0.1,
-        0.5
+        0.5,
+        1.0,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -607,6 +609,22 @@
       "HDMI out"
     ],
     [
+      "e3510d9f-23a0-4b0e-bd28-36d08a949a06",
+      "Ethernet"
+    ],
+    [
+      "51a06e94-b599-411e-9536-c919e103719a",
+      "Starship2"
+    ],
+    [
+      "c2fb6f44-7647-4597-badb-4e48fc7de398",
+      "Syscon"
+    ],
+    [
+      "be970d6c-aeec-4303-8a86-89c9df8950fa",
+      "Power Management"
+    ],
+    [
       "7ae61751-b28b-4bb2-bf4e-5615938a2f1e",
       "DC-DC Converters"
     ],
@@ -617,10 +635,6 @@
     [
       "58f89d29-0445-4fc3-a5d0-710f61a953e6",
       "PS2 Bridge"
-    ],
-    [
-      "51a06e94-b599-411e-9536-c919e103719a",
-      "Starship2"
     ]
   ],
   "text_variables": {}
