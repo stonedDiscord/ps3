@@ -11637,15 +11637,15 @@
 		(dnp no)
 		(uuid "5b0c8da1-a90e-40e1-86f2-b12f0d6d1964")
 		(property "Reference" "L2501"
-			(at 334.01 92.71 0)
+			(at 334.01 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L_Iron_Coupled_Small"
-			(at 334.01 95.25 0)
+		(property "Value" "L_Iron_Coupled_Small_1243"
+			(at 334.01 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13234,15 +13234,15 @@
 		(dnp no)
 		(uuid "867a0a88-91b0-49d4-b796-324f505bba9a")
 		(property "Reference" "L2502"
-			(at 322.58 97.79 0)
+			(at 322.58 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L_Iron_Coupled_Small"
-			(at 322.58 100.33 0)
+		(property "Value" "L_Iron_Coupled_Small_1243"
+			(at 322.58 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14429,15 +14429,15 @@
 		(dnp no)
 		(uuid "b2e3c2cd-16ae-493c-af4b-3391c16c7e97")
 		(property "Reference" "L2503"
-			(at 334.01 102.87 0)
+			(at 334.01 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L_Iron_Coupled_Small"
-			(at 334.01 105.41 0)
+		(property "Value" "L_Iron_Coupled_Small_1243"
+			(at 334.01 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15406,15 +15406,15 @@
 		(dnp no)
 		(uuid "ea9efc64-bce8-4b12-911a-0880ecaeab5c")
 		(property "Reference" "L2504"
-			(at 322.58 107.95 0)
+			(at 322.58 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "L_Iron_Coupled_Small"
-			(at 322.58 110.49 0)
+		(property "Value" "L_Iron_Coupled_Small_1243"
+			(at 322.58 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
