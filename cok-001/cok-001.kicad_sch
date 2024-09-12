@@ -30126,6 +30126,44 @@
 		)
 	)
 	(sheet
+		(at 364.49 13.97)
+		(size 22.86 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a846ea9-6714-4867-bdd1-58dcddcc02fc")
+		(property "Sheetname" "Shouthbridge"
+			(at 364.49 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "southbridge.kicad_sch"
+			(at 364.49 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 76.2 13.97)
 		(size 29.21 15.24)
 		(fields_autoplaced yes)
