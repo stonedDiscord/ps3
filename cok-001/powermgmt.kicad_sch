@@ -3619,6 +3619,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 25.4) (xy 31.75 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9069a0a2-9bfc-4143-90b4-55b551248adb")
+	)
+	(wire
+		(pts
 			(xy 189.23 151.13) (xy 189.23 148.59)
 		)
 		(stroke
@@ -5076,7 +5086,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
 			(at 26.67 53.34 0)
 			(effects
 				(font
@@ -7372,7 +7382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-SM4-TB_1x05-1MP_P2.00mm_Vertical"
 			(at 26.67 30.48 0)
 			(effects
 				(font

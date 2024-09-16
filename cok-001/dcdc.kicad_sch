@@ -2146,7 +2146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 187.96 165.1 0)
 			(effects
 				(font
@@ -5128,7 +5128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 193.802 90)
 			(effects
 				(font
@@ -5486,7 +5486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 180.34 191.77 0)
 			(effects
 				(font

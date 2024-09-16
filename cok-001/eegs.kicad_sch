@@ -1125,6 +1125,176 @@
 				)
 			)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PS3:CXD9833GB"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -13455,6 +13625,12 @@
 		(uuid "ca270558-2727-4ba1-b1ae-b6fd611d8a0e")
 	)
 	(junction
+		(at 161.29 -87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb741ae5-3845-4dd4-a8f5-e71eb3f2a377")
+	)
+	(junction
 		(at 52.07 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15930,6 +16106,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 -58.42) (xy 172.72 -58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1251db8a-8a65-4d8e-af27-efc14a911bf2")
+	)
+	(wire
+		(pts
 			(xy 83.82 29.21) (xy 83.82 31.75)
 		)
 		(stroke
@@ -16087,6 +16273,16 @@
 			(type default)
 		)
 		(uuid "16ad5287-a954-49cf-9bd3-b615ebfe460e")
+	)
+	(wire
+		(pts
+			(xy 154.94 -50.8) (xy 172.72 -50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c98488-b011-42a6-b224-3fd18fdec156")
 	)
 	(wire
 		(pts
@@ -16580,6 +16776,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 -80.01) (xy 161.29 -53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28dd02ce-c5d7-443c-a771-85e8bff293bb")
+	)
+	(wire
+		(pts
 			(xy 26.67 146.05) (xy 34.29 146.05)
 		)
 		(stroke
@@ -17060,6 +17266,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 -60.96) (xy 172.72 -60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e074afa-41b3-45a0-be3a-73030d1fa6f4")
+	)
+	(wire
+		(pts
 			(xy 165.1 241.3) (xy 172.72 241.3)
 		)
 		(stroke
@@ -17397,6 +17613,26 @@
 			(type default)
 		)
 		(uuid "47e76055-ed8c-4bf1-a112-c674e1a0abdb")
+	)
+	(wire
+		(pts
+			(xy 157.48 -80.01) (xy 157.48 -48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fbedb1-0659-4002-8b98-646e8e4f7435")
+	)
+	(wire
+		(pts
+			(xy 154.94 -63.5) (xy 172.72 -63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4804b03e-ef8c-42c5-ac36-5316d624309f")
 	)
 	(bus
 		(pts
@@ -18238,6 +18474,16 @@
 		)
 		(uuid "694f60c1-a27c-480d-b619-269eb3508d59")
 	)
+	(wire
+		(pts
+			(xy 157.48 -87.63) (xy 161.29 -87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699c56ea-8b3f-491c-83ad-c800c3541f06")
+	)
 	(bus
 		(pts
 			(xy 78.74 149.86) (xy 78.74 152.4)
@@ -18457,6 +18703,16 @@
 			(type default)
 		)
 		(uuid "7485a3f4-cbef-4b17-a232-2b919dee822a")
+	)
+	(wire
+		(pts
+			(xy 172.72 -55.88) (xy 163.83 -55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752905aa-2998-40c0-94c3-c377b765ea20")
 	)
 	(wire
 		(pts
@@ -19110,6 +19366,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 -48.26) (xy 172.72 -48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cfefefb-1dc4-4ca0-afad-c5bae6990b97")
+	)
+	(wire
+		(pts
 			(xy 49.53 21.59) (xy 59.69 21.59)
 		)
 		(stroke
@@ -19647,6 +19913,16 @@
 			(type default)
 		)
 		(uuid "a32d8e99-3568-4ef7-9494-10a52883f51b")
+	)
+	(wire
+		(pts
+			(xy 163.83 -55.88) (xy 163.83 -80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35ffdb1-f66d-4e74-9a48-e3195d98ea18")
 	)
 	(wire
 		(pts
@@ -20458,6 +20734,16 @@
 		)
 		(uuid "c6638b0e-acfe-4b69-91f5-d079e58cc4b1")
 	)
+	(wire
+		(pts
+			(xy 161.29 -87.63) (xy 163.83 -87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e9f487-c92c-4ee0-886c-0452f055c505")
+	)
 	(bus
 		(pts
 			(xy 162.56 182.88) (xy 162.56 180.34)
@@ -20917,6 +21203,16 @@
 			(type default)
 		)
 		(uuid "da253816-0462-41ad-a812-7543b4f1ea82")
+	)
+	(wire
+		(pts
+			(xy 161.29 -53.34) (xy 172.72 -53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da80d693-8e99-4e45-a31d-811123dca436")
 	)
 	(wire
 		(pts
@@ -23565,6 +23861,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 147.32 -50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01d1c7fb-790c-4b4d-84aa-a81df133bf3f")
+		(property "Reference" "#PWR01304"
+			(at 140.97 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 -50.8001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9569c5c-cc33-45f7-ab09-94f775574f46")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "#PWR01304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack08")
 		(at 44.45 31.75 90)
 		(mirror x)
@@ -23743,6 +24106,274 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 538.48 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12ba50c5-380b-4275-8059-52e1fa0f94a1")
+		(property "Reference" "JL7006"
+			(at 543.56 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 543.56 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 538.48 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 538.48 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 538.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47d91066-6b82-42ae-99be-f83aef64cd34")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "JL7006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 -66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17a974ca-d7f3-4f59-bd06-f928f7efa5d0")
+		(property "Reference" "#PWR01302"
+			(at 166.37 -66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 -66.0401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 -66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 -66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 -66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6857843-7741-43d7-acb7-d41c25f277c4")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "#PWR01302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 -83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a40cfcb-122b-451b-890b-0d306af8de23")
+		(property "Reference" "R7037"
+			(at 162.56 -77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4700"
+			(at 162.56 -87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 162.814 -84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c09c8068-13c8-4772-a42f-6a76c1f64cce")
+		)
+		(pin "2"
+			(uuid "62bdbf76-3340-445f-ba0a-c1ae08e59736")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "R7037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 -68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2046c7cd-4d1c-43a8-8c3a-43b596a3fe01")
+		(property "Reference" "#PWR01301"
+			(at 166.37 -68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 -68.5801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 -68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 -68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 -68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eb0e13a-379c-490a-8a47-bd7e45d855bb")
+		)
+		(instances
+			(project ""
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "#PWR01301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 538.48 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23750,7 +24381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29a29f36-5882-4005-ae6b-603d833822c6")
-		(property "Reference" "TP7001"
+		(property "Reference" "JL7001"
 			(at 543.56 134.62 90)
 			(effects
 				(font
@@ -23802,7 +24433,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
-					(reference "TP7001")
+					(reference "JL7001")
 					(unit 1)
 				)
 			)
@@ -25474,6 +26105,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 151.13 -58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3314887b-0750-44c4-80e6-c26709ff6e72")
+		(property "Reference" "R7031"
+			(at 145.288 -59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 154.686 -59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.384 -59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 151.13 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d5e9625-fecf-4bd6-83f8-3e71cf3be924")
+		)
+		(pin "2"
+			(uuid "0d93a781-95c3-49fc-898a-8fad704cc05a")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "R7031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 538.48 275.59 0)
 		(unit 1)
@@ -25534,6 +26232,140 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
 					(reference "#PWR0507")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 161.29 -83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "367dbb9d-a94f-493b-bd68-0d8ab00b3495")
+		(property "Reference" "R7036"
+			(at 160.02 -77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4700"
+			(at 160.02 -87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 160.274 -84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 161.29 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e966797c-8b1e-4e1b-8b48-febea44a0b8d")
+		)
+		(pin "2"
+			(uuid "92be83c5-9ee5-46cb-a9b6-483a4a2a6d06")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "R7036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 538.48 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "442b8db1-5e36-4719-9b2f-04a673316247")
+		(property "Reference" "JL7004"
+			(at 543.56 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 543.56 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 538.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 538.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 538.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10a8efba-5e93-42bc-8cdc-281cb72b253e")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "JL7004")
 					(unit 1)
 				)
 			)
@@ -25935,6 +26767,73 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
 					(reference "U7002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 151.13 -50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "711f5557-e2ae-489b-ba01-f53df01cc70b")
+		(property "Reference" "R7032"
+			(at 145.288 -52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 154.686 -52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.384 -51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 151.13 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48ed25cc-0c52-4e34-9f70-e33ced3395ef")
+		)
+		(pin "2"
+			(uuid "f1663915-cc94-4b88-bbbc-c2b37e6e55a0")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "R7032")
 					(unit 1)
 				)
 			)
@@ -26582,6 +27481,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 560.07 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc1439f7-3c17-4bfe-95a8-c890f204af0f")
+		(property "Reference" "JL7005"
+			(at 565.15 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 565.15 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 560.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 560.07 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 560.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8082611e-cb6e-4d90-bd23-5845b40e36d7")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "JL7005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack08")
 		(at 88.9 59.69 90)
 		(mirror x)
@@ -26686,6 +27652,73 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
 					(reference "RN7002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 151.13 -60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c08dd35e-b1b4-4e07-ac7d-3de6a3f0c011")
+		(property "Reference" "R7030"
+			(at 145.288 -62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 154.686 -62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 151.384 -61.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 151.13 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6646cb29-a0f2-4871-b1c6-7849294a24ef")
+		)
+		(pin "2"
+			(uuid "be020bf1-5938-4944-a3f4-74204bc3a060")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "R7030")
 					(unit 1)
 				)
 			)
@@ -26916,6 +27949,274 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 147.32 -58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6d39f32-9e44-4d49-9903-60eb876e08d9")
+		(property "Reference" "#PWR01303"
+			(at 140.97 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 -58.4201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "870257ff-e458-4a0e-874c-16dcf3be380a")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "#PWR01303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 538.48 129.54 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e92b99e5-53d7-48d7-ac05-6ccbeacfb1be")
+		(property "Reference" "JL7003"
+			(at 543.56 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 543.56 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 538.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 538.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 538.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8955fd5c-9d83-4203-8eee-1b5071b951a0")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "JL7003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 151.13 -63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec6fc3fa-0914-4dfb-905e-89cd22041bc1")
+		(property "Reference" "R7029"
+			(at 145.288 -64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 154.686 -64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 151.384 -64.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 151.13 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35f9727c-b21a-49c1-8334-5500c9849a7a")
+		)
+		(pin "2"
+			(uuid "b3c291ca-bbe1-486e-aa3c-2faa5290fcfa")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "R7029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 560.07 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef6cd881-7dee-4053-8c8c-32d034b9e3a7")
+		(property "Reference" "#PWR01305"
+			(at 553.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 556.26 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 560.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 560.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 560.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d5c246b-e649-4e2b-99f9-5b0fea329e76")
+		)
+		(instances
+			(project ""
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "#PWR01305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 538.48 104.14 270)
 		(unit 1)
@@ -27087,6 +28388,73 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
 					(reference "RN7005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 157.48 -83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "fd26867b-6155-4844-b525-f91df4a22cba")
+		(property "Reference" "R7035"
+			(at 156.21 -77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XX"
+			(at 156.21 -87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.464 -84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 157.48 -83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70e6c6b0-78c4-41b1-8f87-476d27949200")
+		)
+		(pin "2"
+			(uuid "73f48acf-ac59-4817-96e9-65ad5caa0b74")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "R7035")
 					(unit 1)
 				)
 			)
