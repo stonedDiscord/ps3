@@ -19,7 +19,7 @@
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
-          "keep_text_aligned": true,
+          "keep_text_aligned": false,
           "suppress_zeroes": false,
           "text_position": 0,
           "units_format": 1
@@ -615,6 +615,10 @@
     [
       "0c5bdaa3-92f7-4616-b4f9-a5dd748f69e5",
       "HDMI out"
+    ],
+    [
+      "9b5bec78-d40a-47da-955b-e0a66a63c4fa",
+      "USB"
     ],
     [
       "f39dff98-fe81-4ce8-ac1c-e51ce9d90ef4",

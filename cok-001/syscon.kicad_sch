@@ -8877,6 +8877,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 54.61) (xy 179.07 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07946482-053a-4df6-9242-e85e936b96d2")
+	)
+	(wire
+		(pts
 			(xy 140.97 223.52) (xy 143.51 223.52)
 		)
 		(stroke
@@ -9317,6 +9327,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 54.61) (xy 186.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd1bcca-1c4c-44ae-8dca-94d83663438e")
+	)
+	(wire
+		(pts
 			(xy 71.12 177.8) (xy 71.12 317.5)
 		)
 		(stroke
@@ -9687,6 +9707,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 54.61) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662058ec-45a4-47a3-98c0-e7af07c1d298")
+	)
+	(wire
+		(pts
 			(xy 313.69 40.64) (xy 313.69 67.31)
 		)
 		(stroke
@@ -9824,6 +9854,16 @@
 			(type default)
 		)
 		(uuid "77eaa10d-d836-4622-9bb2-4f996923d52c")
+	)
+	(wire
+		(pts
+			(xy 171.45 68.58) (xy 171.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f1dbd5-a397-4ac0-87f2-14692cb69383")
 	)
 	(wire
 		(pts
@@ -10677,6 +10717,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 68.58) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f872d1-8858-4c25-ab43-ddb4dcb59485")
+	)
+	(wire
+		(pts
 			(xy 95.25 139.7) (xy 107.95 139.7)
 		)
 		(stroke
@@ -11257,6 +11307,28 @@
 			)
 		)
 	)
+	(global_label "SB_SPI_DI_M"
+		(shape output)
+		(at 171.45 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "070eaf0a-a87e-4c51-aa89-49ff34262dbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.45 53.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RSX_FBVDD_SEL"
 		(shape input)
 		(at 311.15 172.72 0)
@@ -11367,6 +11439,28 @@
 			)
 		)
 	)
+	(global_label "~{SB_SPI_CS}"
+		(shape output)
+		(at 173.99 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "479f7ae2-52da-4b0c-937d-4865595435fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.99 55.6163 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RXVRM_VID3"
 		(shape input)
 		(at 303.53 160.02 0)
@@ -11451,6 +11545,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DVE_I2C_SDA"
+		(shape output)
+		(at 179.07 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c4844fa-965f-4356-92f0-781cc5ec812d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 39.5296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{DVE_RST}"
+		(shape output)
+		(at 186.69 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d0869d8-9d4b-4392-b8cc-a8a39066255b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 43.7025 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11763,6 +11901,28 @@
 			)
 		)
 	)
+	(global_label "XCG_EN"
+		(shape output)
+		(at 107.95 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b38464bf-cdc6-4143-bf60-f530d2871924")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.7682 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW_8_B"
 		(shape input)
 		(at 201.93 38.1 180)
@@ -11851,6 +12011,28 @@
 			)
 		)
 	)
+	(global_label "RSX_FLDO1"
+		(shape input)
+		(at 107.95 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2e46ab8-cf80-4b42-8c1e-012980835ab0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3815 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW_6"
 		(shape input)
 		(at 212.09 26.67 0)
@@ -11895,6 +12077,50 @@
 			)
 		)
 	)
+	(global_label "DVE_I2C_SCL"
+		(shape output)
+		(at 176.53 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d17de647-8a9c-45ee-831a-2235b1a3b216")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.53 39.5901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SB_SPI_DO"
+		(shape output)
+		(at 168.91 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4debdcb-794a-44c7-8297-8da0bba16c64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.91 55.4953 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW_AVCG"
 		(shape output)
 		(at 95.25 139.7 180)
@@ -11913,6 +12139,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SB_SPI_CLK"
+		(shape output)
+		(at 166.37 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da9aff4c-7d8f-4d7c-9270-7ba75fca5fa5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 54.5277 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12001,6 +12249,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ACDC_STBY"
+		(shape output)
+		(at 181.61 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9f510c2-475d-4856-a6c7-431e8f174b0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.61 55.1929 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

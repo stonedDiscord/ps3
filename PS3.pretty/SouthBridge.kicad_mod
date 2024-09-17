@@ -390,12 +390,6 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "ce009a1c-1287-4757-a649-3cabb8a5307b")
 	)
-	(pad "A39" smd circle
-		(at 19 -19)
-		(size 0.5 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "8aeb92f8-d614-4edb-9299-0f934c6a6a16")
-	)
 	(pad "AA1" smd circle
 		(at -19 1)
 		(size 0.5 0.5)

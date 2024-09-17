@@ -3629,14 +3629,14 @@
 				(pin unspecified line
 					(at 50.8 63.5 270)
 					(length 2.54)
-					(name "B13"
+					(name "IA2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "IA2"
+					(number "B13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14655,7 +14655,7 @@
 		(pin "F1"
 			(uuid "c0ebb086-eb32-4bc5-9467-8f4b82cb29cc")
 		)
-		(pin "IA2"
+		(pin "B13"
 			(uuid "f4769090-49ec-4a5b-8858-0b436333d6c7")
 		)
 		(pin "J8"

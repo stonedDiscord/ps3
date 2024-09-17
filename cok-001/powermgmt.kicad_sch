@@ -6276,7 +6276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 257.81 55.245 0)
 			(effects
 				(font
@@ -6890,7 +6890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 257.81 83.185 0)
 			(effects
 				(font

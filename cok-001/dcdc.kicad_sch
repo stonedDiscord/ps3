@@ -573,7 +573,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "BD35xx"
 				(at -8.89 0 0)
 				(effects
 					(font
@@ -3070,7 +3070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 170.18 161.925 0)
 			(effects
 				(font
@@ -5040,7 +5040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 168.91 188.595 0)
 			(effects
 				(font
