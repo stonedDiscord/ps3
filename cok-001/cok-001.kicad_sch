@@ -19289,7 +19289,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0a846ea9-6714-4867-bdd1-58dcddcc02fc")
-		(property "Sheetname" "Shouthbridge"
+		(property "Sheetname" "Southbridge"
 			(at 364.49 13.2584 0)
 			(effects
 				(font
@@ -19310,7 +19310,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b"
-					(page "13")
+					(page "30")
 				)
 			)
 		)
