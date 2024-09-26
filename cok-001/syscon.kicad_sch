@@ -8604,6 +8604,12 @@
 		(uuid "99b63dba-68ed-4913-adfb-2912b01cb57d")
 	)
 	(junction
+		(at 219.71 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99e099d2-55d5-49cd-b780-9e5450c7ec9a")
+	)
+	(junction
 		(at 199.39 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8698,6 +8704,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4c08eb8-165c-4ae7-80f4-f84f6f537c43")
+	)
+	(junction
+		(at 217.17 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5137824-9025-4574-8851-370bc97db5d4")
 	)
 	(junction
 		(at 209.55 238.76)
@@ -8874,6 +8886,16 @@
 			(type default)
 		)
 		(uuid "067e65ee-df98-4d67-b682-9cb2ef1b92bf")
+	)
+	(wire
+		(pts
+			(xy 217.17 69.85) (xy 219.71 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07819816-e5c8-45cd-8c63-d9f25453173e")
 	)
 	(wire
 		(pts
@@ -9357,6 +9379,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 77.47) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418f4fc6-42e6-46c7-b8e7-86222f3280ba")
+	)
+	(wire
+		(pts
 			(xy 201.93 38.1) (xy 250.19 38.1)
 		)
 		(stroke
@@ -9544,6 +9576,16 @@
 			(type default)
 		)
 		(uuid "51ac9385-e257-4a74-8322-2c4501d4dcc1")
+	)
+	(wire
+		(pts
+			(xy 215.9 82.55) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528f8fdb-ef38-4187-9547-7796dac64d76")
 	)
 	(wire
 		(pts
@@ -9827,6 +9869,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 77.47) (xy 219.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7229858e-507e-4db0-b0f0-e45d0e827f73")
+	)
+	(wire
+		(pts
 			(xy 214.63 223.52) (xy 214.63 266.7)
 		)
 		(stroke
@@ -9954,6 +10006,16 @@
 			(type default)
 		)
 		(uuid "8a728961-e2a0-4bf2-b69d-29234476eb71")
+	)
+	(wire
+		(pts
+			(xy 218.44 82.55) (xy 219.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b508164-cb60-44f4-91c4-f02095cb8c91")
 	)
 	(wire
 		(pts
@@ -10457,6 +10519,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 66.04) (xy 218.44 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafe1b91-40b7-458c-9f97-f0258a2d9c65")
+	)
+	(wire
+		(pts
 			(xy 148.59 223.52) (xy 151.13 223.52)
 		)
 		(stroke
@@ -10654,6 +10726,16 @@
 			(type default)
 		)
 		(uuid "cac29ef7-6a25-473d-a3d5-b50d97d5008b")
+	)
+	(wire
+		(pts
+			(xy 215.9 66.04) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2a77ff-ed4e-4768-91b2-f344e005aa5b")
 	)
 	(wire
 		(pts
@@ -12342,6 +12424,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 219.71 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "007750de-0357-4042-be74-6420379010f4")
+		(property "Reference" "R1101"
+			(at 218.186 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4700"
+			(at 218.186 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 218.694 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 219.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "880321af-5f90-4fe2-90d9-5f73335b4730")
+		)
+		(pin "2"
+			(uuid "7045c324-8e70-436a-ac32-f58d89ebd73c")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
+					(reference "R1101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 280.67 104.14 270)
 		(unit 1)
@@ -12401,6 +12550,71 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
 					(reference "TP4046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 218.44 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03552f3d-5f32-4bc1-b746-18cc9e424f8e")
+		(property "Reference" "TP9406"
+			(at 218.44 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 220.98 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45025f39-19a3-435f-b8ba-dc52de7c2ee4")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
+					(reference "TP9406")
 					(unit 1)
 				)
 			)
@@ -12770,7 +12984,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.6652 283.21 0)
 			(effects
 				(font
@@ -20002,6 +20216,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 215.9 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c15db7e3-0715-412f-a0cb-d97fcdd6be5f")
+		(property "Reference" "TP9405"
+			(at 215.9 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 218.44 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 220.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 215.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1d77ca8-12d3-428e-9011-29592cecf1d5")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
+					(reference "TP9405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PS3:CXR71")
 		(at 194.31 149.86 0)
 		(unit 1)
@@ -22292,6 +22571,73 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
 					(reference "TP4007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 217.17 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebef96db-7c0e-44ec-a7ab-8d92df872d4a")
+		(property "Reference" "R4037"
+			(at 215.646 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4700"
+			(at 215.646 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 216.154 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 217.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5979b125-e08d-4f04-88e2-6f04463ca3e6")
+		)
+		(pin "2"
+			(uuid "b84cfe47-be54-456c-a271-dbd72857adc5")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
+					(reference "R4037")
 					(unit 1)
 				)
 			)
