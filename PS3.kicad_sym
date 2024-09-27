@@ -24321,25 +24321,7 @@
 		)
 		(symbol "CXD2973GB_37_0"
 			(pin unspecified line
-				(at -2.54 -5.08 0)
-				(length 2.54)
-				(name "IOIFTXCLKN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AK1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -2.54 -27.94 0)
+				(at -2.54 -22.86 0)
 				(length 2.54)
 				(name "VDDC"
 					(effects
@@ -24357,7 +24339,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -30.48 0)
+				(at -2.54 -25.4 0)
 				(length 2.54)
 				(name "VDDC"
 					(effects
@@ -24375,7 +24357,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -33.02 0)
+				(at -2.54 -27.94 0)
 				(length 2.54)
 				(name "VDDC"
 					(effects
@@ -24393,7 +24375,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -35.56 0)
+				(at -2.54 -30.48 0)
 				(length 2.54)
 				(name "VDDC"
 					(effects
@@ -24411,7 +24393,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -38.1 0)
+				(at -2.54 -33.02 0)
 				(length 2.54)
 				(name "VDDC"
 					(effects
@@ -24429,7 +24411,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -40.64 0)
+				(at -2.54 -35.56 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -24447,7 +24429,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -43.18 0)
+				(at -2.54 -38.1 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -24465,7 +24447,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -45.72 0)
+				(at -2.54 -40.64 0)
 				(length 2.54)
 				(name "VDDC"
 					(effects
@@ -24483,7 +24465,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -48.26 0)
+				(at -2.54 -43.18 0)
 				(length 2.54)
 				(name "VDDC"
 					(effects
@@ -24501,7 +24483,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -50.8 0)
+				(at -2.54 -45.72 0)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -24519,25 +24501,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -7.62 0)
-				(length 2.54)
-				(name "IOIFTXCLKP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AK2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -2.54 -53.34 0)
+				(at -2.54 -48.26 0)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -24555,7 +24519,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -55.88 0)
+				(at -2.54 -50.8 0)
 				(length 2.54)
 				(name "TSB57"
 					(effects
@@ -24573,7 +24537,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -58.42 0)
+				(at -2.54 -53.34 0)
 				(length 2.54)
 				(name "TSB59"
 					(effects
@@ -24591,7 +24555,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -60.96 0)
+				(at -2.54 -55.88 0)
 				(length 2.54)
 				(name "TSB74"
 					(effects
@@ -24609,7 +24573,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -63.5 0)
+				(at -2.54 -58.42 0)
 				(length 2.54)
 				(name "TSB78"
 					(effects
@@ -24627,7 +24591,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -66.04 0)
+				(at -2.54 -60.96 0)
 				(length 2.54)
 				(name "TSB82"
 					(effects
@@ -24645,7 +24609,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -68.58 0)
+				(at -2.54 -63.5 0)
 				(length 2.54)
 				(name "TSB86"
 					(effects
@@ -24663,7 +24627,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -71.12 0)
+				(at -2.54 -66.04 0)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -24681,7 +24645,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -73.66 0)
+				(at -2.54 -68.58 0)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -24699,7 +24663,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -76.2 0)
+				(at -2.54 -71.12 0)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -24717,9 +24681,9 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -10.16 0)
+				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "GND"
+				(name "IOIFTXCLKN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -24735,7 +24699,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -78.74 0)
+				(at -2.54 -73.66 0)
 				(length 2.54)
 				(name "VDD18"
 					(effects
@@ -24753,7 +24717,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -81.28 0)
+				(at -2.54 -76.2 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -24771,7 +24735,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -83.82 0)
+				(at -2.54 -78.74 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -24789,7 +24753,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -86.36 0)
+				(at -2.54 -81.28 0)
 				(length 2.54)
 				(name "DDRDQSZ6"
 					(effects
@@ -24807,7 +24771,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -88.9 0)
+				(at -2.54 -83.82 0)
 				(length 2.54)
 				(name "DDRDQS6"
 					(effects
@@ -24825,7 +24789,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -91.44 0)
+				(at -2.54 -86.36 0)
 				(length 2.54)
 				(name "VDD18"
 					(effects
@@ -24843,7 +24807,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -93.98 0)
+				(at -2.54 -88.9 0)
 				(length 2.54)
 				(name "~{DDRCASZ}"
 					(effects
@@ -24861,7 +24825,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -96.52 0)
+				(at -2.54 -91.44 0)
 				(length 2.54)
 				(name "~{DDRCSZ_0}"
 					(effects
@@ -24879,6 +24843,42 @@
 				)
 			)
 			(pin unspecified line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "IOIFTXCLKP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AK4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AK5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
 				(at -2.54 -12.7 0)
 				(length 2.54)
 				(name "IOIFTXDN3"
@@ -24888,7 +24888,7 @@
 						)
 					)
 				)
-				(number "AK4"
+				(number "AK6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -24906,7 +24906,7 @@
 						)
 					)
 				)
-				(number "AK5"
+				(number "AK7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -24924,42 +24924,6 @@
 						)
 					)
 				)
-				(number "AK6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -2.54 -20.32 0)
-				(length 2.54)
-				(name "VDDC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AK7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -2.54 -22.86 0)
-				(length 2.54)
-				(name "VDDC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "AK8"
 					(effects
 						(font
@@ -24969,7 +24933,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -25.4 0)
+				(at -2.54 -20.32 0)
 				(length 2.54)
 				(name "VDDC"
 					(effects
@@ -24990,7 +24954,7 @@
 		(symbol "CXD2973GB_37_1"
 			(rectangle
 				(start 0 -2.54)
-				(end 15.24 -99.06)
+				(end 15.24 -93.98)
 				(stroke
 					(width 0)
 					(type default)
@@ -29125,23 +29089,1125 @@
 				)
 			)
 		)
+		(symbol "CXD2973GB_47_0"
+			(pin unspecified line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "AVS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -27.94 0)
+				(length 2.54)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -30.48 0)
+				(length 2.54)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -33.02 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -35.56 0)
+				(length 2.54)
+				(name "VDDA12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -38.1 0)
+				(length 2.54)
+				(name "PEXPETPA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -40.64 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -43.18 0)
+				(length 2.54)
+				(name "PEXPETPA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -45.72 0)
+				(length 2.54)
+				(name "PEXREFCLKP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -48.26 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -50.8 0)
+				(length 2.54)
+				(name "PCIAD2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "AVD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -53.34 0)
+				(length 2.54)
+				(name "PCIAD4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -55.88 0)
+				(length 2.54)
+				(name "PCIAD8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -58.42 0)
+				(length 2.54)
+				(name "PCIAD10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -60.96 0)
+				(length 2.54)
+				(name "PCIAD14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -63.5 0)
+				(length 2.54)
+				(name "PCIPAR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -66.04 0)
+				(length 2.54)
+				(name "~{PCIDEVSELZ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -68.58 0)
+				(length 2.54)
+				(name "~{PCIIRDYZ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -71.12 0)
+				(length 2.54)
+				(name "PCIAD18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -73.66 0)
+				(length 2.54)
+				(name "PCIAD20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -76.2 0)
+				(length 2.54)
+				(name "PCIAD24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "TRIGGER_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -78.74 0)
+				(length 2.54)
+				(name "PCIAD26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -81.28 0)
+				(length 2.54)
+				(name "PCIAD30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -83.82 0)
+				(length 2.54)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -86.36 0)
+				(length 2.54)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -88.9 0)
+				(length 2.54)
+				(name "VDD18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -91.44 0)
+				(length 2.54)
+				(name "VDD18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -93.98 0)
+				(length 2.54)
+				(name "VDD18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -96.52 0)
+				(length 2.54)
+				(name "VDD18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -99.06 0)
+				(length 2.54)
+				(name "VDD18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -101.6 0)
+				(length 2.54)
+				(name "VDD18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "CHECKSTOP_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "~{CGRSTZ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "SYSCSINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -20.32 0)
+				(length 2.54)
+				(name "SYSCSSPIDI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -22.86 0)
+				(length 2.54)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -25.4 0)
+				(length 2.54)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AU9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CXD2973GB_47_1"
 			(rectangle
 				(start 0 -2.54)
-				(end 15.24 -58.42)
+				(end 17.78 -104.14)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
+				)
+			)
+		)
+		(symbol "CXD2973GB_48_0"
+			(pin unspecified line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -20.32 0)
+				(length 2.54)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -22.86 0)
+				(length 2.54)
+				(name "PEXPENTNA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -25.4 0)
+				(length 2.54)
+				(name "PEXPNTNA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -27.94 0)
+				(length 2.54)
+				(name "VTERM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -30.48 0)
+				(length 2.54)
+				(name "PCIAD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -33.02 0)
+				(length 2.54)
+				(name "PCIAD7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -35.56 0)
+				(length 2.54)
+				(name "PCIAD13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -38.1 0)
+				(length 2.54)
+				(name "~{PCISTOPZ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -40.64 0)
+				(length 2.54)
+				(name "PCIAD17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -43.18 0)
+				(length 2.54)
+				(name "PCIAD23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "CHECKSTOP_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -45.72 0)
+				(length 2.54)
+				(name "PCIAD29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -48.26 0)
+				(length 2.54)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -50.8 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -53.34 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -55.88 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -58.42 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "SYSCSSPIDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "~{SYSCSSPCIS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AV9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
 		(symbol "CXD2973GB_48_1"
 			(rectangle
 				(start 0 -2.54)
-				(end 15.24 -58.42)
+				(end 15.24 -60.96)
 				(stroke
 					(width 0)
 					(type default)
@@ -29151,10 +30217,408 @@
 				)
 			)
 		)
+		(symbol "CXD2973GB_49_0"
+			(pin unspecified line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -20.32 0)
+				(length 2.54)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -22.86 0)
+				(length 2.54)
+				(name "PEXPETPA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -25.4 0)
+				(length 2.54)
+				(name "PEXPETPA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -27.94 0)
+				(length 2.54)
+				(name "VTERM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -30.48 0)
+				(length 2.54)
+				(name "PCIAD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -33.02 0)
+				(length 2.54)
+				(name "PCIAD6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -35.56 0)
+				(length 2.54)
+				(name "PCIAD12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -38.1 0)
+				(length 2.54)
+				(name "~{PCIPERRZ}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -40.64 0)
+				(length 2.54)
+				(name "PCIAD16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -43.18 0)
+				(length 2.54)
+				(name "PCIAD22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -45.72 0)
+				(length 2.54)
+				(name "PCIAD28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -48.26 0)
+				(length 2.54)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -50.8 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -53.34 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -55.88 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -58.42 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "VDD33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AW9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "CXD2973GB_49_1"
 			(rectangle
 				(start 0 -2.54)
-				(end 15.24 -58.42)
+				(end 15.24 -60.96)
 				(stroke
 					(width 0)
 					(type default)
