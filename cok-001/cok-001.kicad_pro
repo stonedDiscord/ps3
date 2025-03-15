@@ -180,6 +180,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.2,
         0.5,
         1.0,
         1.5
@@ -605,6 +606,14 @@
       "XDR DRAM"
     ],
     [
+      "4d661cb0-b5d8-45b3-9841-d9751410231e",
+      "VRM for RSX"
+    ],
+    [
+      "128112c3-c1d3-4d2b-b67e-431f0bf7f496",
+      "RSX Setting"
+    ],
+    [
       "2ac218b5-28da-4878-811c-803b1ba4c592",
       "AV Out"
     ],
@@ -615,6 +624,14 @@
     [
       "0a846ea9-6714-4867-bdd1-58dcddcc02fc",
       "Southbridge"
+    ],
+    [
+      "f142be78-51ea-4b88-b7e4-d9b9ccfc7239",
+      "SB MISC"
+    ],
+    [
+      "ecdb6467-bcc2-4a80-922a-1905f7eb4202",
+      "External"
     ],
     [
       "9b5bec78-d40a-47da-955b-e0a66a63c4fa",
