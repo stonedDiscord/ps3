@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ea040053-758a-4682-ba25-2f5ba024a87c")
 	(paper "A3")
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,9 +142,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -213,18 +218,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -237,7 +230,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -261,7 +254,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -310,6 +315,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Oscillator:ASCO"
 			(exclude_from_sim no)
@@ -424,6 +430,24 @@
 					)
 				)
 				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(name "GND"
@@ -459,31 +483,18 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -574,7 +585,188 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "TEST SW"
+		(exclude_from_sim no)
+		(at 274.32 127 0)
+		(size 63.5 38.1)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "117874a7-87ae-4d4e-a1ca-1175698aa3fd")
+	)
+	(text_box "GbE Bit Reverce"
+		(exclude_from_sim no)
+		(at 342.9 20.32 0)
+		(size 53.34 48.26)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "14761038-4b73-4721-9f57-c9eaaf6e9f03")
+	)
+	(text_box "ATA CLOCK Select"
+		(exclude_from_sim no)
+		(at 363.22 223.52 0)
+		(size 38.1 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2c4bcdbd-bb8d-493c-b6de-61a5cf99121b")
+	)
+	(text_box "GbE CLOCK"
+		(exclude_from_sim no)
+		(at 302.26 93.98 0)
+		(size 35.56 27.94)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2e833af3-3479-4d9c-87fe-243e22cf5c96")
+	)
+	(text_box "PCI-Ex"
+		(exclude_from_sim no)
+		(at 342.9 106.68 0)
+		(size 53.34 50.8)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3f2f8334-fce7-4b5a-a2b0-04dcc551fb69")
+	)
+	(text_box "MODE SELECT"
+		(exclude_from_sim no)
+		(at 266.7 167.64 0)
+		(size 71.12 48.26)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d97da324-da6f-487e-a2e9-8295d7870a0a")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 342.9 71.12 0)
+		(size 53.34 33.02)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "eb4546ee-7cad-4332-81d7-42ee7e6e2eaf")
+	)
+	(text_box "USB CLOCK Select"
+		(exclude_from_sim no)
+		(at 266.7 223.52 0)
+		(size 93.98 30.48)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ebcd47c2-25f6-4fb8-a2db-add4fbc8bd72")
+	)
+	(text_box "PIO"
+		(exclude_from_sim no)
+		(at 342.9 162.56 0)
+		(size 53.34 53.34)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fecc1520-0904-46d0-9d68-e955d8172930")
 	)
 	(junction
 		(at 320.04 162.56)
@@ -1521,177 +1713,6 @@
 			(type default)
 		)
 		(uuid "ffbfcb25-e5f6-4cc0-aa41-644863a80db0")
-	)
-	(text_box "TEST SW"
-		(exclude_from_sim no)
-		(at 274.32 127 0)
-		(size 63.5 38.1)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "117874a7-87ae-4d4e-a1ca-1175698aa3fd")
-	)
-	(text_box "GbE Bit Reverce"
-		(exclude_from_sim no)
-		(at 342.9 20.32 0)
-		(size 53.34 48.26)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "14761038-4b73-4721-9f57-c9eaaf6e9f03")
-	)
-	(text_box "ATA CLOCK Select"
-		(exclude_from_sim no)
-		(at 363.22 223.52 0)
-		(size 38.1 17.78)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "2c4bcdbd-bb8d-493c-b6de-61a5cf99121b")
-	)
-	(text_box "GbE CLOCK"
-		(exclude_from_sim no)
-		(at 302.26 93.98 0)
-		(size 35.56 27.94)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "2e833af3-3479-4d9c-87fe-243e22cf5c96")
-	)
-	(text_box "PCI-Ex"
-		(exclude_from_sim no)
-		(at 342.9 106.68 0)
-		(size 53.34 50.8)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "3f2f8334-fce7-4b5a-a2b0-04dcc551fb69")
-	)
-	(text_box "MODE SELECT"
-		(exclude_from_sim no)
-		(at 266.7 167.64 0)
-		(size 71.12 48.26)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "d97da324-da6f-487e-a2e9-8295d7870a0a")
-	)
-	(text_box ""
-		(exclude_from_sim no)
-		(at 342.9 71.12 0)
-		(size 53.34 33.02)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "eb4546ee-7cad-4332-81d7-42ee7e6e2eaf")
-	)
-	(text_box "USB CLOCK Select"
-		(exclude_from_sim no)
-		(at 266.7 223.52 0)
-		(size 93.98 30.48)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "ebcd47c2-25f6-4fb8-a2db-add4fbc8bd72")
-	)
-	(text_box "PIO"
-		(exclude_from_sim no)
-		(at 342.9 162.56 0)
-		(size 53.34 53.34)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "fecc1520-0904-46d0-9d68-e955d8172930")
 	)
 	(global_label "SB_PIO11"
 		(shape input)
