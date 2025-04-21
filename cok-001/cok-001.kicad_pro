@@ -108,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -631,6 +632,10 @@
     [
       "4d661cb0-b5d8-45b3-9841-d9751410231e",
       "VRM for RSX"
+    ],
+    [
+      "1aa2abd4-1e46-4b08-bad3-b0cb0f1d63a7",
+      "XCG Clock"
     ],
     [
       "128112c3-c1d3-4d2b-b67e-431f0bf7f496",
