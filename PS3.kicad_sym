@@ -4963,7 +4963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PS3:SouthBridge"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4996,15 +4996,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "ki_fp_filters" "DIP*W7.62mm* SO14*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(symbol "CXD2973GB_1_0"
@@ -33890,7 +33881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:BGA-196_15x15mm_Layout14x14_P1.0mm"
 			(at -34.29 15.24 0)
 			(effects
 				(font
@@ -49064,7 +49055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PS3:SYSCON"
 			(at -68.58 -73.66 90)
 			(effects
 				(font
@@ -52944,15 +52935,6 @@
 			)
 		)
 		(property "ki_keywords" "N-Channel MOSFET"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "LFPAK56*"
 			(at 0 0 0)
 			(effects
 				(font

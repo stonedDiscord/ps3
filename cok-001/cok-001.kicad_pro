@@ -634,10 +634,6 @@
       "VRM for RSX"
     ],
     [
-      "1aa2abd4-1e46-4b08-bad3-b0cb0f1d63a7",
-      "XCG Clock"
-    ],
-    [
       "128112c3-c1d3-4d2b-b67e-431f0bf7f496",
       "RSX Setting"
     ],
@@ -680,6 +676,10 @@
     [
       "c2fb6f44-7647-4597-badb-4e48fc7de398",
       "Syscon"
+    ],
+    [
+      "1aa2abd4-1e46-4b08-bad3-b0cb0f1d63a7",
+      "XCG Clock"
     ],
     [
       "be970d6c-aeec-4303-8a86-89c9df8950fa",
