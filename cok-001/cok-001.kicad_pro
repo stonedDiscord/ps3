@@ -635,10 +635,6 @@
       "XDR DRAM"
     ],
     [
-      "4d661cb0-b5d8-45b3-9841-d9751410231e",
-      "VRM for RSX"
-    ],
-    [
       "128112c3-c1d3-4d2b-b67e-431f0bf7f496",
       "RSX Setting"
     ],
@@ -675,6 +671,10 @@
       "Ethernet"
     ],
     [
+      "a8d3d0f2-2567-4d70-a367-7d8ff0d1aec4",
+      "Wireless Board"
+    ],
+    [
       "51a06e94-b599-411e-9536-c919e103719a",
       "Starship2"
     ],
@@ -689,6 +689,10 @@
     [
       "be970d6c-aeec-4303-8a86-89c9df8950fa",
       "Power Management"
+    ],
+    [
+      "4d661cb0-b5d8-45b3-9841-d9751410231e",
+      "VRM for RSX"
     ],
     [
       "7ae61751-b28b-4bb2-bf4e-5615938a2f1e",
