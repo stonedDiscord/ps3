@@ -3604,14 +3604,14 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b"
-					(page "18")
+					(page "62")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 110.49 15.24)
-		(size 26.67 15.24)
+		(at 109.22 15.24)
+		(size 27.94 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3626,7 +3626,7 @@
 		)
 		(uuid "51a06e94-b599-411e-9536-c919e103719a")
 		(property "Sheetname" "Starship2"
-			(at 110.49 14.5284 0)
+			(at 109.22 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3635,7 @@
 			)
 		)
 		(property "Sheetfile" "starship.kicad_sch"
-			(at 110.49 31.0646 0)
+			(at 109.22 31.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,6 +3815,48 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b"
 					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 38.1)
+		(size 27.94 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8d3d0f2-2567-4d70-a367-7d8ff0d1aec4")
+		(property "Sheetname" "Wireless Board"
+			(at 109.22 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wireless.kicad_sch"
+			(at 109.22 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b"
+					(page "37")
 				)
 			)
 		)
