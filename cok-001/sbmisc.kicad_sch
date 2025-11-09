@@ -3774,7 +3774,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "5cecf8d6-d5f3-4be1-8129-bfcf22983f35")
-		(property "Reference" "C1"
+		(property "Reference" "C3151"
 			(at 328.93 238.7599 0)
 			(effects
 				(font
@@ -3828,7 +3828,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/f142be78-51ea-4b88-b7e4-d9b9ccfc7239"
-					(reference "C1")
+					(reference "C3151")
 					(unit 1)
 				)
 			)
