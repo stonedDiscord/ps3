@@ -6682,6 +6682,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 139.7) (xy 200.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026b6128-d81f-404c-9d57-1b62f99e9d0b")
+	)
+	(wire
+		(pts
 			(xy 339.09 135.89) (xy 335.28 135.89)
 		)
 		(stroke
@@ -8259,6 +8269,16 @@
 			(type default)
 		)
 		(uuid "759548d0-1ca3-42d5-8e1b-51b4b981fffd")
+	)
+	(wire
+		(pts
+			(xy 200.66 107.95) (xy 194.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a42aaa-d02c-4380-8134-01df847487df")
 	)
 	(bus
 		(pts
@@ -11896,7 +11916,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 282.575 147.32 0)
 			(effects
 				(font
@@ -13320,7 +13340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 311.785 147.32 0)
 			(effects
 				(font
@@ -13562,6 +13582,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 200.66 143.51 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42e43617-9267-44bf-b307-ef7fae1fdd19")
+		(property "Reference" "R2524"
+			(at 208.28 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "698"
+			(at 204.724 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 201.676 143.256 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 200.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52dea658-ae13-4cc5-bf85-147d11595e6c")
+		)
+		(pin "1"
+			(uuid "a638f69e-39b7-4922-9091-9f8ce3851f11")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/0c5bdaa3-92f7-4616-b4f9-a5dd748f69e5"
+					(reference "R2524")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack04")
 		(at 139.7 165.1 0)
 		(mirror x)
@@ -13745,7 +13835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 287.655 147.32 0)
 			(effects
 				(font
@@ -14724,7 +14814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 316.865 147.32 0)
 			(effects
 				(font
@@ -16488,7 +16578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 292.735 147.32 0)
 			(effects
 				(font
@@ -17694,7 +17784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 321.945 147.32 0)
 			(effects
 				(font
@@ -18193,7 +18283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 306.705 147.32 0)
 			(effects
 				(font
@@ -19592,7 +19682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 277.495 147.32 0)
 			(effects
 				(font
