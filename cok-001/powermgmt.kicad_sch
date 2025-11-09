@@ -3753,6 +3753,677 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:UMH3N"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 7.62 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "UMH3N"
+				(at 7.62 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 0.127 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Dual NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UMH3N_0_1"
+				(rectangle
+					(start -6.35 0.508)
+					(end -4.826 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -4.826 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0.508 -1.27) (xy 1.016 -2.286) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "UMH3N_1_1"
+				(circle
+					(center 0 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "UMH3N_2_1"
+				(circle
+					(center 0 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:IRF7324"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRF7324"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/irf7324pbf.pdf?fileId=5546d462533600a4015355f5f0861b4b"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-9A Id, -20V Vds, Dual HEXFET P-Channel MOSFET, SO-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Dual HEXFET P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRF7324_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRF7324_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IRF7324_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:PMN48XP"
 			(pin_names
 				(hide yes)
@@ -4454,6 +5125,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 165.1) (xy 246.38 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1b8f6e-0d15-4d7b-b765-b32e853d853f")
+	)
+	(wire
+		(pts
 			(xy 77.47 176.53) (xy 78.74 176.53)
 		)
 		(stroke
@@ -4794,6 +5475,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 137.16) (xy 233.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc02471-de48-4554-afa4-f0c591740612")
+	)
+	(wire
+		(pts
 			(xy 83.82 170.18) (xy 90.17 170.18)
 		)
 		(stroke
@@ -4994,6 +5685,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 147.32) (xy 233.68 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a78b347-82d2-402e-87f8-5081b9cb7a2b")
+	)
+	(wire
+		(pts
 			(xy 31.75 25.4) (xy 31.75 27.94)
 		)
 		(stroke
@@ -5064,6 +5765,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 35.56) (xy 43.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990c9a04-e32a-4692-a00d-3899175ffb17")
+	)
+	(wire
+		(pts
 			(xy 279.4 88.9) (xy 292.1 88.9)
 		)
 		(stroke
@@ -5111,6 +5822,16 @@
 			(type default)
 		)
 		(uuid "9fca8450-2165-42cb-9ba8-2a787dbd1187")
+	)
+	(wire
+		(pts
+			(xy 243.84 147.32) (xy 259.08 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09dd6c1-b59c-4ce6-966e-ed4790a63f64")
 	)
 	(wire
 		(pts
@@ -5224,6 +5945,36 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 137.16) (xy 259.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9277d63-978b-4134-bfcd-03796f962f10")
+	)
+	(wire
+		(pts
+			(xy 213.36 172.72) (xy 213.36 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa6c51c-cb8f-49cf-8f7c-0221b2e6631d")
+	)
+	(wire
+		(pts
+			(xy 246.38 172.72) (xy 213.36 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc842103-9028-4c26-8f12-1d30db375680")
+	)
+	(wire
+		(pts
 			(xy 166.37 152.4) (xy 172.72 152.4)
 		)
 		(stroke
@@ -5301,6 +6052,16 @@
 			(type default)
 		)
 		(uuid "e02dd1e8-df7b-4386-8818-695e9fc2860f")
+	)
+	(wire
+		(pts
+			(xy 30.48 83.82) (xy 30.48 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30aea5b-555b-4720-a462-3adeb4970eb3")
 	)
 	(wire
 		(pts
@@ -5566,6 +6327,28 @@
 			)
 		)
 	)
+	(global_label "+12V_BD"
+		(shape output)
+		(at 259.08 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "561d90d9-e432-4675-9ee9-d89f6148bc35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.6528 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+12V_MAIN"
 		(shape input)
 		(at 30.48 83.82 180)
@@ -5764,6 +6547,28 @@
 			)
 		)
 	)
+	(global_label "ACDC_STBY"
+		(shape output)
+		(at 43.18 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a36ad12-e486-4295-a6d9-82827098becc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.5671 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+1.5V_BRIDGE"
 		(shape output)
 		(at 187.96 124.46 0)
@@ -5940,6 +6745,28 @@
 			)
 		)
 	)
+	(global_label "SW_ATA"
+		(shape input)
+		(at 213.36 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1b12b7d-0365-417e-b353-599b68ba0ce4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.6015 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3.3V_MISC"
 		(shape input)
 		(at 250.19 88.9 180)
@@ -6094,6 +6921,28 @@
 			)
 		)
 	)
+	(global_label "+5V_BD"
+		(shape output)
+		(at 259.08 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edc8925e-40ba-4d89-bb5e-57b257497505")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.4433 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+1.8V_RSX_PLL_VDD"
 		(shape output)
 		(at 292.1 88.9 0)
@@ -6157,6 +7006,72 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "002b2dee-e5c5-41b5-95a5-a7579f59fba8")
+		(property "Reference" "#PWR0278"
+			(at 236.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8754af55-0dc0-484c-aa70-a01dee1bae4e")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
+					(reference "#PWR0278")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -7093,6 +8008,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRF7324")
+		(at 238.76 149.86 270)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "254c02b3-ba90-4b68-9cf2-a573ab04d819")
+		(property "Reference" "Q6010"
+			(at 238.76 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI4943"
+			(at 238.76 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 236.855 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/irf7324pbf.pdf?fileId=5546d462533600a4015355f5f0861b4b"
+			(at 234.95 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-9A Id, -20V Vds, Dual HEXFET P-Channel MOSFET, SO-8"
+			(at 238.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "096813d9-0195-4ded-9128-59bf24790275")
+		)
+		(pin "3"
+			(uuid "c82b6415-647c-4873-9dba-9ffcb53a22fe")
+		)
+		(pin "8"
+			(uuid "578925f9-f65d-4504-9dc9-a72b5e52cb5d")
+		)
+		(pin "6"
+			(uuid "0bdeca52-e35a-48dd-b3e7-57f4a5aca419")
+		)
+		(pin "7"
+			(uuid "c9a45026-484f-414e-b197-4625e4b970da")
+		)
+		(pin "1"
+			(uuid "2de0ab16-7ea3-4c09-8281-e0a1192d748f")
+		)
+		(pin "4"
+			(uuid "1bb2a597-cc80-452d-b07e-5b64bca53f4c")
+		)
+		(pin "2"
+			(uuid "eceec2e5-1790-4cd9-ae6a-58f70ae8342c")
+		)
+		(instances
+			(project ""
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
+					(reference "Q6010")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 91.44 107.95 180)
 		(unit 1)
@@ -7157,6 +8161,95 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
 					(reference "R6029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF7324")
+		(at 238.76 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e12a16d-fb06-4ab6-8175-445e76e9ab76")
+		(property "Reference" "Q6010"
+			(at 238.76 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI4943"
+			(at 238.76 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 236.855 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/irf7324pbf.pdf?fileId=5546d462533600a4015355f5f0861b4b"
+			(at 234.95 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-9A Id, -20V Vds, Dual HEXFET P-Channel MOSFET, SO-8"
+			(at 238.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "096813d9-0195-4ded-9128-59bf24790275")
+		)
+		(pin "3"
+			(uuid "c82b6415-647c-4873-9dba-9ffcb53a22fe")
+		)
+		(pin "8"
+			(uuid "578925f9-f65d-4504-9dc9-a72b5e52cb5d")
+		)
+		(pin "6"
+			(uuid "0bdeca52-e35a-48dd-b3e7-57f4a5aca419")
+		)
+		(pin "7"
+			(uuid "c9a45026-484f-414e-b197-4625e4b970da")
+		)
+		(pin "1"
+			(uuid "2de0ab16-7ea3-4c09-8281-e0a1192d748f")
+		)
+		(pin "4"
+			(uuid "1bb2a597-cc80-452d-b07e-5b64bca53f4c")
+		)
+		(pin "2"
+			(uuid "eceec2e5-1790-4cd9-ae6a-58f70ae8342c")
+		)
+		(instances
+			(project ""
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
+					(reference "Q6010")
 					(unit 1)
 				)
 			)
@@ -8886,7 +9979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63f92cbd-b370-44b8-aa6f-bd3d960c2ceb")
-		(property "Reference" "Q1"
+		(property "Reference" "Q6004"
 			(at 115.5699 31.75 0)
 			(effects
 				(font
@@ -8955,7 +10048,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
-					(reference "Q1")
+					(reference "Q6004")
 					(unit 1)
 				)
 			)
@@ -9586,6 +10679,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 223.52 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ba67b01-6f30-4500-8b20-666c65c7b143")
+		(property "Reference" "#PWR0277"
+			(at 223.52 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ef39278-81e2-48b3-aea0-1c8c7ecd22a0")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
+					(reference "#PWR0277")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 257.81 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9645,6 +10804,74 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
 					(reference "#PWR0726")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 34.29 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e840c8f-19e6-477c-ab4b-a91796185503")
+		(property "Reference" "PS6001"
+			(at 34.29 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A"
+			(at 34.29 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
+			(at 34.29 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 34.29 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ed7084e-5502-45ac-a0b5-d2ee7149d020")
+		)
+		(pin "2"
+			(uuid "3f477ecb-3b15-4a30-a1d0-4b5d8815916e")
+		)
+		(instances
+			(project ""
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
+					(reference "PS6001")
 					(unit 1)
 				)
 			)
@@ -9920,6 +11147,88 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:UMH3N")
+		(at 222.25 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a066874f-98d8-4332-a53a-6667e42c398c")
+		(property "Reference" "Q6009"
+			(at 226.06 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UMH2NTN"
+			(at 226.06 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 222.377 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
+			(at 226.06 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"
+			(at 222.25 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "d7c86c62-d2a1-43de-82b7-ea78f260be59")
+		)
+		(pin "3"
+			(uuid "9d4be790-56ba-4595-90c0-c3d9db57a5c3")
+		)
+		(pin "4"
+			(uuid "ff31abea-1772-4a77-bc5e-841976a4b183")
+		)
+		(pin "1"
+			(uuid "e114f126-2bad-43b2-9a88-342f2cdce87e")
+		)
+		(pin "2"
+			(uuid "f37cda97-142c-431b-b731-a14fb8fac93f")
+		)
+		(pin "5"
+			(uuid "3cf93da4-d2d2-4fb4-9ee6-ca23a8d84505")
+		)
+		(instances
+			(project ""
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
+					(reference "Q6009")
 					(unit 1)
 				)
 			)
@@ -10473,6 +11782,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:UMH3N")
+		(at 237.49 165.1 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b01f3e5c-2f6c-4568-b72f-4abddf819d22")
+		(property "Reference" "Q6009"
+			(at 233.68 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UMH2NTN"
+			(at 233.68 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 237.363 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/emh3t2r-e.pdf"
+			(at 233.68 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 50V Vce, Dual NPN Input Resistor Transistors, SOT-363"
+			(at 237.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "d7c86c62-d2a1-43de-82b7-ea78f260be59")
+		)
+		(pin "3"
+			(uuid "9d4be790-56ba-4595-90c0-c3d9db57a5c3")
+		)
+		(pin "4"
+			(uuid "ff31abea-1772-4a77-bc5e-841976a4b183")
+		)
+		(pin "1"
+			(uuid "e114f126-2bad-43b2-9a88-342f2cdce87e")
+		)
+		(pin "2"
+			(uuid "f37cda97-142c-431b-b731-a14fb8fac93f")
+		)
+		(pin "5"
+			(uuid "3cf93da4-d2d2-4fb4-9ee6-ca23a8d84505")
+		)
+		(instances
+			(project ""
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
+					(reference "Q6009")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 55.88 90)
 		(unit 1)
@@ -10677,6 +12069,74 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
 					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 224.79 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd0ccd78-a6d5-4f13-945f-1026d615057e")
+		(property "Reference" "TH6001"
+			(at 224.79 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 224.79 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
+			(at 224.79 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 224.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61e0061f-ec78-4cb7-9e5a-9bf42591c8ca")
+		)
+		(pin "1"
+			(uuid "bf5e7cfb-7b59-4db0-8366-4acb91bfc3d0")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
+					(reference "TH6001")
 					(unit 1)
 				)
 			)
@@ -11553,7 +13013,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 57.15 46.99 90)
+		(at 224.79 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11561,8 +13021,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dde7629a-fee9-4154-8b51-51132da0897c")
-		(property "Reference" "F6002"
-			(at 57.15 40.64 90)
+		(property "Reference" "TH6002"
+			(at 224.79 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11570,7 +13030,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 57.15 43.18 90)
+			(at 224.79 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11578,7 +13038,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_2920_7451Metric"
-			(at 57.15 48.768 90)
+			(at 224.79 138.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11587,7 +13047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 46.99 0)
+			(at 224.79 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11596,7 +13056,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 57.15 46.99 0)
+			(at 224.79 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,7 +13073,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/be970d6c-aeec-4303-8a86-89c9df8950fa"
-					(reference "F6002")
+					(reference "TH6002")
 					(unit 1)
 				)
 			)
