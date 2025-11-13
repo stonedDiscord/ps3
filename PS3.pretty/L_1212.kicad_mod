@@ -1,0 +1,124 @@
+(footprint "L_1212"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "7443630070, http://katalog.we-online.de/pbs/datasheet/7443630070.pdf")
+	(tags "inductor shielded wuerth hcf")
+	(property "Reference" "L6106"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aab672af-d0a6-4ce7-92d5-01834eb04261")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0.33uH"
+		(at 0 1.4 0)
+		(layer "F.Fab")
+		(uuid "af66f6c6-39e8-473e-9eb6-c8a1981d4ab6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0065cc3-0bee-4a3a-8e3c-37004f8a0762")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fafb1307-83b9-4a67-b564-787a24e72158")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -6 5.5) (xy 6 5.5) (xy 6 -3) (xy 3 -7) (xy -3 -7) (xy -6 -3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a80f5adf-54f1-42af-8c74-5853f144ac3c")
+	)
+	(fp_poly
+		(pts
+			(xy 5 7.5) (xy 2.5 7.5) (xy 2.5 6) (xy -2.5 6) (xy -2.5 7.5) (xy -5 7.5) (xy -5 6) (xy -6.5 6) (xy -6.5 -3)
+			(xy -3 -7.5) (xy 3 -7.5) (xy 6.5 -3) (xy 6.5 6) (xy 5 6)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "30b17fa2-4506-4713-973b-4a75f97fcfa8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "6ca7ffa1-74dd-4b73-ad41-3952716e7904")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 -6)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c6756936-666f-4928-836f-ab74c43d4cbf")
+	)
+	(pad "1" smd rect
+		(at -3.75 6.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ad34df71-f7fa-4904-9254-a036f5524d36")
+	)
+	(pad "2" smd rect
+		(at 3.75 6.5)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "36bf0214-3f39-4112-9e7c-b4250ca83917")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_HCF-2013.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
