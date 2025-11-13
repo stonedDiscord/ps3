@@ -97850,22 +97850,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 4.572 11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "iP2003APbF"
+			(at 9.144 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PS3:iP2003APbF"
 			(at 0 0 0)
 			(effects
 				(font
@@ -97874,7 +97874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/901/IP2003APbF.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -97894,7 +97894,7 @@
 		)
 		(symbol "iP2003APbF_0_0"
 			(pin output line
-				(at -10.16 -10.16 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "PRDY"
 					(effects
@@ -97912,7 +97912,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -12.7 0)
+				(at -12.7 1.27 0)
 				(length 2.54)
 				(name "ENABLE"
 					(effects
@@ -97930,7 +97930,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -15.24 0)
+				(at -12.7 -1.27 0)
 				(length 2.54)
 				(name "PWM"
 					(effects
@@ -97948,7 +97948,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -17.78 0)
+				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -97966,7 +97966,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 1.27 -6.35 270)
+				(at -1.27 10.16 270)
 				(length 2.54)
 				(name "Vsws1"
 					(effects
@@ -97984,7 +97984,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 3.81 -6.35 270)
+				(at 1.27 10.16 270)
 				(length 2.54)
 				(name "Vsws2"
 					(effects
@@ -98002,7 +98002,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -10.16 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "Vin"
 					(effects
@@ -98020,7 +98020,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -15.24 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "Vsw"
 					(effects
@@ -98038,7 +98038,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -20.32 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -98056,7 +98056,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 -20.32 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -98076,8 +98076,8 @@
 		)
 		(symbol "iP2003APbF_1_1"
 			(rectangle
-				(start -7.62 -8.89)
-				(end 8.89 -21.59)
+				(start -10.16 7.62)
+				(end 10.16 -7.62)
 				(stroke
 					(width 0)
 					(type default)
