@@ -1010,22 +1010,22 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 4.572 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "iP2003APbF"
+				(at 9.144 9.652 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "PS3:iP2003APbF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1034,7 +1034,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/901/IP2003APbF.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1054,7 +1054,7 @@
 			)
 			(symbol "iP2003APbF_0_0"
 				(pin output line
-					(at -10.16 -10.16 0)
+					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "PRDY"
 						(effects
@@ -1072,7 +1072,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -12.7 0)
+					(at -12.7 1.27 0)
 					(length 2.54)
 					(name "ENABLE"
 						(effects
@@ -1090,7 +1090,7 @@
 					)
 				)
 				(pin input line
-					(at -10.16 -15.24 0)
+					(at -12.7 -1.27 0)
 					(length 2.54)
 					(name "PWM"
 						(effects
@@ -1108,7 +1108,7 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 -17.78 0)
+					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "Vdd"
 						(effects
@@ -1126,7 +1126,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 1.27 -6.35 270)
+					(at -1.27 10.16 270)
 					(length 2.54)
 					(name "Vsws1"
 						(effects
@@ -1144,7 +1144,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 3.81 -6.35 270)
+					(at 1.27 10.16 270)
 					(length 2.54)
 					(name "Vsws2"
 						(effects
@@ -1162,7 +1162,7 @@
 					)
 				)
 				(pin power_in line
-					(at 11.43 -10.16 180)
+					(at 12.7 5.08 180)
 					(length 2.54)
 					(name "Vin"
 						(effects
@@ -1180,7 +1180,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 11.43 -15.24 180)
+					(at 12.7 0 180)
 					(length 2.54)
 					(name "Vsw"
 						(effects
@@ -1198,7 +1198,7 @@
 					)
 				)
 				(pin power_in line
-					(at 11.43 -20.32 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name "PGND"
 						(effects
@@ -1216,7 +1216,7 @@
 					)
 				)
 				(pin power_in line
-					(at 11.43 -20.32 180)
+					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name "PGND"
 						(effects
@@ -1236,8 +1236,252 @@
 			)
 			(symbol "iP2003APbF_1_1"
 				(rectangle
-					(start -7.62 -8.89)
-					(end 8.89 -21.59)
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "iP2003APbF_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 4.572 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "iP2003APbF"
+				(at 9.144 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PS3:iP2003APbF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/901/IP2003APbF.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "iP2003APbF_1_0_0"
+				(pin output line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "PRDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "ENABLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 10.16 270)
+					(length 2.54)
+					(name "Vsws1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 10.16 270)
+					(length 2.54)
+					(name "Vsws2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "Vsw"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "iP2003APbF_1_1_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -1751,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 111.76) (xy 173.99 111.76)
+			(xy 175.26 66.04) (xy 177.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2150,7 +2394,7 @@
 	)
 	(symbol
 		(lib_id "PS3:iP2003APbF")
-		(at 170.18 105.41 0)
+		(at 176.53 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2159,15 +2403,15 @@
 		(fields_autoplaced yes)
 		(uuid "0a770f97-1daa-4683-b049-691db5856a3e")
 		(property "Reference" "U6203"
-			(at 170.815 129.54 0)
+			(at 176.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 170.815 130.81 0)
+		(property "Value" "iP2003APbF"
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2419,7 @@
 			)
 		)
 		(property "Footprint" "PS3:iP2003APbF"
-			(at 170.18 105.41 0)
+			(at 176.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,8 +2427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 170.18 105.41 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/901/IP2003APbF.pdf"
+			(at 176.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2437,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 105.41 0)
+			(at 176.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2486,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 156.21 0)
+		(at 186.69 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2251,7 +2495,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ae2fa5a-5e0a-42be-b815-64e7df0d9d6d")
 		(property "Reference" "#PWR0212"
-			(at 182.88 162.56 0)
+			(at 193.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,15 +2504,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 161.29 0)
+			(at 190.5 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 156.21 0)
+			(at 186.69 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 156.21 0)
+			(at 186.69 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2286,7 +2531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 156.21 0)
+			(at 186.69 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +2630,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 125.73 0)
+		(at 189.23 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2394,7 +2639,7 @@
 		(fields_autoplaced yes)
 		(uuid "51b89dae-bc51-4e5f-83c0-e2db2292782d")
 		(property "Reference" "#PWR0211"
-			(at 181.61 132.08 0)
+			(at 195.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,15 +2648,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 130.81 0)
+			(at 193.04 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 125.73 0)
+			(at 189.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 125.73 0)
+			(at 189.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 125.73 0)
+			(at 189.23 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +3320,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba44fe13-2348-447e-b189-ce5be2a57605")
 		(property "Reference" "U6201"
-			(at 107.6041 96.52 0)
+			(at 107.5533 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,8 +3328,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 107.6041 99.06 0)
+		(property "Value" "NCP5318FTR2G"
+			(at 107.5533 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,8 +3539,9 @@
 		)
 	)
 	(symbol
+		(lib_name "iP2003APbF_1")
 		(lib_id "PS3:iP2003APbF")
-		(at 171.45 135.89 0)
+		(at 173.99 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3303,15 +3550,15 @@
 		(fields_autoplaced yes)
 		(uuid "d1ffea9c-7112-426e-b692-c4c385aaafb8")
 		(property "Reference" "U6202"
-			(at 172.085 160.02 0)
+			(at 173.99 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 172.085 161.29 0)
+		(property "Value" "iP2003APbF"
+			(at 173.99 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3566,7 @@
 			)
 		)
 		(property "Footprint" "PS3:iP2003APbF"
-			(at 171.45 135.89 0)
+			(at 173.99 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,8 +3574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 171.45 135.89 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/901/IP2003APbF.pdf"
+			(at 173.99 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 135.89 0)
+			(at 173.99 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

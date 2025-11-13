@@ -3442,6 +3442,48 @@
 		)
 	)
 	(sheet
+		(at 144.78 38.1)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19b0459e-2248-4aa8-896c-7bfd1f739299")
+		(property "Sheetname" "VRM for BE"
+			(at 144.78 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bevrm.kicad_sch"
+			(at 144.78 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b"
+					(page "61")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 45.72 38.1)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
