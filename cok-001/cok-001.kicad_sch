@@ -3736,6 +3736,48 @@
 		)
 	)
 	(sheet
+		(at 104.14 83.82)
+		(size 25.4 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65c72dd6-abb3-4688-ae02-c92434f8e497")
+		(property "Sheetname" "GPU"
+			(at 104.14 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpu.kicad_sch"
+			(at 104.14 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 209.55 15.24)
 		(size 24.13 15.24)
 		(exclude_from_sim no)
