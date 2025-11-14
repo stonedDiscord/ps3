@@ -3934,6 +3934,12 @@
 		(uuid "4ce6654f-f812-4c0f-818b-fce1b0e3e4fa")
 	)
 	(junction
+		(at -12.7 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58fbef7b-f7c0-4158-b9a3-ce9a73e614df")
+	)
+	(junction
 		(at 166.37 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4108,6 +4114,16 @@
 			(type default)
 		)
 		(uuid "0b0bed0e-23be-48e6-8c16-8bf50b4bcb18")
+	)
+	(wire
+		(pts
+			(xy -33.02 91.44) (xy -11.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b673752-25c1-4fbb-885f-d2586ada8c0d")
 	)
 	(wire
 		(pts
@@ -4431,6 +4447,16 @@
 	)
 	(wire
 		(pts
+			(xy -12.7 76.2) (xy -3.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69819cac-3d54-40fa-8017-dea8485b3d45")
+	)
+	(wire
+		(pts
 			(xy 107.95 189.23) (xy 111.76 189.23)
 		)
 		(stroke
@@ -4551,6 +4577,16 @@
 	)
 	(wire
 		(pts
+			(xy -33.02 81.28) (xy -33.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e0368b-08ef-42bd-b870-eee1ca0bb3e8")
+	)
+	(wire
+		(pts
 			(xy 78.74 124.46) (xy 157.48 124.46)
 		)
 		(stroke
@@ -4588,6 +4624,16 @@
 			(type default)
 		)
 		(uuid "a69880df-3b23-4b84-b410-161538833f8f")
+	)
+	(wire
+		(pts
+			(xy -25.4 76.2) (xy -12.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cf05a9-04b3-4dbf-b3fc-0ffd8f969776")
 	)
 	(wire
 		(pts
@@ -4728,6 +4774,16 @@
 			(type default)
 		)
 		(uuid "ce2b1efc-55be-4196-a25f-8e87957a876b")
+	)
+	(wire
+		(pts
+			(xy -11.43 91.44) (xy -11.43 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00615ad-a309-41d2-a700-8f531baf12f7")
 	)
 	(wire
 		(pts
@@ -7506,6 +7562,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRF7606PBF")
+		(at -15.24 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d1edfbe-f759-4a7f-8937-9ab595f4cac7")
+		(property "Reference" "Q6304"
+			(at -7.62 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI4392"
+			(at -7.62 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm"
+			(at -10.16 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf7606pbf.pdf"
+			(at -10.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.6A Id, -30V Vds, HexFET P-MOS Power MOSFET, Ronon 0.09R, Micro8"
+			(at -15.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c62c734b-65c3-46fd-82cb-9ec3fe75d7d6")
+		)
+		(pin "4"
+			(uuid "91cedf04-ebee-44b8-92ae-da92835173ed")
+		)
+		(pin "1"
+			(uuid "5e61b75d-eebf-4cd1-8e3d-4f335525c2c7")
+		)
+		(pin "6"
+			(uuid "bacd6c9e-b091-4eb3-850c-a2cb8a7b4393")
+		)
+		(pin "2"
+			(uuid "8d9db91a-6232-4003-996a-c297833443ea")
+		)
+		(pin "5"
+			(uuid "b1143ef5-e8cf-4221-9a07-8b910b99d8d8")
+		)
+		(pin "8"
+			(uuid "b2bf5603-9566-4407-b1ec-41e43bc5d9bc")
+		)
+		(pin "7"
+			(uuid "c9d69620-9ae1-4bde-b7d6-41f6353b6f38")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "Q6304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 166.37 195.58 0)
 		(mirror y)
@@ -7922,6 +8069,188 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
 					(reference "F6302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF7606PBF")
+		(at -27.94 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d7679f1-a5f3-4d71-902e-53b92eaaa19d")
+		(property "Reference" "Q6302"
+			(at -20.32 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI4336"
+			(at -20.32 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm"
+			(at -22.86 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf7606pbf.pdf"
+			(at -22.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.6A Id, -30V Vds, HexFET P-MOS Power MOSFET, Ronon 0.09R, Micro8"
+			(at -27.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b2f6c43a-dac2-42cf-b1bc-c82cac0ef250")
+		)
+		(pin "4"
+			(uuid "b87e4787-9bac-4864-a92f-88c5a5b916a3")
+		)
+		(pin "1"
+			(uuid "5fe6d7eb-acde-4087-bb99-5a036a20e146")
+		)
+		(pin "6"
+			(uuid "c4707c63-9493-4667-91ec-2174b4d43a8f")
+		)
+		(pin "2"
+			(uuid "e376e46d-df73-44c3-b809-6d46a36b37fd")
+		)
+		(pin "5"
+			(uuid "1f115095-0b15-47df-ada5-3cf57cae213f")
+		)
+		(pin "8"
+			(uuid "fdf184f2-deb9-4fab-8ac6-5e74051c5a08")
+		)
+		(pin "7"
+			(uuid "d885bd73-c1fe-4e75-b8ef-5e7521c70db3")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "Q6302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF7606PBF")
+		(at -6.35 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ec73ed2-89be-4ea1-a38b-e54c3175b090")
+		(property "Reference" "Q6306"
+			(at 1.27 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI4336"
+			(at 1.27 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-8_3.9x5.05mm_P1.27mm"
+			(at -1.27 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf7606pbf.pdf"
+			(at -1.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.6A Id, -30V Vds, HexFET P-MOS Power MOSFET, Ronon 0.09R, Micro8"
+			(at -6.35 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9bc40ae1-fe27-4339-911f-f72aa5b4eada")
+		)
+		(pin "4"
+			(uuid "1f69b5db-420e-4249-9661-e9fa61495926")
+		)
+		(pin "1"
+			(uuid "8d4456a8-4984-4c75-93eb-44de4a5fc8cc")
+		)
+		(pin "6"
+			(uuid "7ccc6a04-74e7-4ae4-b004-58d6aa7fa27b")
+		)
+		(pin "2"
+			(uuid "18161eec-3df3-4cb4-a6ad-d4489543230f")
+		)
+		(pin "5"
+			(uuid "718a74a3-97e7-4298-94e0-bc909299ed26")
+		)
+		(pin "8"
+			(uuid "6f94fe39-624c-4242-a7a4-bdd5398847e8")
+		)
+		(pin "7"
+			(uuid "75d3d780-234c-4503-80e7-3a4b6fd0c9b4")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "Q6306")
 					(unit 1)
 				)
 			)

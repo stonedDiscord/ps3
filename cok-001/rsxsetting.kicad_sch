@@ -2386,7 +2386,7 @@
 			)
 		)
 	)
-	(global_label "ADAC_MCLK0"
+	(global_label "ADAC_MCLKO0"
 		(shape output)
 		(at 107.95 171.45 180)
 		(fields_autoplaced yes)
@@ -2398,7 +2398,7 @@
 		)
 		(uuid "1ad9dc03-ab3a-4fea-8260-c8e924514c4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.051 171.45 0)
+			(at 91.7205 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2540,7 @@
 			)
 		)
 	)
-	(global_label "RS_MCLK0"
+	(global_label "RS_MCLKO0"
 		(shape input)
 		(at 107.95 163.83 180)
 		(fields_autoplaced yes)
@@ -2552,7 +2552,7 @@
 		)
 		(uuid "9cb48053-cb94-45c8-880f-56e84130535d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.2887 163.83 0)
+			(at 93.9582 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
