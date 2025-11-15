@@ -4984,18 +4984,6 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "547edb8b-9113-4d7a-a244-44681150a3b6")
 	)
-	(pad "C40" smd circle
-		(at 19 -18)
-		(size 0.5 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "47f2e10c-98e0-41eb-9756-61e6f3d232a5")
-	)
-	(pad "C41" smd circle
-		(at 20 -18)
-		(size 0.5 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f608d25b-198e-446f-bc52-ff6530efa304")
-	)
 	(pad "D1" smd circle
 		(at -20 -17)
 		(size 0.5 0.5)
@@ -5955,18 +5943,6 @@
 		(size 0.5 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b98dac9f-2920-4d1c-9d12-ace9a290af4b")
-	)
-	(pad "G40" smd circle
-		(at 19 -14)
-		(size 0.5 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b0f735e6-52ca-4f62-90d6-bb2aa150aa6a")
-	)
-	(pad "G41" smd circle
-		(at 20 -14)
-		(size 0.5 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5eeb4ac9-d48f-4a08-aac9-72729beb1e3d")
 	)
 	(pad "H1" smd circle
 		(at -20 -13)

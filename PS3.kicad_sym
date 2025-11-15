@@ -16385,7 +16385,7 @@
 			(pin output line
 				(at -2.54 -53.34 0)
 				(length 2.54)
-				(name "TX2_TXP2"
+				(name "TX2_TXP6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22643,7 +22643,7 @@
 			(pin input line
 				(at -2.54 -35.56 0)
 				(length 2.54)
-				(name "/SPI_EN_8"
+				(name "~{SPI_EN_8}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23075,6 +23075,24 @@
 			(pin unspecified line
 				(at -2.54 -96.52 0)
 				(length 2.54)
+				(name "TX5_TXP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AP39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -99.06 0)
+				(length 2.54)
 				(name "TX5_TXN0"
 					(effects
 						(font
@@ -23090,8 +23108,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -2.54 -99.06 0)
+			(pin input line
+				(at -2.54 -101.6 0)
 				(length 2.54)
 				(name "TX5_TXP0"
 					(effects
@@ -23108,65 +23126,11 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -101.6 0)
-				(length 2.54)
-				(name "PLL_GNDA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AP17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -104.14 0)
-				(length 2.54)
-				(name "PLL_NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AP18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -2.54 -106.68 0)
-				(length 2.54)
-				(name "TX5_TXP2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AP39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "CXD2964AGB_42_1"
 			(rectangle
 				(start 0 -2.54)
-				(end 17.78 -109.22)
+				(end 22.86 -104.14)
 				(stroke
 					(width 0)
 					(type solid)
@@ -47786,7 +47750,7 @@
 			(pin unspecified line
 				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "GND"
+				(name "REFCLKP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47804,7 +47768,7 @@
 			(pin unspecified line
 				(at -2.54 -7.62 0)
 				(length 2.54)
-				(name "GND"
+				(name "REFCLKN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47840,7 +47804,7 @@
 			(pin unspecified line
 				(at -2.54 -12.7 0)
 				(length 2.54)
-				(name "GND"
+				(name "VTERM_SYS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47858,7 +47822,7 @@
 			(pin unspecified line
 				(at -2.54 -15.24 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDIORW"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47912,7 +47876,7 @@
 			(pin unspecified line
 				(at -2.54 -22.86 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47930,7 +47894,7 @@
 			(pin unspecified line
 				(at -2.54 -25.4 0)
 				(length 2.54)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47948,7 +47912,7 @@
 			(pin unspecified line
 				(at -2.54 -27.94 0)
 				(length 2.54)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -47966,7 +47930,7 @@
 			(pin unspecified line
 				(at -2.54 -30.48 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48002,7 +47966,7 @@
 			(pin unspecified line
 				(at -2.54 -35.56 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48038,7 +48002,7 @@
 			(pin unspecified line
 				(at -2.54 -40.64 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48074,7 +48038,7 @@
 			(pin unspecified line
 				(at -2.54 -45.72 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48110,7 +48074,7 @@
 			(pin unspecified line
 				(at -2.54 -50.8 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48146,7 +48110,7 @@
 			(pin unspecified line
 				(at -2.54 -55.88 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48182,7 +48146,7 @@
 			(pin unspecified line
 				(at -2.54 -60.96 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48218,7 +48182,7 @@
 			(pin unspecified line
 				(at -2.54 -66.04 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48254,7 +48218,7 @@
 			(pin unspecified line
 				(at -2.54 -71.12 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48290,7 +48254,7 @@
 			(pin unspecified line
 				(at -2.54 -76.2 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48326,7 +48290,7 @@
 			(pin unspecified line
 				(at -2.54 -81.28 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48362,7 +48326,7 @@
 			(pin unspecified line
 				(at -2.54 -86.36 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48380,7 +48344,7 @@
 			(pin unspecified line
 				(at -2.54 -88.9 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48398,7 +48362,7 @@
 			(pin unspecified line
 				(at -2.54 -91.44 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48416,7 +48380,7 @@
 			(pin unspecified line
 				(at -2.54 -93.98 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48452,7 +48416,7 @@
 			(pin unspecified line
 				(at -2.54 -99.06 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48470,7 +48434,7 @@
 			(pin unspecified line
 				(at -2.54 -101.6 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48488,7 +48452,7 @@
 			(pin unspecified line
 				(at -2.54 -104.14 0)
 				(length 2.54)
-				(name "GND"
+				(name "VI_VREF"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48506,7 +48470,7 @@
 			(pin unspecified line
 				(at -2.54 -106.68 0)
 				(length 2.54)
-				(name "GND"
+				(name "VOCAL_PD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48552,7 +48516,7 @@
 			(pin unspecified line
 				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48570,7 +48534,7 @@
 			(pin unspecified line
 				(at -2.54 -7.62 0)
 				(length 2.54)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48588,7 +48552,7 @@
 			(pin unspecified line
 				(at -2.54 -10.16 0)
 				(length 2.54)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48606,7 +48570,7 @@
 			(pin unspecified line
 				(at -2.54 -12.7 0)
 				(length 2.54)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48624,7 +48588,7 @@
 			(pin unspecified line
 				(at -2.54 -15.24 0)
 				(length 2.54)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48642,7 +48606,7 @@
 			(pin unspecified line
 				(at -2.54 -17.78 0)
 				(length 2.54)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48660,7 +48624,7 @@
 			(pin unspecified line
 				(at -2.54 -20.32 0)
 				(length 2.54)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48678,7 +48642,7 @@
 			(pin unspecified line
 				(at -2.54 -22.86 0)
 				(length 2.54)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48696,7 +48660,7 @@
 			(pin unspecified line
 				(at -2.54 -25.4 0)
 				(length 2.54)
-				(name "GND"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48714,7 +48678,7 @@
 			(pin unspecified line
 				(at -2.54 -27.94 0)
 				(length 2.54)
-				(name "GND"
+				(name "MCLKP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48750,7 +48714,7 @@
 			(pin unspecified line
 				(at -2.54 -33.02 0)
 				(length 2.54)
-				(name "GND"
+				(name "JTAG_TMS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48786,7 +48750,7 @@
 			(pin unspecified line
 				(at -2.54 -38.1 0)
 				(length 2.54)
-				(name "GND"
+				(name "JTAG_TDO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48822,7 +48786,7 @@
 			(pin unspecified line
 				(at -2.54 -43.18 0)
 				(length 2.54)
-				(name "GND"
+				(name "SDIN1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48858,7 +48822,7 @@
 			(pin unspecified line
 				(at -2.54 -48.26 0)
 				(length 2.54)
-				(name "GND"
+				(name "BCLKI0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48894,7 +48858,7 @@
 			(pin unspecified line
 				(at -2.54 -53.34 0)
 				(length 2.54)
-				(name "GND"
+				(name "VINTE0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48930,7 +48894,7 @@
 			(pin unspecified line
 				(at -2.54 -58.42 0)
 				(length 2.54)
-				(name "GND"
+				(name "VSYNCO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -48966,7 +48930,7 @@
 			(pin unspecified line
 				(at -2.54 -63.5 0)
 				(length 2.54)
-				(name "GND"
+				(name "VO_007"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49002,7 +48966,7 @@
 			(pin unspecified line
 				(at -2.54 -68.58 0)
 				(length 2.54)
-				(name "GND"
+				(name "VO_014"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49038,7 +49002,7 @@
 			(pin unspecified line
 				(at -2.54 -73.66 0)
 				(length 2.54)
-				(name "GND"
+				(name "VO_020"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49074,7 +49038,7 @@
 			(pin unspecified line
 				(at -2.54 -78.74 0)
 				(length 2.54)
-				(name "GND"
+				(name "VO_029"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49110,7 +49074,7 @@
 			(pin unspecified line
 				(at -2.54 -83.82 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49146,7 +49110,7 @@
 			(pin unspecified line
 				(at -2.54 -88.9 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49164,7 +49128,7 @@
 			(pin unspecified line
 				(at -2.54 -91.44 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49182,7 +49146,7 @@
 			(pin unspecified line
 				(at -2.54 -93.98 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49200,7 +49164,7 @@
 			(pin unspecified line
 				(at -2.54 -96.52 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49218,7 +49182,7 @@
 			(pin unspecified line
 				(at -2.54 -99.06 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49462,7 +49426,7 @@
 			(pin unspecified line
 				(at -2.54 -30.48 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49480,7 +49444,7 @@
 			(pin unspecified line
 				(at -2.54 -33.02 0)
 				(length 2.54)
-				(name "NC"
+				(name "MCLKN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49498,7 +49462,7 @@
 			(pin unspecified line
 				(at -2.54 -35.56 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49516,7 +49480,7 @@
 			(pin unspecified line
 				(at -2.54 -38.1 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49534,7 +49498,7 @@
 			(pin unspecified line
 				(at -2.54 -40.64 0)
 				(length 2.54)
-				(name "NC"
+				(name "TESTMODE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49552,7 +49516,7 @@
 			(pin unspecified line
 				(at -2.54 -43.18 0)
 				(length 2.54)
-				(name "NC"
+				(name "JTAG_TDI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49570,7 +49534,7 @@
 			(pin unspecified line
 				(at -2.54 -45.72 0)
 				(length 2.54)
-				(name "NC"
+				(name "BCLKI1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49588,7 +49552,7 @@
 			(pin unspecified line
 				(at -2.54 -48.26 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49606,7 +49570,7 @@
 			(pin unspecified line
 				(at -2.54 -50.8 0)
 				(length 2.54)
-				(name "NC"
+				(name "MCLKI1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49624,7 +49588,7 @@
 			(pin unspecified line
 				(at -2.54 -53.34 0)
 				(length 2.54)
-				(name "NC"
+				(name "LRCKI0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49642,7 +49606,7 @@
 			(pin unspecified line
 				(at -2.54 -55.88 0)
 				(length 2.54)
-				(name "NC"
+				(name "SDIN0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49660,7 +49624,7 @@
 			(pin unspecified line
 				(at -2.54 -58.42 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49678,7 +49642,7 @@
 			(pin unspecified line
 				(at -2.54 -60.96 0)
 				(length 2.54)
-				(name "NC"
+				(name "HTPLGO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49696,7 +49660,7 @@
 			(pin unspecified line
 				(at -2.54 -63.5 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_000"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49714,7 +49678,7 @@
 			(pin unspecified line
 				(at -2.54 -66.04 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_001"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49732,7 +49696,7 @@
 			(pin unspecified line
 				(at -2.54 -68.58 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49750,7 +49714,7 @@
 			(pin unspecified line
 				(at -2.54 -71.12 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_009"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49768,7 +49732,7 @@
 			(pin unspecified line
 				(at -2.54 -73.66 0)
 				(length 2.54)
-				(name "NC"
+				(name "CLKOUT0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49786,7 +49750,7 @@
 			(pin unspecified line
 				(at -2.54 -76.2 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_016"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49804,7 +49768,7 @@
 			(pin unspecified line
 				(at -2.54 -78.74 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49822,7 +49786,7 @@
 			(pin unspecified line
 				(at -2.54 -81.28 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_021"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49840,7 +49804,7 @@
 			(pin unspecified line
 				(at -2.54 -83.82 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_034"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49858,7 +49822,7 @@
 			(pin unspecified line
 				(at -2.54 -86.36 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49876,7 +49840,7 @@
 			(pin unspecified line
 				(at -2.54 -88.9 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49894,7 +49858,7 @@
 			(pin unspecified line
 				(at -2.54 -91.44 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49912,7 +49876,7 @@
 			(pin unspecified line
 				(at -2.54 -93.98 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49930,7 +49894,7 @@
 			(pin unspecified line
 				(at -2.54 -96.52 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49948,7 +49912,7 @@
 			(pin unspecified line
 				(at -2.54 -99.06 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49966,7 +49930,7 @@
 			(pin unspecified line
 				(at -2.54 -101.6 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -49984,7 +49948,7 @@
 			(pin unspecified line
 				(at -2.54 -104.14 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50179,7 +50143,7 @@
 			(pin unspecified line
 				(at -2.54 -27.94 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50197,7 +50161,7 @@
 			(pin unspecified line
 				(at -2.54 -30.48 0)
 				(length 2.54)
-				(name "NC"
+				(name "PMDATA0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50233,7 +50197,7 @@
 			(pin unspecified line
 				(at -2.54 -35.56 0)
 				(length 2.54)
-				(name "NC"
+				(name "JTAG_TCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50251,7 +50215,7 @@
 			(pin unspecified line
 				(at -2.54 -38.1 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50269,7 +50233,7 @@
 			(pin unspecified line
 				(at -2.54 -40.64 0)
 				(length 2.54)
-				(name "NC"
+				(name "JTAG_TRST_N"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50305,7 +50269,7 @@
 			(pin unspecified line
 				(at -2.54 -45.72 0)
 				(length 2.54)
-				(name "NC"
+				(name "LRCKI1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50323,7 +50287,7 @@
 			(pin unspecified line
 				(at -2.54 -48.26 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50341,7 +50305,7 @@
 			(pin unspecified line
 				(at -2.54 -50.8 0)
 				(length 2.54)
-				(name "NC"
+				(name "SPMCLKI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50377,7 +50341,7 @@
 			(pin unspecified line
 				(at -2.54 -55.88 0)
 				(length 2.54)
-				(name "NC"
+				(name "MCLKI0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50395,7 +50359,7 @@
 			(pin unspecified line
 				(at -2.54 -58.42 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50413,7 +50377,7 @@
 			(pin unspecified line
 				(at -2.54 -60.96 0)
 				(length 2.54)
-				(name "NC"
+				(name "VORST0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50449,7 +50413,7 @@
 			(pin unspecified line
 				(at -2.54 -66.04 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_005"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50467,7 +50431,7 @@
 			(pin unspecified line
 				(at -2.54 -68.58 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50485,7 +50449,7 @@
 			(pin unspecified line
 				(at -2.54 -71.12 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_011"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50521,7 +50485,7 @@
 			(pin unspecified line
 				(at -2.54 -76.2 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_018"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50539,7 +50503,7 @@
 			(pin unspecified line
 				(at -2.54 -78.74 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50557,7 +50521,7 @@
 			(pin unspecified line
 				(at -2.54 -81.28 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_023"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50575,7 +50539,7 @@
 			(pin unspecified line
 				(at -2.54 -83.82 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50593,7 +50557,7 @@
 			(pin unspecified line
 				(at -2.54 -86.36 0)
 				(length 2.54)
-				(name "NC"
+				(name "NTPLO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50611,7 +50575,7 @@
 			(pin unspecified line
 				(at -2.54 -88.9 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50629,7 +50593,7 @@
 			(pin unspecified line
 				(at -2.54 -91.44 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50647,7 +50611,7 @@
 			(pin unspecified line
 				(at -2.54 -93.98 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50665,7 +50629,7 @@
 			(pin unspecified line
 				(at -2.54 -96.52 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50683,7 +50647,7 @@
 			(pin unspecified line
 				(at -2.54 -99.06 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50701,7 +50665,7 @@
 			(pin unspecified line
 				(at -2.54 -101.6 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50788,7 +50752,7 @@
 			(pin unspecified line
 				(at -2.54 -12.7 0)
 				(length 2.54)
-				(name "GND"
+				(name "~{CGRESET}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50842,7 +50806,7 @@
 			(pin unspecified line
 				(at -2.54 -20.32 0)
 				(length 2.54)
-				(name "GND"
+				(name "PMSRTOBE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50860,7 +50824,7 @@
 			(pin unspecified line
 				(at -2.54 -22.86 0)
 				(length 2.54)
-				(name "GND"
+				(name "PMDATA7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50878,7 +50842,7 @@
 			(pin unspecified line
 				(at -2.54 -25.4 0)
 				(length 2.54)
-				(name "GND"
+				(name "PMDATA1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50896,7 +50860,7 @@
 			(pin unspecified line
 				(at -2.54 -27.94 0)
 				(length 2.54)
-				(name "GND"
+				(name "PMCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50932,7 +50896,7 @@
 			(pin unspecified line
 				(at -2.54 -33.02 0)
 				(length 2.54)
-				(name "GND"
+				(name "GPIO6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50950,7 +50914,7 @@
 			(pin unspecified line
 				(at -2.54 -35.56 0)
 				(length 2.54)
-				(name "GND"
+				(name "FUSE_SRC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -50968,7 +50932,7 @@
 			(pin unspecified line
 				(at -2.54 -38.1 0)
 				(length 2.54)
-				(name "GND"
+				(name "GPIO3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51004,7 +50968,7 @@
 			(pin unspecified line
 				(at -2.54 -43.18 0)
 				(length 2.54)
-				(name "GND"
+				(name "SPDO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51022,7 +50986,7 @@
 			(pin unspecified line
 				(at -2.54 -45.72 0)
 				(length 2.54)
-				(name "GND"
+				(name "SPDIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51040,7 +51004,7 @@
 			(pin unspecified line
 				(at -2.54 -48.26 0)
 				(length 2.54)
-				(name "GND"
+				(name "SDOUT2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51076,7 +51040,7 @@
 			(pin unspecified line
 				(at -2.54 -53.34 0)
 				(length 2.54)
-				(name "GND"
+				(name "SPDO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51094,7 +51058,7 @@
 			(pin unspecified line
 				(at -2.54 -55.88 0)
 				(length 2.54)
-				(name "GND"
+				(name "CSYNCO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51112,7 +51076,7 @@
 			(pin unspecified line
 				(at -2.54 -58.42 0)
 				(length 2.54)
-				(name "GND"
+				(name "VO_003"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51148,7 +51112,7 @@
 			(pin unspecified line
 				(at -2.54 -63.5 0)
 				(length 2.54)
-				(name "GND"
+				(name "VO_010"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51166,7 +51130,7 @@
 			(pin unspecified line
 				(at -2.54 -66.04 0)
 				(length 2.54)
-				(name "GND"
+				(name "VO_012"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51184,7 +51148,7 @@
 			(pin unspecified line
 				(at -2.54 -68.58 0)
 				(length 2.54)
-				(name "GND"
+				(name "VO_019"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51220,7 +51184,7 @@
 			(pin unspecified line
 				(at -2.54 -73.66 0)
 				(length 2.54)
-				(name "GND"
+				(name "VO_026"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51238,7 +51202,7 @@
 			(pin unspecified line
 				(at -2.54 -76.2 0)
 				(length 2.54)
-				(name "GND"
+				(name "VO_027"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51256,7 +51220,7 @@
 			(pin unspecified line
 				(at -2.54 -78.74 0)
 				(length 2.54)
-				(name "GND"
+				(name "VO_033"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51292,7 +51256,7 @@
 			(pin unspecified line
 				(at -2.54 -83.82 0)
 				(length 2.54)
-				(name "GND"
+				(name "FBC_DEBUG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51310,7 +51274,7 @@
 			(pin unspecified line
 				(at -2.54 -86.36 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51328,7 +51292,7 @@
 			(pin unspecified line
 				(at -2.54 -88.9 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51364,7 +51328,7 @@
 			(pin unspecified line
 				(at -2.54 -93.98 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51382,7 +51346,7 @@
 			(pin unspecified line
 				(at -2.54 -96.52 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51400,7 +51364,7 @@
 			(pin unspecified line
 				(at -2.54 -99.06 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51418,7 +51382,7 @@
 			(pin unspecified line
 				(at -2.54 -101.6 0)
 				(length 2.54)
-				(name "GND"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51451,7 +51415,7 @@
 			(pin unspecified line
 				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "NC"
+				(name "FB_SEN3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51469,7 +51433,7 @@
 			(pin unspecified line
 				(at -2.54 -7.62 0)
 				(length 2.54)
-				(name "NC"
+				(name "FB_VDDVREF3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51487,7 +51451,7 @@
 			(pin unspecified line
 				(at -2.54 -10.16 0)
 				(length 2.54)
-				(name "NC"
+				(name "FB_MF3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51505,7 +51469,7 @@
 			(pin unspecified line
 				(at -2.54 -12.7 0)
 				(length 2.54)
-				(name "NC"
+				(name "TRIGIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51523,7 +51487,7 @@
 			(pin unspecified line
 				(at -2.54 -15.24 0)
 				(length 2.54)
-				(name "NC"
+				(name "~{RESET}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51541,7 +51505,7 @@
 			(pin unspecified line
 				(at -2.54 -17.78 0)
 				(length 2.54)
-				(name "NC"
+				(name "CHKSTOPIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51577,7 +51541,7 @@
 			(pin unspecified line
 				(at -2.54 -22.86 0)
 				(length 2.54)
-				(name "NC"
+				(name "~{SSO}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51595,7 +51559,7 @@
 			(pin unspecified line
 				(at -2.54 -25.4 0)
 				(length 2.54)
-				(name "NC"
+				(name "PMDATA6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51613,7 +51577,7 @@
 			(pin unspecified line
 				(at -2.54 -27.94 0)
 				(length 2.54)
-				(name "NC"
+				(name "PMDATA3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51631,7 +51595,7 @@
 			(pin unspecified line
 				(at -2.54 -30.48 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51649,7 +51613,7 @@
 			(pin unspecified line
 				(at -2.54 -33.02 0)
 				(length 2.54)
-				(name "NC"
+				(name "TDP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51667,7 +51631,7 @@
 			(pin unspecified line
 				(at -2.54 -35.56 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51685,7 +51649,7 @@
 			(pin unspecified line
 				(at -2.54 -38.1 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51721,7 +51685,7 @@
 			(pin unspecified line
 				(at -2.54 -43.18 0)
 				(length 2.54)
-				(name "NC"
+				(name "GPIO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51739,7 +51703,7 @@
 			(pin unspecified line
 				(at -2.54 -45.72 0)
 				(length 2.54)
-				(name "NC"
+				(name "GPIO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51757,7 +51721,7 @@
 			(pin unspecified line
 				(at -2.54 -48.26 0)
 				(length 2.54)
-				(name "NC"
+				(name "MCLKO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51793,7 +51757,7 @@
 			(pin unspecified line
 				(at -2.54 -53.34 0)
 				(length 2.54)
-				(name "NC"
+				(name "MCLKO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51811,7 +51775,7 @@
 			(pin unspecified line
 				(at -2.54 -55.88 0)
 				(length 2.54)
-				(name "NC"
+				(name "SDOUT3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51829,7 +51793,7 @@
 			(pin unspecified line
 				(at -2.54 -58.42 0)
 				(length 2.54)
-				(name "NC"
+				(name "FLDO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51865,7 +51829,7 @@
 			(pin unspecified line
 				(at -2.54 -63.5 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_006"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51883,7 +51847,7 @@
 			(pin unspecified line
 				(at -2.54 -66.04 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_008"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51901,7 +51865,7 @@
 			(pin unspecified line
 				(at -2.54 -68.58 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_013"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51937,7 +51901,7 @@
 			(pin unspecified line
 				(at -2.54 -73.66 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_024"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51955,7 +51919,7 @@
 			(pin unspecified line
 				(at -2.54 -76.2 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_025"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51973,7 +51937,7 @@
 			(pin unspecified line
 				(at -2.54 -78.74 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_028"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -51991,7 +51955,7 @@
 			(pin unspecified line
 				(at -2.54 -81.28 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52009,7 +51973,7 @@
 			(pin unspecified line
 				(at -2.54 -83.82 0)
 				(length 2.54)
-				(name "NC"
+				(name "VO_031"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52027,7 +51991,7 @@
 			(pin unspecified line
 				(at -2.54 -86.36 0)
 				(length 2.54)
-				(name "NC"
+				(name "AVCLK2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52045,7 +52009,7 @@
 			(pin unspecified line
 				(at -2.54 -88.9 0)
 				(length 2.54)
-				(name "NC"
+				(name "FB_MF4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52063,7 +52027,7 @@
 			(pin unspecified line
 				(at -2.54 -91.44 0)
 				(length 2.54)
-				(name "NC"
+				(name "FBVDDVREF4F"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52081,7 +52045,7 @@
 			(pin unspecified line
 				(at -2.54 -93.98 0)
 				(length 2.54)
-				(name "NC"
+				(name "FB_SEN4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52099,7 +52063,7 @@
 			(pin unspecified line
 				(at -2.54 -96.52 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52117,7 +52081,7 @@
 			(pin unspecified line
 				(at -2.54 -99.06 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52135,7 +52099,7 @@
 			(pin unspecified line
 				(at -2.54 -101.6 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52153,7 +52117,7 @@
 			(pin unspecified line
 				(at -2.54 -104.14 0)
 				(length 2.54)
-				(name "NC"
+				(name "VDDP_VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52171,7 +52135,7 @@
 			(pin unspecified line
 				(at -2.54 -106.68 0)
 				(length 2.54)
-				(name "NC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -52379,7 +52343,7 @@
 			(pin unspecified line
 				(at -2.54 -27.94 0)
 				(length 2.54)
-				(name "GPIO6"
+				(name "GPIO5"
 					(effects
 						(font
 							(size 1.27 1.27)
