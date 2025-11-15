@@ -182,7 +182,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC1001"
+			(property "Reference" "U"
 				(at 7.112 2.032 0)
 				(effects
 					(font
@@ -28608,7 +28608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01a140b0-e095-4fc7-be58-2999c0eb8aa1")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 478.282 216.408 0)
 			(effects
 				(font
@@ -28628,7 +28628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 471.17 218.44 0)
 			(effects
 				(font
@@ -32366,7 +32366,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 20)
 				)
 			)
@@ -34258,7 +34258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15b9be12-3b34-4824-aa1c-880fb158f79b")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 225.552 321.818 0)
 			(effects
 				(font
@@ -34278,7 +34278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 218.44 323.85 0)
 			(effects
 				(font
@@ -38016,7 +38016,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 31)
 				)
 			)
@@ -38501,7 +38501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c6ae197-a44d-480f-ba34-7f987f9f8b75")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 412.242 371.348 0)
 			(effects
 				(font
@@ -38521,7 +38521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 405.13 373.38 0)
 			(effects
 				(font
@@ -42259,7 +42259,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 17)
 				)
 			)
@@ -42275,7 +42275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d252357-0aeb-4415-93e0-cb2d3a5fa0de")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 384.302 249.428 0)
 			(effects
 				(font
@@ -42295,7 +42295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 377.19 251.46 0)
 			(effects
 				(font
@@ -46033,7 +46033,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 27)
 				)
 			)
@@ -46317,7 +46317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24dbe33c-f067-4cd7-b2f5-390a29d9bb8b")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 69.342 14.478 0)
 			(effects
 				(font
@@ -46337,7 +46337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 62.23 16.51 0)
 			(effects
 				(font
@@ -50075,7 +50075,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 2)
 				)
 			)
@@ -50560,7 +50560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28d5aeda-36ca-42c7-8467-07ade9ce08a6")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 339.852 321.818 0)
 			(effects
 				(font
@@ -50580,7 +50580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 332.74 323.85 0)
 			(effects
 				(font
@@ -54318,7 +54318,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 36)
 				)
 			)
@@ -54334,7 +54334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2966362e-b8ad-493a-b72b-400d425267c7")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 32.512 599.948 0)
 			(effects
 				(font
@@ -54354,7 +54354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 25.4 601.98 0)
 			(effects
 				(font
@@ -58092,7 +58092,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 52)
 				)
 			)
@@ -58175,7 +58175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29b6a52a-f812-4587-82d8-a34830a961b5")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 301.752 321.818 0)
 			(effects
 				(font
@@ -58195,7 +58195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 294.64 323.85 0)
 			(effects
 				(font
@@ -61933,7 +61933,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 33)
 				)
 			)
@@ -62150,7 +62150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b827b7b-e0ed-4eb8-8836-cce64aa3f6fc")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 69.342 249.428 0)
 			(effects
 				(font
@@ -62170,7 +62170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 62.23 251.46 0)
 			(effects
 				(font
@@ -65908,7 +65908,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 22)
 				)
 			)
@@ -65991,7 +65991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cf45010-4f7b-43bc-be16-72e46f67fe47")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 182.372 14.478 0)
 			(effects
 				(font
@@ -66011,7 +66011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 175.26 16.51 0)
 			(effects
 				(font
@@ -69749,7 +69749,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 5)
 				)
 			)
@@ -70569,7 +70569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36c96c17-2c3a-4114-a4cc-0103f979a1c7")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 140.462 14.478 0)
 			(effects
 				(font
@@ -70589,7 +70589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 133.35 16.51 0)
 			(effects
 				(font
@@ -74327,7 +74327,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 4)
 				)
 			)
@@ -74544,7 +74544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37ea567e-4b2c-40b5-b314-5b9d8fde1d02")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 36.322 136.398 0)
 			(effects
 				(font
@@ -74564,7 +74564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 29.21 138.43 0)
 			(effects
 				(font
@@ -78302,7 +78302,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 38)
 				)
 			)
@@ -78586,7 +78586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39e42a96-14c6-4546-9ca5-7a8f6066ce75")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 36.322 14.478 0)
 			(effects
 				(font
@@ -78606,7 +78606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 29.21 16.51 0)
 			(effects
 				(font
@@ -82344,7 +82344,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 1)
 				)
 			)
@@ -82427,7 +82427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a24d1f9-a2c6-492a-97df-14a3a431a42b")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 148.082 249.428 0)
 			(effects
 				(font
@@ -82447,7 +82447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 140.97 251.46 0)
 			(effects
 				(font
@@ -86185,7 +86185,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 28)
 				)
 			)
@@ -86670,7 +86670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "416c9ab6-586f-4c52-a467-7ad950a78529")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 88.392 682.498 0)
 			(effects
 				(font
@@ -86690,7 +86690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 81.28 684.53 0)
 			(effects
 				(font
@@ -90428,7 +90428,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 50)
 				)
 			)
@@ -91851,7 +91851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54c55dac-fa88-45a1-94b7-a43edb54cec1")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 525.272 368.808 0)
 			(effects
 				(font
@@ -91871,7 +91871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 518.16 370.84 0)
 			(effects
 				(font
@@ -95609,7 +95609,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 19)
 				)
 			)
@@ -96362,7 +96362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6044d190-ef41-41f1-ae6b-5a04fa2976cb")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 478.282 136.398 0)
 			(effects
 				(font
@@ -96382,7 +96382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 471.17 138.43 0)
 			(effects
 				(font
@@ -100120,7 +100120,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 53)
 				)
 			)
@@ -100136,7 +100136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60b321af-eed8-4f19-b15c-4a46313013f0")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 225.552 136.398 0)
 			(effects
 				(font
@@ -100156,7 +100156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 218.44 138.43 0)
 			(effects
 				(font
@@ -103894,7 +103894,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 46)
 				)
 			)
@@ -104245,7 +104245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66042ed6-2b4a-4538-b010-20ce5aefc225")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 301.752 14.478 0)
 			(effects
 				(font
@@ -104265,7 +104265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 294.64 16.51 0)
 			(effects
 				(font
@@ -108003,7 +108003,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 8)
 				)
 			)
@@ -108622,7 +108622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c466c97-74f5-4b65-ab6d-597e3d4672ce")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 102.362 14.478 0)
 			(effects
 				(font
@@ -108642,7 +108642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 95.25 16.51 0)
 			(effects
 				(font
@@ -112380,7 +112380,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 3)
 				)
 			)
@@ -112597,7 +112597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e1143a8-b102-4744-939c-4475b3d12948")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 259.842 14.478 0)
 			(effects
 				(font
@@ -112617,7 +112617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 252.73 16.51 0)
 			(effects
 				(font
@@ -116355,7 +116355,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 7)
 				)
 			)
@@ -116974,7 +116974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79e7daef-8b52-4c4d-ba9b-27533ddea5e4")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 384.302 136.398 0)
 			(effects
 				(font
@@ -116994,7 +116994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 377.19 138.43 0)
 			(effects
 				(font
@@ -120732,7 +120732,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 49)
 				)
 			)
@@ -121150,7 +121150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "812c9ac5-f363-454c-94cf-d37d9f39ca7e")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 36.322 315.468 0)
 			(effects
 				(font
@@ -121170,7 +121170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 29.21 317.5 0)
 			(effects
 				(font
@@ -124908,7 +124908,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 14)
 				)
 			)
@@ -125326,7 +125326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86947b8f-d9ac-4042-ab97-e430cc54d66c")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 225.552 14.478 0)
 			(effects
 				(font
@@ -125346,7 +125346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 218.44 16.51 0)
 			(effects
 				(font
@@ -129084,7 +129084,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 6)
 				)
 			)
@@ -129435,7 +129435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ac1f7a5-5653-4f38-bcd0-d957653862e3")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 115.062 315.468 0)
 			(effects
 				(font
@@ -129455,7 +129455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 107.95 317.5 0)
 			(effects
 				(font
@@ -133193,7 +133193,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 21)
 				)
 			)
@@ -134147,7 +134147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9198e3ee-5c79-4055-b7af-6cd3cf262a36")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 339.852 14.478 0)
 			(effects
 				(font
@@ -134167,7 +134167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 332.74 16.51 0)
 			(effects
 				(font
@@ -137905,7 +137905,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 10)
 				)
 			)
@@ -137988,7 +137988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91f1d6b2-d8c9-4050-a77c-8a28b8ff373d")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 367.792 803.148 0)
 			(effects
 				(font
@@ -138008,7 +138008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 360.68 805.18 0)
 			(effects
 				(font
@@ -141746,7 +141746,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 43)
 				)
 			)
@@ -142231,7 +142231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98f466dd-50f5-45ff-b268-58d08f2d4484")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 333.502 203.708 0)
 			(effects
 				(font
@@ -142251,7 +142251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 326.39 205.74 0)
 			(effects
 				(font
@@ -145989,7 +145989,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 9)
 				)
 			)
@@ -146273,7 +146273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c4c4462-d624-443c-8eed-caa8990dc12f")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 182.372 320.548 0)
 			(effects
 				(font
@@ -146293,7 +146293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 175.26 322.58 0)
 			(effects
 				(font
@@ -150031,7 +150031,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 29)
 				)
 			)
@@ -150516,7 +150516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0ef14a7-a6da-4691-b179-868b841c062d")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 140.462 136.398 0)
 			(effects
 				(font
@@ -150536,7 +150536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 133.35 138.43 0)
 			(effects
 				(font
@@ -154274,7 +154274,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 42)
 				)
 			)
@@ -154558,7 +154558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3885949-5b74-4c75-b3bc-92ab03ecdd74")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 225.552 249.428 0)
 			(effects
 				(font
@@ -154578,7 +154578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 218.44 251.46 0)
 			(effects
 				(font
@@ -158316,7 +158316,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 32)
 				)
 			)
@@ -158600,7 +158600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5dae4d7-374a-4392-92ed-64844ed7e2e3")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 182.372 136.398 0)
 			(effects
 				(font
@@ -158620,7 +158620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 175.26 138.43 0)
 			(effects
 				(font
@@ -162358,7 +162358,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 44)
 				)
 			)
@@ -162374,7 +162374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a62bbdc4-5867-4d14-af5d-6b64a8e5d90e")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 435.102 216.408 0)
 			(effects
 				(font
@@ -162394,7 +162394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 427.99 218.44 0)
 			(effects
 				(font
@@ -166132,7 +166132,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 16)
 				)
 			)
@@ -166148,7 +166148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6452b11-e588-4e2e-ae75-e701cfc657c4")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 46.482 486.918 0)
 			(effects
 				(font
@@ -166168,7 +166168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 39.37 488.95 0)
 			(effects
 				(font
@@ -169906,7 +169906,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 24)
 				)
 			)
@@ -170458,7 +170458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaeaf477-2588-414a-9cdf-363ccb8c8bb2")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 339.852 249.428 0)
 			(effects
 				(font
@@ -170478,7 +170478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 332.74 251.46 0)
 			(effects
 				(font
@@ -174216,7 +174216,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 37)
 				)
 			)
@@ -174500,7 +174500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acc4a79a-6ae8-4d88-a421-90ad8b347ae2")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 36.322 249.428 0)
 			(effects
 				(font
@@ -174520,7 +174520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 29.21 251.46 0)
 			(effects
 				(font
@@ -178258,7 +178258,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 13)
 				)
 			)
@@ -178475,7 +178475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aee74152-65b8-4220-aa52-a5c0092c5722")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 78.232 315.468 0)
 			(effects
 				(font
@@ -178495,7 +178495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 71.12 317.5 0)
 			(effects
 				(font
@@ -182233,7 +182233,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 18)
 				)
 			)
@@ -182383,7 +182383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b01a1014-9679-456b-9540-55748384a6fe")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 182.372 249.428 0)
 			(effects
 				(font
@@ -182403,7 +182403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 175.26 251.46 0)
 			(effects
 				(font
@@ -186141,7 +186141,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 30)
 				)
 			)
@@ -187564,7 +187564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bda4af89-6ce1-408f-a47c-0b5430c70fe0")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 384.302 14.478 0)
 			(effects
 				(font
@@ -187584,7 +187584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 377.19 16.51 0)
 			(effects
 				(font
@@ -191322,7 +191322,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 11)
 				)
 			)
@@ -191606,7 +191606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1e3ca97-f611-4d89-9137-7e75ea8e072d")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 148.082 315.468 0)
 			(effects
 				(font
@@ -191626,7 +191626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 140.97 317.5 0)
 			(effects
 				(font
@@ -195364,7 +195364,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 23)
 				)
 			)
@@ -195447,7 +195447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c288d00a-c8e6-4fed-a25c-05205948ae66")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 435.102 14.478 0)
 			(effects
 				(font
@@ -195467,7 +195467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 427.99 16.51 0)
 			(effects
 				(font
@@ -199205,7 +199205,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 12)
 				)
 			)
@@ -199221,7 +199221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3cef380-beb6-4d9f-a653-5bd5d9c631d3")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 301.752 249.428 0)
 			(effects
 				(font
@@ -199241,7 +199241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 294.64 251.46 0)
 			(effects
 				(font
@@ -202979,7 +202979,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 34)
 				)
 			)
@@ -203062,7 +203062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c581fd4b-9080-4898-ace4-2b78a6c547db")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 115.062 249.428 0)
 			(effects
 				(font
@@ -203082,7 +203082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 107.95 251.46 0)
 			(effects
 				(font
@@ -206820,7 +206820,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 25)
 				)
 			)
@@ -206970,7 +206970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e8a734-6060-42b7-99f7-e0ae98950c1f")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 69.342 136.398 0)
 			(effects
 				(font
@@ -206990,7 +206990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 62.23 138.43 0)
 			(effects
 				(font
@@ -210728,7 +210728,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 39)
 				)
 			)
@@ -210945,7 +210945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea6b8db-b98d-487e-84e2-43d50e96d707")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 117.602 784.098 0)
 			(effects
 				(font
@@ -210965,7 +210965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 110.49 786.13 0)
 			(effects
 				(font
@@ -214703,7 +214703,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 41)
 				)
 			)
@@ -214719,7 +214719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb00826-4fe3-4d3b-90ec-f985d3daa139")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 339.852 136.398 0)
 			(effects
 				(font
@@ -214739,7 +214739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 332.74 138.43 0)
 			(effects
 				(font
@@ -218477,7 +218477,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 48)
 				)
 			)
@@ -219766,7 +219766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e04b9f3e-4a30-4f04-a2a6-1c497afcc35c")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 252.222 361.188 0)
 			(effects
 				(font
@@ -219786,7 +219786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 245.11 363.22 0)
 			(effects
 				(font
@@ -223524,7 +223524,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 15)
 				)
 			)
@@ -223741,7 +223741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3cc0146-79ed-494b-b08d-c348e9cdec0a")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 162.052 489.458 0)
 			(effects
 				(font
@@ -223761,7 +223761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 154.94 491.49 0)
 			(effects
 				(font
@@ -227499,7 +227499,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 26)
 				)
 			)
@@ -227783,7 +227783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6484299-0109-4549-9b9a-3bee547c0daf")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 435.102 136.398 0)
 			(effects
 				(font
@@ -227803,7 +227803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 427.99 138.43 0)
 			(effects
 				(font
@@ -231541,7 +231541,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 51)
 				)
 			)
@@ -231624,7 +231624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e769e9bd-26a0-4847-b562-c526fbe5b263")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 546.862 812.038 0)
 			(effects
 				(font
@@ -231644,7 +231644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 539.75 814.07 0)
 			(effects
 				(font
@@ -235382,7 +235382,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 45)
 				)
 			)
@@ -235398,7 +235398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7dfe1f4-72d1-44d2-b4da-e00ff6b9bf31")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 301.752 136.398 0)
 			(effects
 				(font
@@ -235418,7 +235418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 294.64 138.43 0)
 			(effects
 				(font
@@ -239156,7 +239156,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 47)
 				)
 			)
@@ -240311,7 +240311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f36a390c-a931-4690-be18-75747ef4bf9f")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 200.152 607.568 0)
 			(effects
 				(font
@@ -240331,7 +240331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 193.04 609.6 0)
 			(effects
 				(font
@@ -244069,7 +244069,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 35)
 				)
 			)
@@ -244621,7 +244621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa904f04-8542-4160-96cf-80c7ab5c46db")
-		(property "Reference" "IC1001"
+		(property "Reference" "U1001"
 			(at 102.362 136.398 0)
 			(effects
 				(font
@@ -244641,7 +244641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PS3:CELL_multi"
+		(property "Footprint" ""
 			(at 95.25 138.43 0)
 			(effects
 				(font
@@ -248379,7 +248379,7 @@
 		(instances
 			(project ""
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/24573c44-b1dd-4845-81ad-04a3bfa196c9"
-					(reference "IC1001")
+					(reference "U1001")
 					(unit 40)
 				)
 			)
