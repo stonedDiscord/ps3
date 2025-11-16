@@ -7650,7 +7650,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77be2e47-7feb-42e0-a0bc-93f643bd77a3")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2101"
 			(at 142.24 133.3501 0)
 			(effects
 				(font
@@ -7709,7 +7709,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/128112c3-c1d3-4d2b-b67e-431f0bf7f496"
-					(reference "Q1")
+					(reference "Q2101")
 					(unit 1)
 				)
 			)
