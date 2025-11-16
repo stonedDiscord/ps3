@@ -98,158 +98,6 @@
 			)
 		)
 	)
-	(dimension
-		(type orthogonal)
-		(layer "User.1")
-		(uuid "620e1c92-17fb-4d84-9777-a673945ec717")
-		(pts
-			(xy -6.6 0) (xy 6.6 0)
-		)
-		(height -8.5)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "13.2"
-			(at 0 -9.65 0)
-			(layer "User.1")
-			(uuid "620e1c92-17fb-4d84-9777-a673945ec717")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "User.1")
-		(uuid "c2bd6ff8-6050-4b96-af46-75b85255e0f3")
-		(pts
-			(xy -3.3 0) (xy 3.3 0)
-		)
-		(height -3.7)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "6.6"
-			(at 0 -4.85 0)
-			(layer "User.1")
-			(uuid "c2bd6ff8-6050-4b96-af46-75b85255e0f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "User.1")
-		(uuid "de109542-f456-4c44-970a-53fdcaa0cee8")
-		(pts
-			(xy -8.2 0) (xy 8.2 0)
-		)
-		(height -10.7)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "16.4"
-			(at 0 -11.85 0)
-			(layer "User.1")
-			(uuid "de109542-f456-4c44-970a-53fdcaa0cee8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "User.1")
-		(uuid "fe15bcfb-45c7-4bd3-b776-61cf32bf554c")
-		(pts
-			(xy -5.1 0) (xy 5.1 0)
-		)
-		(height -6.1)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "10.2"
-			(at 0 -7.25 0)
-			(layer "User.1")
-			(uuid "fe15bcfb-45c7-4bd3-b776-61cf32bf554c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-	)
 	(pad "1" smd roundrect
 		(at -7.4 7.1)
 		(size 1.6 14.2)
@@ -279,4 +127,15 @@
 		(uuid "4090cc22-393d-4df2-8874-4faa98b256b0")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_2816_7142Metric.wrl"
+		(offset
+			(xyz 0 -7 0)
+		)
+		(scale
+			(xyz 2.3 2.9 0.4)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

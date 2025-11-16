@@ -7771,4 +7771,15 @@
 		(uuid "16f503a0-642b-4cda-8d1a-44c05d468175")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/BGA-1156_35.0x35.0mm_Layout34x34_P1.0mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.2 1.2 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )
