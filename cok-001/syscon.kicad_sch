@@ -11592,6 +11592,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 82.55) (xy 247.65 -15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f471b2e-0f38-40db-b4a6-3f1ffc37c789")
+	)
+	(wire
+		(pts
 			(xy 424.18 121.92) (xy 424.18 90.17)
 		)
 		(stroke
@@ -12369,6 +12379,16 @@
 			(type default)
 		)
 		(uuid "bf9fc47c-c4be-4ed6-87fe-6497c312415e")
+	)
+	(wire
+		(pts
+			(xy 247.65 -15.24) (xy 274.32 -15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2614c4d-1b80-4495-9cba-e592fe8aabf9")
 	)
 	(wire
 		(pts
@@ -14640,6 +14660,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XDR_RQ_VREF_FET"
+		(shape output)
+		(at 283.21 -20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e85f6f85-16b2-42ab-acaf-805b2cf412bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 303.2494 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -27049,6 +27091,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 283.21 -10.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec70f254-c544-4706-becc-3e8210b27172")
+		(property "Reference" "#PWR0327"
+			(at 283.21 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.21 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 283.21 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 283.21 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b583318f-4638-4f41-a770-1eaeebf9a116")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
+					(reference "#PWR0327")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 133.35 72.39 180)
 		(unit 1)
@@ -27455,6 +27563,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:DTC144E")
+		(at 280.67 -15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1af3604-16eb-4ed6-8677-92a812e05fa8")
+		(property "Reference" "Q4008"
+			(at 285.75 -16.5101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTC144E"
+			(at 285.75 -13.9701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 280.67 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital NPN Transistor, 47k/47k, SOT-23"
+			(at 280.67 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0e31d482-8872-4fe5-899b-e5d3c45e33d4")
+		)
+		(pin "1"
+			(uuid "99734433-93af-4ec4-ad5d-119db86ac2cb")
+		)
+		(pin "2"
+			(uuid "16851cf3-0a83-4f5d-adc7-abbd5fcf39c6")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
+					(reference "Q4008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 107.95 172.72 90)
 		(unit 1)
@@ -27741,7 +27923,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "XX"
+		(property "Value" "Thermal LED"
 			(at 326.39 32.0674 90)
 			(effects
 				(font
