@@ -4544,6 +4544,12 @@
 		(uuid "58fbef7b-f7c0-4158-b9a3-ce9a73e614df")
 	)
 	(junction
+		(at -3.81 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65cd098c-cb5d-4106-8f44-3f6038ecec1f")
+	)
+	(junction
 		(at 166.37 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5408,6 +5414,16 @@
 			(type default)
 		)
 		(uuid "d72af29c-5a1b-45ae-9c4a-1191aa436a93")
+	)
+	(wire
+		(pts
+			(xy -3.81 76.2) (xy 1.27 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decb0019-0d04-474f-a4ea-a247a5660931")
 	)
 	(wire
 		(pts
@@ -11543,6 +11559,74 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
 					(reference "L6303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 5.08 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9cdf633-6aaf-45fd-96c7-c38daf761ceb")
+		(property "Reference" "L6305"
+			(at 5.08 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.4uH"
+			(at 5.08 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_TDK_SLF12555"
+			(at 5.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 5.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 5.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "928ab6ea-ba14-4a6e-9bb9-d8aa89977cca")
+		)
+		(pin "2"
+			(uuid "4c0cb0a8-812b-40d3-b708-365a410c7352")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/7ae61751-b28b-4bb2-bf4e-5615938a2f1e"
+					(reference "L6305")
 					(unit 1)
 				)
 			)
