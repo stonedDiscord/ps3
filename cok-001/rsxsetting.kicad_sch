@@ -8054,7 +8054,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 119.38 27.94 90)
+		(at 119.38 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8063,7 +8063,7 @@
 		(fields_autoplaced yes)
 		(uuid "94ccd4f6-259c-4fc1-b6a8-12ac796e44d9")
 		(property "Reference" "FB2101"
-			(at 119.3419 21.59 90)
+			(at 119.4181 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,15 +8071,15 @@
 			)
 		)
 		(property "Value" "0uH"
-			(at 119.3419 24.13 90)
+			(at 119.4181 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 119.38 29.718 90)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 119.38 26.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
