@@ -20957,7 +20957,7 @@
 			(pin output line
 				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "Y1_RQ1"
+				(name "Y1_RQ3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22643,7 +22643,7 @@
 			(pin input line
 				(at -2.54 -35.56 0)
 				(length 2.54)
-				(name "~{SPI_EN_8}"
+				(name "~{SPI_EN_B}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22715,6 +22715,42 @@
 			(pin input line
 				(at -2.54 -45.72 0)
 				(length 2.54)
+				(name "PLL_GNDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AP17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -48.26 0)
+				(length 2.54)
+				(name "PLL_NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AP18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -50.8 0)
+				(length 2.54)
 				(name "SYS_CONFIG2"
 					(effects
 						(font
@@ -22731,7 +22767,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -48.26 0)
+				(at -2.54 -53.34 0)
 				(length 2.54)
 				(name "SYS_CONFIG0"
 					(effects
@@ -22749,7 +22785,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -50.8 0)
+				(at -2.54 -55.88 0)
 				(length 2.54)
 				(name "PSARE2"
 					(effects
@@ -22767,7 +22803,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -53.34 0)
+				(at -2.54 -58.42 0)
 				(length 2.54)
 				(name "TBEN"
 					(effects
@@ -22785,7 +22821,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -55.88 0)
+				(at -2.54 -60.96 0)
 				(length 2.54)
 				(name "THERMAL_OVERLOAD_B"
 					(effects
@@ -22803,7 +22839,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -58.42 0)
+				(at -2.54 -63.5 0)
 				(length 2.54)
 				(name "TRIGGER_IN"
 					(effects
@@ -22821,7 +22857,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -60.96 0)
+				(at -2.54 -66.04 0)
 				(length 2.54)
 				(name "RC_SCAN_EN"
 					(effects
@@ -22839,7 +22875,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -63.5 0)
+				(at -2.54 -68.58 0)
 				(length 2.54)
 				(name "RC_VDDIO"
 					(effects
@@ -22857,7 +22893,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -66.04 0)
+				(at -2.54 -71.12 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -22875,7 +22911,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -68.58 0)
+				(at -2.54 -73.66 0)
 				(length 2.54)
 				(name "RX4_GNDA"
 					(effects
@@ -22893,7 +22929,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -71.12 0)
+				(at -2.54 -76.2 0)
 				(length 2.54)
 				(name "RX4_VDDA"
 					(effects
@@ -22911,7 +22947,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -73.66 0)
+				(at -2.54 -78.74 0)
 				(length 2.54)
 				(name "TX6_VDDA"
 					(effects
@@ -22929,7 +22965,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -76.2 0)
+				(at -2.54 -81.28 0)
 				(length 2.54)
 				(name "TX6_GNDA"
 					(effects
@@ -22947,7 +22983,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -78.74 0)
+				(at -2.54 -83.82 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -22965,7 +23001,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -81.28 0)
+				(at -2.54 -86.36 0)
 				(length 2.54)
 				(name "RX3_GNDA"
 					(effects
@@ -22983,7 +23019,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -83.82 0)
+				(at -2.54 -88.9 0)
 				(length 2.54)
 				(name "RX3_VDDA"
 					(effects
@@ -23001,7 +23037,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -86.36 0)
+				(at -2.54 -91.44 0)
 				(length 2.54)
 				(name "TX5_TXN1"
 					(effects
@@ -23019,7 +23055,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -88.9 0)
+				(at -2.54 -93.98 0)
 				(length 2.54)
 				(name "TX5_TXP1"
 					(effects
@@ -23037,7 +23073,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -91.44 0)
+				(at -2.54 -96.52 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -23055,7 +23091,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -93.98 0)
+				(at -2.54 -99.06 0)
 				(length 2.54)
 				(name "TX5_TXN2"
 					(effects
@@ -23073,7 +23109,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -96.52 0)
+				(at -2.54 -101.6 0)
 				(length 2.54)
 				(name "TX5_TXP2"
 					(effects
@@ -23091,7 +23127,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -2.54 -99.06 0)
+				(at -2.54 -104.14 0)
 				(length 2.54)
 				(name "TX5_TXN0"
 					(effects
@@ -23109,7 +23145,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -101.6 0)
+				(at -2.54 -106.68 0)
 				(length 2.54)
 				(name "TX5_TXP0"
 					(effects
@@ -23130,7 +23166,7 @@
 		(symbol "CXD2964AGB_42_1"
 			(rectangle
 				(start 0 -2.54)
-				(end 22.86 -104.14)
+				(end 22.86 -109.22)
 				(stroke
 					(width 0)
 					(type solid)
@@ -115638,7 +115674,7 @@
 		)
 		(symbol "XDR_DRAM_0_0"
 			(pin unspecified line
-				(at -10.16 -2.54 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "SDO"
 					(effects
@@ -115656,7 +115692,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -5.08 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "SDI"
 					(effects
@@ -115674,7 +115710,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -7.62 0)
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -115692,7 +115728,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -10.16 0)
+				(at -10.16 -12.7 0)
 				(length 2.54)
 				(name "RST"
 					(effects
@@ -115710,7 +115746,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -12.7 0)
+				(at -10.16 -15.24 0)
 				(length 2.54)
 				(name "CMD"
 					(effects
@@ -115728,7 +115764,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -15.24 0)
+				(at -10.16 -17.78 0)
 				(length 2.54)
 				(name "RSRV"
 					(effects
@@ -115746,7 +115782,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -17.78 0)
+				(at -10.16 -20.32 0)
 				(length 2.54)
 				(name "RSRV"
 					(effects
@@ -115764,7 +115800,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -20.32 0)
+				(at -10.16 -22.86 0)
 				(length 2.54)
 				(name "CFM"
 					(effects
@@ -115782,7 +115818,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -22.86 0)
+				(at -10.16 -25.4 0)
 				(length 2.54)
 				(name "CFMN"
 					(effects
@@ -115800,7 +115836,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -25.4 0)
+				(at -10.16 -27.94 0)
 				(length 2.54)
 				(name "RQ0"
 					(effects
@@ -115818,7 +115854,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -27.94 0)
+				(at -10.16 -30.48 0)
 				(length 2.54)
 				(name "RQ1"
 					(effects
@@ -115836,7 +115872,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -30.48 0)
+				(at -10.16 -33.02 0)
 				(length 2.54)
 				(name "RQ2"
 					(effects
@@ -115854,7 +115890,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -33.02 0)
+				(at -10.16 -35.56 0)
 				(length 2.54)
 				(name "RQ3"
 					(effects
@@ -115872,7 +115908,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -35.56 0)
+				(at -10.16 -38.1 0)
 				(length 2.54)
 				(name "RQ4"
 					(effects
@@ -115890,7 +115926,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -38.1 0)
+				(at -10.16 -40.64 0)
 				(length 2.54)
 				(name "RQ5"
 					(effects
@@ -115908,7 +115944,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -40.64 0)
+				(at -10.16 -43.18 0)
 				(length 2.54)
 				(name "RQ6"
 					(effects
@@ -115926,7 +115962,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -43.18 0)
+				(at -10.16 -45.72 0)
 				(length 2.54)
 				(name "RQ7"
 					(effects
@@ -115944,7 +115980,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -45.72 0)
+				(at -10.16 -48.26 0)
 				(length 2.54)
 				(name "RQ8"
 					(effects
@@ -115962,7 +115998,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -48.26 0)
+				(at -10.16 -50.8 0)
 				(length 2.54)
 				(name "RQ9"
 					(effects
@@ -115980,7 +116016,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -50.8 0)
+				(at -10.16 -53.34 0)
 				(length 2.54)
 				(name "RQ10"
 					(effects
@@ -115998,7 +116034,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -53.34 0)
+				(at -10.16 -55.88 0)
 				(length 2.54)
 				(name "RQ11"
 					(effects
@@ -116016,7 +116052,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -55.88 0)
+				(at -10.16 -58.42 0)
 				(length 2.54)
 				(name "DQ0"
 					(effects
@@ -116034,7 +116070,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -58.42 0)
+				(at -10.16 -60.96 0)
 				(length 2.54)
 				(name "DQ1"
 					(effects
@@ -116052,7 +116088,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -60.96 0)
+				(at -10.16 -63.5 0)
 				(length 2.54)
 				(name "DQ2"
 					(effects
@@ -116070,7 +116106,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -63.5 0)
+				(at -10.16 -66.04 0)
 				(length 2.54)
 				(name "DQ3"
 					(effects
@@ -116088,7 +116124,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -66.04 0)
+				(at -10.16 -68.58 0)
 				(length 2.54)
 				(name "DQ4"
 					(effects
@@ -116106,7 +116142,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -68.58 0)
+				(at -10.16 -71.12 0)
 				(length 2.54)
 				(name "DQ5"
 					(effects
@@ -116124,7 +116160,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -71.12 0)
+				(at -10.16 -73.66 0)
 				(length 2.54)
 				(name "DQ6"
 					(effects
@@ -116142,7 +116178,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -73.66 0)
+				(at -10.16 -76.2 0)
 				(length 2.54)
 				(name "DQ7"
 					(effects
@@ -116160,7 +116196,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -76.2 0)
+				(at -10.16 -78.74 0)
 				(length 2.54)
 				(name "DQ8"
 					(effects
@@ -116178,7 +116214,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -78.74 0)
+				(at -10.16 -81.28 0)
 				(length 2.54)
 				(name "DQ9"
 					(effects
@@ -116196,7 +116232,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -81.28 0)
+				(at -10.16 -83.82 0)
 				(length 2.54)
 				(name "DQ10"
 					(effects
@@ -116214,7 +116250,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -83.82 0)
+				(at -10.16 -86.36 0)
 				(length 2.54)
 				(name "DQ11"
 					(effects
@@ -116232,7 +116268,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -86.36 0)
+				(at -10.16 -88.9 0)
 				(length 2.54)
 				(name "DQ12"
 					(effects
@@ -116250,7 +116286,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -88.9 0)
+				(at -10.16 -91.44 0)
 				(length 2.54)
 				(name "DQ13"
 					(effects
@@ -116268,7 +116304,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -91.44 0)
+				(at -10.16 -93.98 0)
 				(length 2.54)
 				(name "DQ14"
 					(effects
@@ -116286,7 +116322,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -93.98 0)
+				(at -10.16 -96.52 0)
 				(length 2.54)
 				(name "DQ15"
 					(effects
@@ -116304,7 +116340,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -96.52 0)
+				(at -10.16 -99.06 0)
 				(length 2.54)
 				(name "DQN0"
 					(effects
@@ -116322,7 +116358,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -99.06 0)
+				(at -10.16 -101.6 0)
 				(length 2.54)
 				(name "DQN1"
 					(effects
@@ -116340,7 +116376,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -101.6 0)
+				(at -10.16 -104.14 0)
 				(length 2.54)
 				(name "DQN2"
 					(effects
@@ -116358,7 +116394,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -104.14 0)
+				(at -10.16 -106.68 0)
 				(length 2.54)
 				(name "DQN3"
 					(effects
@@ -116376,7 +116412,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -106.68 0)
+				(at -10.16 -109.22 0)
 				(length 2.54)
 				(name "DQN4"
 					(effects
@@ -116394,7 +116430,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -109.22 0)
+				(at -10.16 -111.76 0)
 				(length 2.54)
 				(name "DQN5"
 					(effects
@@ -116412,7 +116448,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -111.76 0)
+				(at -10.16 -114.3 0)
 				(length 2.54)
 				(name "DQN6"
 					(effects
@@ -116430,7 +116466,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -114.3 0)
+				(at -10.16 -116.84 0)
 				(length 2.54)
 				(name "DQN7"
 					(effects
@@ -116448,7 +116484,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -116.84 0)
+				(at -10.16 -119.38 0)
 				(length 2.54)
 				(name "DQN8"
 					(effects
@@ -116466,7 +116502,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -119.38 0)
+				(at -10.16 -121.92 0)
 				(length 2.54)
 				(name "DQN9"
 					(effects
@@ -116484,7 +116520,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -121.92 0)
+				(at -10.16 -124.46 0)
 				(length 2.54)
 				(name "DQN10"
 					(effects
@@ -116502,7 +116538,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -124.46 0)
+				(at -10.16 -127 0)
 				(length 2.54)
 				(name "DQN11"
 					(effects
@@ -116520,7 +116556,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -127 0)
+				(at -10.16 -129.54 0)
 				(length 2.54)
 				(name "DQN12"
 					(effects
@@ -116538,7 +116574,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -129.54 0)
+				(at -10.16 -132.08 0)
 				(length 2.54)
 				(name "DQN13"
 					(effects
@@ -116556,7 +116592,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -132.08 0)
+				(at -10.16 -134.62 0)
 				(length 2.54)
 				(name "DQN14"
 					(effects
@@ -116574,7 +116610,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -10.16 -134.62 0)
+				(at -10.16 -137.16 0)
 				(length 2.54)
 				(name "DQN15"
 					(effects
@@ -116591,98 +116627,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -2.54 180)
-				(length 2.54)
-				(name "Vref"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 8.89 -5.08 180)
-				(length 2.54)
-				(name "Vterm"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 8.89 -7.62 180)
-				(length 2.54)
-				(name "Vterm"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 8.89 -10.16 180)
-				(length 2.54)
-				(name "Vterm"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 8.89 -12.7 180)
-				(length 2.54)
-				(name "Vterm"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 8.89 -17.78 180)
+			(pin power_in line
+				(at 8.89 -20.32 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116699,8 +116645,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -20.32 180)
+			(pin power_in line
+				(at 8.89 -22.86 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116718,7 +116664,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -22.86 180)
+				(at 8.89 -25.4 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116735,8 +116681,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -25.4 180)
+			(pin power_in line
+				(at 8.89 -27.94 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116753,8 +116699,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -27.94 180)
+			(pin power_in line
+				(at 8.89 -30.48 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116771,8 +116717,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -30.48 180)
+			(pin power_in line
+				(at 8.89 -33.02 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116789,8 +116735,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -33.02 180)
+			(pin power_in line
+				(at 8.89 -35.56 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116807,8 +116753,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -35.56 180)
+			(pin power_in line
+				(at 8.89 -38.1 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116825,8 +116771,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -38.1 180)
+			(pin power_in line
+				(at 8.89 -40.64 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116843,8 +116789,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -40.64 180)
+			(pin power_in line
+				(at 8.89 -43.18 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116861,8 +116807,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -43.18 180)
+			(pin power_in line
+				(at 8.89 -45.72 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116879,8 +116825,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -45.72 180)
+			(pin power_in line
+				(at 8.89 -48.26 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116897,8 +116843,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -48.26 180)
+			(pin power_in line
+				(at 8.89 -50.8 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116915,8 +116861,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -50.8 180)
+			(pin power_in line
+				(at 8.89 -53.34 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116933,8 +116879,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -53.34 180)
+			(pin power_in line
+				(at 8.89 -55.88 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116951,8 +116897,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -55.88 180)
+			(pin power_in line
+				(at 8.89 -58.42 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116969,8 +116915,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -58.42 180)
+			(pin power_in line
+				(at 8.89 -60.96 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -116987,8 +116933,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -60.96 180)
+			(pin power_in line
+				(at 8.89 -63.5 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -117005,8 +116951,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -63.5 180)
+			(pin power_in line
+				(at 8.89 -66.04 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -117023,8 +116969,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -66.04 180)
+			(pin power_in line
+				(at 8.89 -68.58 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -117041,8 +116987,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -68.58 180)
+			(pin power_in line
+				(at 8.89 -71.12 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -117059,8 +117005,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -71.12 180)
+			(pin power_in line
+				(at 8.89 -73.66 180)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -117077,7 +117023,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 8.89 -76.2 180)
 				(length 2.54)
 				(name "GND"
@@ -117095,7 +117041,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 8.89 -78.74 180)
 				(length 2.54)
 				(name "GND"
@@ -117113,26 +117059,8 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 8.89 -81.28 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 8.89 -83.82 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117149,8 +117077,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -86.36 180)
+			(pin power_in line
+				(at 8.89 -83.82 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117167,7 +117095,25 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
+				(at 8.89 -86.36 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 8.89 -88.9 180)
 				(length 2.54)
 				(name "GND"
@@ -117185,8 +117131,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -91.44 180)
+			(pin power_in line
+				(at 8.89 -93.98 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117203,8 +117149,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -93.98 180)
+			(pin power_in line
+				(at 8.89 -96.52 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117221,8 +117167,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -96.52 180)
+			(pin power_in line
+				(at 8.89 -99.06 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117239,8 +117185,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -99.06 180)
+			(pin power_in line
+				(at 8.89 -101.6 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117257,8 +117203,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -101.6 180)
+			(pin power_in line
+				(at 8.89 -104.14 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117275,8 +117221,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -104.14 180)
+			(pin power_in line
+				(at 8.89 -106.68 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117293,8 +117239,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -106.68 180)
+			(pin power_in line
+				(at 8.89 -109.22 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117311,8 +117257,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -109.22 180)
+			(pin power_in line
+				(at 8.89 -111.76 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117329,8 +117275,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -111.76 180)
+			(pin power_in line
+				(at 8.89 -114.3 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117347,8 +117293,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -114.3 180)
+			(pin power_in line
+				(at 8.89 -116.84 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117365,8 +117311,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -116.84 180)
+			(pin power_in line
+				(at 8.89 -119.38 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117383,8 +117329,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -119.38 180)
+			(pin power_in line
+				(at 8.89 -121.92 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117401,8 +117347,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -121.92 180)
+			(pin power_in line
+				(at 8.89 -127 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117419,8 +117365,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -124.46 180)
+			(pin power_in line
+				(at 8.89 -129.54 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117437,8 +117383,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -127 180)
+			(pin power_in line
+				(at 8.89 -132.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117456,7 +117402,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 8.89 -129.54 180)
+				(at 8.89 -134.62 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117473,8 +117419,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -132.08 180)
+			(pin power_in line
+				(at 8.89 -137.16 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117491,8 +117437,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 8.89 -134.62 180)
+			(pin power_in line
+				(at 8.89 -139.7 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -117510,10 +117456,174 @@
 				)
 			)
 		)
+		(symbol "XDR_DRAM_1_0"
+			(pin power_in line
+				(at 8.89 -2.54 180)
+				(length 2.54)
+				(name "Vref"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -5.08 180)
+				(length 2.54)
+				(name "Vterm"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -7.62 180)
+				(length 2.54)
+				(name "Vterm"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -10.16 180)
+				(length 2.54)
+				(name "Vterm"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -12.7 180)
+				(length 2.54)
+				(name "Vterm"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -15.24 180)
+				(length 2.54)
+				(name "Vterm"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -17.78 180)
+				(length 2.54)
+				(name "Vterm"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -91.44 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 -124.46 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "XDR_DRAM_1_1"
 			(rectangle
 				(start -7.62 0)
-				(end 6.35 -137.16)
+				(end 6.35 -142.24)
 				(stroke
 					(width 0)
 					(type default)
