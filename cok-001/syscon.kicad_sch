@@ -20188,7 +20188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH26-13S-0.3SHW_2Rows-13Pins-1MP_P0.60mm_Horizontal"
+		(property "Footprint" "PS3:ConnectorMicromatch-10"
 			(at 448.31 95.25 0)
 			(effects
 				(font
@@ -26107,6 +26107,72 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
 					(reference "TP4090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 443.23 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c811fec0-7460-43df-a19a-365546a0beba")
+		(property "Reference" "#PWR01701"
+			(at 443.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 443.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 443.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 443.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 443.23 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faac4efe-a054-459f-885a-65358de6e10c")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
+					(reference "#PWR01701")
 					(unit 1)
 				)
 			)
