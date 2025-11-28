@@ -1483,6 +1483,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V2"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V2"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V2\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V2_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V2_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1832,6 +1957,12 @@
 		(uuid "1cbcc077-2e58-4662-92d7-c1efdfe8b585")
 	)
 	(junction
+		(at 38.1 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e0dde12-dc2d-458e-bcef-5ad75d1add86")
+	)
+	(junction
 		(at 248.92 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1896,6 +2027,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "467960d1-8b8a-4d73-ab21-c64d702eaa94")
+	)
+	(junction
+		(at 41.91 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cb66fef-c3aa-4898-bd62-b334d37799d7")
 	)
 	(junction
 		(at 48.26 139.7)
@@ -2210,6 +2347,12 @@
 		(uuid "e00ea8e2-aaf3-4796-ada2-9c1f3211aee3")
 	)
 	(junction
+		(at 41.91 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2852cd7-77cd-47c6-9be6-ecd56687b8e0")
+	)
+	(junction
 		(at 236.22 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2244,6 +2387,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2c96978-84d5-496f-b1ca-a9d94330e2de")
+	)
+	(junction
+		(at 38.1 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f71752f8-0d2b-4a31-8848-cb42e599257d")
 	)
 	(no_connect
 		(at 237.49 130.81)
@@ -4153,28 +4302,6 @@
 			)
 		)
 	)
-	(global_label "+1.2V_YC_RC_VDDIO"
-		(shape input)
-		(at 41.91 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f280042-cf18-435e-9f3c-6b221e7e044c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.8747 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BE_SYS_CONF0"
 		(shape input)
 		(at 149.86 132.08 180)
@@ -4611,28 +4738,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+1.2V_YC_RC_VDDIO"
-		(shape input)
-		(at 38.1 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a932d85-15f5-4717-a1b8-9da6f756deb2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0647 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5143,28 +5248,6 @@
 			)
 		)
 	)
-	(global_label "+1.2V_YC_RC_VDDIO"
-		(shape input)
-		(at 38.1 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "de0bae75-cf5a-48ac-8db5-a854d847118b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0647 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BE_SYS_CONF1"
 		(shape input)
 		(at 149.86 134.62 180)
@@ -5244,28 +5327,6 @@
 		(uuid "e3ab262a-cacb-4743-8a72-e98d36bb7b46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 134.9611 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+1.2V_YC_RC_VDDIO"
-		(shape input)
-		(at 41.91 20.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eff88159-d195-4ee3-bfd7-9b865f984da6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.8747 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,6 +7531,73 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/edea7873-2074-40c6-a93e-4af210829a02"
 					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V2")
+		(at 41.91 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bdd44b8-f5a9-4dfd-97b7-703350bbd333")
+		(property "Reference" "#PWR01377"
+			(at 45.72 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.2V_YC_RC_VDDIO"
+			(at 39.37 20.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V2\""
+			(at 41.91 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff0f1ee2-a1c5-4fc8-93db-6b85cd140527")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/edea7873-2074-40c6-a93e-4af210829a02"
+					(reference "#PWR01377")
 					(unit 1)
 				)
 			)
@@ -11678,6 +11806,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V2")
+		(at 38.1 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c61c7978-db2d-4f85-b43d-e34ca33c6a3f")
+		(property "Reference" "#PWR01379"
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.2V_YC_RC_VDDIO"
+			(at 35.56 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V2\""
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58eda2e2-943b-4751-a207-26b6c1999a97")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/edea7873-2074-40c6-a93e-4af210829a02"
+					(reference "#PWR01379")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 48.26 176.53 90)
 		(unit 1)
@@ -11810,6 +12005,73 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/edea7873-2074-40c6-a93e-4af210829a02"
 					(reference "R1130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V2")
+		(at 41.91 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0b70f71-e904-4c54-89b8-ddde055e88e7")
+		(property "Reference" "#PWR01378"
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.2V_YC_RC_VDDIO"
+			(at 39.37 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V2\""
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cebe7bba-b56e-4de8-95bc-35c7fc3b53eb")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/edea7873-2074-40c6-a93e-4af210829a02"
+					(reference "#PWR01378")
 					(unit 1)
 				)
 			)
@@ -12781,6 +13043,73 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/edea7873-2074-40c6-a93e-4af210829a02"
 					(reference "R1165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V2")
+		(at 38.1 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc2dfc86-6375-431e-ac45-8021338becf7")
+		(property "Reference" "#PWR01390"
+			(at 41.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.2V_YC_RC_VDDIO"
+			(at 35.56 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V2\""
+			(at 38.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c00e24d9-36d8-44ae-9a69-c8a24d74229e")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/edea7873-2074-40c6-a93e-4af210829a02"
+					(reference "#PWR01390")
 					(unit 1)
 				)
 			)
