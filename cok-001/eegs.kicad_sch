@@ -18860,6 +18860,16 @@
 	)
 	(wire
 		(pts
+			(xy 589.28 294.64) (xy 589.28 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6c4a7a-7ad8-4cd1-88b6-b642eadd07fc")
+	)
+	(wire
+		(pts
 			(xy 458.47 -80.01) (xy 461.01 -80.01)
 		)
 		(stroke
@@ -19930,6 +19940,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 289.56) (xy 586.74 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a030f15-5449-4d0b-99b5-8c418e949d5b")
+	)
+	(wire
+		(pts
 			(xy 25.4 127) (xy 34.29 127)
 		)
 		(stroke
@@ -19947,6 +19967,16 @@
 			(type default)
 		)
 		(uuid "5ae7a40a-6451-4fa1-bda5-df3f523559e8")
+	)
+	(wire
+		(pts
+			(xy 586.74 289.56) (xy 586.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b785cf3-9d23-4a43-9bf0-808cdb91f6d6")
 	)
 	(wire
 		(pts
@@ -21930,6 +21960,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 294.64) (xy 236.22 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3ff60f-928b-429f-8b36-cfb03548e243")
+	)
+	(wire
+		(pts
 			(xy 49.53 76.2) (xy 59.69 76.2)
 		)
 		(stroke
@@ -23640,6 +23680,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 275.59) (xy 227.33 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d036f912-a44f-4f57-830a-2448b245678b")
+	)
+	(wire
+		(pts
 			(xy 232.41 275.59) (xy 234.95 275.59)
 		)
 		(stroke
@@ -23717,6 +23767,16 @@
 			(type default)
 		)
 		(uuid "d3804383-0bae-4de3-bf15-2be63c451e74")
+	)
+	(wire
+		(pts
+			(xy 229.87 275.59) (xy 229.87 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b232c0-08f1-44a5-863e-377eb72f5a26")
 	)
 	(wire
 		(pts
@@ -24517,6 +24577,16 @@
 			(type default)
 		)
 		(uuid "eddc1a04-981c-41d0-8189-8bf4fb5df78a")
+	)
+	(wire
+		(pts
+			(xy 243.84 294.64) (xy 589.28 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddc2777-6484-493d-871a-759c3bef2d23")
 	)
 	(wire
 		(pts
@@ -34819,6 +34889,73 @@
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
 					(reference "#PWR01462")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 240.03 294.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc56f3b2-00f3-45bc-8986-019ccadd0c4a")
+		(property "Reference" "R7038"
+			(at 234.188 293.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 243.586 293.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.284 293.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 240.03 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4920d784-cb61-4a2f-a6a0-8dad5007e542")
+		)
+		(pin "2"
+			(uuid "50c329cc-3ec1-45f9-a3e8-b2c5ea73aff9")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/83bad906-8af5-42c9-8580-60b7c8083ecb"
+					(reference "R7038")
 					(unit 1)
 				)
 			)

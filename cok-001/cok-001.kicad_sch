@@ -2740,7 +2740,7 @@
 	)
 	(sheet
 		(at 15.24 38.1)
-		(size 22.86 15.24)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2781,7 +2781,7 @@
 		)
 	)
 	(sheet
-		(at 144.78 38.1)
+		(at 137.16 38.1)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2797,7 +2797,7 @@
 		)
 		(uuid "19b0459e-2248-4aa8-896c-7bfd1f739299")
 		(property "Sheetname" "VRM for BE"
-			(at 144.78 37.3884 0)
+			(at 137.16 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +2806,7 @@
 			)
 		)
 		(property "Sheetfile" "bevrm.kicad_sch"
-			(at 144.78 53.9246 0)
+			(at 137.16 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +2824,7 @@
 	)
 	(sheet
 		(at 45.72 38.1)
-		(size 22.86 15.24)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2950,7 +2950,7 @@
 	)
 	(sheet
 		(at 15.24 83.82)
-		(size 27.94 15.24)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2991,8 +2991,8 @@
 		)
 	)
 	(sheet
-		(at 109.22 15.24)
-		(size 27.94 15.24)
+		(at 106.68 15.24)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3007,7 +3007,7 @@
 		)
 		(uuid "51a06e94-b599-411e-9536-c919e103719a")
 		(property "Sheetname" "Starship2"
-			(at 109.22 14.5284 0)
+			(at 106.68 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3016,7 @@
 			)
 		)
 		(property "Sheetfile" "starship.kicad_sch"
-			(at 109.22 31.0646 0)
+			(at 106.68 31.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3033,7 @@
 		)
 	)
 	(sheet
-		(at 144.78 15.24)
+		(at 137.16 15.24)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3049,7 +3049,7 @@
 		)
 		(uuid "58f89d29-0445-4fc3-a5d0-710f61a953e6")
 		(property "Sheetname" "PS2 Bridge"
-			(at 144.78 14.5284 0)
+			(at 137.16 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3058,7 @@
 			)
 		)
 		(property "Sheetfile" "bridge.kicad_sch"
-			(at 144.78 31.0646 0)
+			(at 137.16 31.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +3075,7 @@
 		)
 	)
 	(sheet
-		(at 104.14 83.82)
+		(at 106.68 83.82)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3091,7 +3091,7 @@
 		)
 		(uuid "65c72dd6-abb3-4688-ae02-c92434f8e497")
 		(property "Sheetname" "GPU"
-			(at 104.14 83.1084 0)
+			(at 106.68 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3100,7 +3100,7 @@
 			)
 		)
 		(property "Sheetfile" "gpu.kicad_sch"
-			(at 104.14 99.6446 0)
+			(at 106.68 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,8 +3117,8 @@
 		)
 	)
 	(sheet
-		(at 209.55 15.24)
-		(size 24.13 15.24)
+		(at 198.12 15.24)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3133,7 +3133,7 @@
 		)
 		(uuid "7ae61751-b28b-4bb2-bf4e-5615938a2f1e")
 		(property "Sheetname" "DC-DC Converters"
-			(at 209.55 14.5284 0)
+			(at 198.12 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3142,7 @@
 			)
 		)
 		(property "Sheetfile" "dcdc.kicad_sch"
-			(at 209.55 31.0646 0)
+			(at 198.12 31.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3159,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 15.24)
+		(at 167.64 15.24)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3175,7 +3175,7 @@
 		)
 		(uuid "83bad906-8af5-42c9-8580-60b7c8083ecb")
 		(property "Sheetname" "PS2 EEGS"
-			(at 177.8 14.5284 0)
+			(at 167.64 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +3184,7 @@
 			)
 		)
 		(property "Sheetfile" "eegs.kicad_sch"
-			(at 177.8 31.0646 0)
+			(at 167.64 31.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3201,7 @@
 		)
 	)
 	(sheet
-		(at 132.08 60.96)
+		(at 137.16 60.96)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3217,7 +3217,7 @@
 		)
 		(uuid "9b5bec78-d40a-47da-955b-e0a66a63c4fa")
 		(property "Sheetname" "USB"
-			(at 132.08 60.2484 0)
+			(at 137.16 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,7 +3226,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 132.08 76.7846 0)
+			(at 137.16 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,8 +3243,8 @@
 		)
 	)
 	(sheet
-		(at 109.22 38.1)
-		(size 27.94 15.24)
+		(at 106.68 38.1)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3259,7 +3259,7 @@
 		)
 		(uuid "a8d3d0f2-2567-4d70-a367-7d8ff0d1aec4")
 		(property "Sheetname" "Wireless Board"
-			(at 109.22 37.3884 0)
+			(at 106.68 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3268,7 @@
 			)
 		)
 		(property "Sheetfile" "wireless.kicad_sch"
-			(at 109.22 53.9246 0)
+			(at 106.68 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3285,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 38.1)
+		(at 167.64 38.1)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3301,7 +3301,7 @@
 		)
 		(uuid "be970d6c-aeec-4303-8a86-89c9df8950fa")
 		(property "Sheetname" "Power Management"
-			(at 177.8 37.3884 0)
+			(at 167.64 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +3310,7 @@
 			)
 		)
 		(property "Sheetfile" "powermgmt.kicad_sch"
-			(at 177.8 53.9246 0)
+			(at 167.64 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3327,7 @@
 		)
 	)
 	(sheet
-		(at 238.76 15.24)
+		(at 228.6 15.24)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3343,7 +3343,7 @@
 		)
 		(uuid "c2fb6f44-7647-4597-badb-4e48fc7de398")
 		(property "Sheetname" "Syscon"
-			(at 238.76 14.5284 0)
+			(at 228.6 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3352,7 @@
 			)
 		)
 		(property "Sheetfile" "syscon.kicad_sch"
-			(at 238.76 31.0646 0)
+			(at 228.6 31.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3370,7 @@
 	)
 	(sheet
 		(at 45.72 15.24)
-		(size 22.86 15.24)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3496,7 +3496,7 @@
 	)
 	(sheet
 		(at 15.24 15.24)
-		(size 22.86 15.24)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3579,7 +3579,7 @@
 		)
 	)
 	(sheet
-		(at 104.14 60.96)
+		(at 106.68 60.96)
 		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3595,7 +3595,7 @@
 		)
 		(uuid "f39dff98-fe81-4ce8-ac1c-e51ce9d90ef4")
 		(property "Sheetname" "SATA"
-			(at 104.14 60.2484 0)
+			(at 106.68 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +3604,7 @@
 			)
 		)
 		(property "Sheetfile" "sata.kicad_sch"
-			(at 104.14 76.7846 0)
+			(at 106.68 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
