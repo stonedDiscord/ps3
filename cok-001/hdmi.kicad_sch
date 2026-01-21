@@ -9312,7 +9312,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 185.42) (xy 124.46 185.42)
+			(xy 149.86 185.42) (xy 127 185.42)
 		)
 		(stroke
 			(width 0)
@@ -12741,8 +12741,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 151.13 196.85 0)
-		(mirror x)
+		(at 148.59 196.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12750,7 +12749,7 @@
 		(dnp no)
 		(uuid "2991a70a-2b12-4bdb-950a-138eb49134ea")
 		(property "Reference" "RN2505"
-			(at 156.21 198.1201 0)
+			(at 143.51 198.1201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12759,7 +12758,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 156.21 195.5801 0)
+			(at 143.51 195.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12768,7 +12767,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 158.115 196.85 90)
+			(at 141.605 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12777,7 +12776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 196.85 0)
+			(at 148.59 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12786,7 +12785,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 151.13 196.85 0)
+			(at 148.59 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13653,8 +13652,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 139.7 165.1 0)
-		(mirror x)
+		(at 137.16 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13662,7 +13660,7 @@
 		(dnp no)
 		(uuid "4cdfedbd-d8f3-4652-8b7e-8f7a5f5cc2f1")
 		(property "Reference" "RN2502"
-			(at 144.78 166.3701 0)
+			(at 132.08 166.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13671,7 +13669,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 144.78 163.8301 0)
+			(at 132.08 163.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13680,7 +13678,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 146.685 165.1 90)
+			(at 130.175 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13689,7 +13687,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 165.1 0)
+			(at 137.16 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13698,7 +13696,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 139.7 165.1 0)
+			(at 137.16 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18605,8 +18603,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack04")
-		(at 121.92 190.5 0)
-		(mirror x)
+		(at 119.38 190.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18614,7 +18611,7 @@
 		(dnp no)
 		(uuid "de264ea3-3d26-48dc-8af0-a665473b9f21")
 		(property "Reference" "RN2504"
-			(at 127 191.7701 0)
+			(at 114.3 191.7701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18623,7 +18620,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 127 189.2301 0)
+			(at 114.3 189.2301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18632,7 +18629,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0402"
-			(at 128.905 190.5 90)
+			(at 112.395 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18641,7 +18638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 190.5 0)
+			(at 119.38 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18650,7 +18647,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
-			(at 121.92 190.5 0)
+			(at 119.38 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
