@@ -80957,7 +80957,7 @@
 			(pin unspecified line
 				(at -72.39 -43.18 0)
 				(length 2.54)
-				(name "~{PCI_TADY}"
+				(name "~{PCI_TRDY}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -80975,7 +80975,7 @@
 			(pin unspecified line
 				(at -72.39 -45.72 0)
 				(length 2.54)
-				(name "~{PCI_IADY}"
+				(name "~{PCI_IRDY}"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -3882,6 +3882,12 @@
 		(uuid "a89b10af-f13f-47a7-84ff-55c8f23a76ea")
 	)
 	(junction
+		(at 33.02 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab1da9d9-1473-478c-b3fb-e8b72b093dcb")
+	)
+	(junction
 		(at 137.16 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9172,7 +9178,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 30.48 0)
+		(at 24.13 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9181,7 +9187,7 @@
 		(fields_autoplaced yes)
 		(uuid "53457453-6419-46e5-9706-b967aa039907")
 		(property "Reference" "#PWR0302"
-			(at 58.42 36.83 0)
+			(at 24.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9190,7 +9196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 35.56 0)
+			(at 24.13 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9198,7 +9204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 30.48 0)
+			(at 24.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9207,7 +9213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 30.48 0)
+			(at 24.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9216,7 +9222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 30.48 0)
+			(at 24.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9373,7 +9379,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 58.42 16.51 270)
+		(at 24.13 21.59 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9382,7 +9388,7 @@
 		(dnp no)
 		(uuid "5d78a026-d143-43bf-a142-ae56b81135cb")
 		(property "Reference" "D3401"
-			(at 54.61 16.8274 90)
+			(at 20.32 21.9074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9391,7 +9397,7 @@
 			)
 		)
 		(property "Value" "CL-196TLY-CD-T"
-			(at 54.61 19.3674 90)
+			(at 20.32 24.4474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,7 +9406,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 58.42 16.51 0)
+			(at 24.13 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9409,7 +9415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 16.51 0)
+			(at 24.13 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +9424,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 58.42 16.51 0)
+			(at 24.13 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9427,7 +9433,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 16.51 0)
+			(at 24.13 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,6 +9932,75 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 24.13 13.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69ea751f-919c-4f44-9ad5-fda7d9294465")
+		(property "Reference" "R3459"
+			(at 26.67 12.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "330"
+			(at 26.67 15.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 23.114 13.716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 24.13 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a738269-e7d8-42ee-9567-b5700f0d1d6e")
+		)
+		(pin "1"
+			(uuid "d3cd1743-619d-4677-bb56-421c948c18a6")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/f39dff98-fe81-4ce8-ac1c-e51ce9d90ef4"
+					(reference "R3459")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 50.8 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10403,7 +10478,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 43.18 0)
+		(at 33.02 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10412,7 +10487,7 @@
 		(fields_autoplaced yes)
 		(uuid "8117da69-1585-4fe4-960a-dd62b0b5d51a")
 		(property "Reference" "#PWR0301"
-			(at 45.72 49.53 0)
+			(at 33.02 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,7 +10496,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 48.26 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,7 +10504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 43.18 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10438,7 +10513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 43.18 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10447,7 +10522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 43.18 0)
+			(at 33.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12283,6 +12358,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 33.02 26.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b51eb73f-444f-4d2b-95dd-7fe4a002b5b1")
+		(property "Reference" "R3462"
+			(at 35.56 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 35.56 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 32.004 26.416 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 33.02 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82c9b6df-054b-4d48-a559-0e0f224d7fe1")
+		)
+		(pin "1"
+			(uuid "bb70ce04-3554-49f0-9099-bf97a26a43c7")
+		)
+		(instances
+			(project "cok-001"
+				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/f39dff98-fe81-4ce8-ac1c-e51ce9d90ef4"
+					(reference "R3462")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 160.02 109.22 270)
 		(unit 1)
@@ -12565,7 +12709,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:DTC144E")
-		(at 60.96 25.4 0)
+		(at 26.67 30.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12575,7 +12719,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0316408-1a4c-4759-8e5b-d4432ba88d39")
 		(property "Reference" "Q3403"
-			(at 55.88 24.1299 0)
+			(at 21.59 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12584,7 +12728,7 @@
 			)
 		)
 		(property "Value" "DTC144E"
-			(at 55.88 26.6699 0)
+			(at 21.59 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12593,7 +12737,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 60.96 25.4 0)
+			(at 26.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12603,7 +12747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 25.4 0)
+			(at 26.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12613,7 +12757,7 @@
 			)
 		)
 		(property "Description" "Digital NPN Transistor, 47k/47k, SOT-23"
-			(at 60.96 25.4 0)
+			(at 26.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13936,7 +14080,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:DTC144E")
-		(at 48.26 38.1 0)
+		(at 35.56 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13946,7 +14090,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5fdb65e-ce6f-4b91-9bb2-fb438d4b17ee")
 		(property "Reference" "Q3402"
-			(at 43.18 36.8299 0)
+			(at 30.48 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13955,7 +14099,7 @@
 			)
 		)
 		(property "Value" "DTC144E"
-			(at 43.18 39.3699 0)
+			(at 30.48 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13964,7 +14108,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 48.26 38.1 0)
+			(at 35.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13974,7 +14118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 38.1 0)
+			(at 35.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13984,7 +14128,7 @@
 			)
 		)
 		(property "Description" "Digital NPN Transistor, 47k/47k, SOT-23"
-			(at 48.26 38.1 0)
+			(at 35.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

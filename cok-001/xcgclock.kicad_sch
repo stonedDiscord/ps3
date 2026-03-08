@@ -3278,6 +3278,12 @@
 		(uuid "2bef182f-17c5-40ac-952a-4758e5172416")
 	)
 	(junction
+		(at 170.18 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "311a7c69-bbed-46ee-92f7-bd5de674bc0b")
+	)
+	(junction
 		(at 49.53 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3576,6 +3582,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cffbb7f8-a4b3-44d6-8fbf-3d4fb9eb2d24")
+	)
+	(junction
+		(at 170.18 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8cf2514-ded2-40a2-9814-4c618795a887")
 	)
 	(junction
 		(at 1.27 19.05)
@@ -4028,6 +4040,16 @@
 			(type default)
 		)
 		(uuid "1e81b767-a450-4618-9ef7-e34bce18cb05")
+	)
+	(wire
+		(pts
+			(xy 170.18 27.94) (xy 170.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20817cec-84da-4639-98b5-cf9d3c5fe4d9")
 	)
 	(wire
 		(pts
@@ -11874,7 +11896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8356226b-ec15-464d-a68b-7e95bfa619e4")
-		(property "Reference" "R5077"
+		(property "Reference" "R5067"
 			(at 166.37 57.15 90)
 			(effects
 				(font
@@ -11926,7 +11948,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/1aa2abd4-1e46-4b08-bad3-b0cb0f1d63a7"
-					(reference "R5077")
+					(reference "R5067")
 					(unit 1)
 				)
 			)
