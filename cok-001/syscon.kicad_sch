@@ -11675,6 +11675,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 96.52) (xy 107.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9e71d8-19e7-42e6-8556-aa5b8d766d82")
+	)
+	(wire
+		(pts
 			(xy 247.65 223.52) (xy 250.19 223.52)
 		)
 		(stroke
@@ -12462,6 +12472,16 @@
 			(type default)
 		)
 		(uuid "8e29c06c-dcc8-4ccc-8c3c-bf66e22c920e")
+	)
+	(wire
+		(pts
+			(xy 138.43 68.58) (xy 138.43 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0e25c6-9c54-4a7c-a7b2-d323bf1c0f08")
 	)
 	(wire
 		(pts
@@ -14083,6 +14103,16 @@
 		)
 		(uuid "fe5d0469-8ac8-4c61-b1f2-f6db4af5a2f4")
 	)
+	(label "SC_BUZZER"
+		(at 280.67 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60a07901-9a3b-46be-8ebb-389823b6dd2f")
+	)
 	(global_label "SW_8_C"
 		(shape input)
 		(at 204.47 40.64 180)
@@ -14104,6 +14134,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "~{SB_CGRST}"
+		(shape output)
+		(at 280.67 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0458baed-c1b2-4cc6-aefd-5cd4f62fdfc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.0894 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -14563,6 +14617,30 @@
 			)
 		)
 	)
+	(global_label "SS2_BRDY"
+		(shape input)
+		(at 280.67 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ab1583d-4c1b-4a0b-b5cc-1b4790299311")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.1499 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "~{POW_FAIL}"
 		(shape input)
 		(at 302.26 127 0)
@@ -14576,6 +14654,54 @@
 		(uuid "4b6e6ce1-25d9-4559-a273-08507a72ff79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 314.0748 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BE_SPI_DI"
+		(shape input)
+		(at 138.43 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cd8b1bd-c089-4194-9127-9288b09e75c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.43 56.2815 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BT_WAKE"
+		(shape input)
+		(at 280.67 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ddf1e37-fc31-40ed-9160-9bb210fc3f4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 291.8194 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14947,6 +15073,30 @@
 			)
 		)
 	)
+	(global_label "MK_EN"
+		(shape output)
+		(at 280.67 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89b62344-1aaa-4ef8-9866-f9cbb239c63e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.8237 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SW_ATA"
 		(shape input)
 		(at 241.3 25.4 180)
@@ -15136,6 +15286,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "~{SB_RESET}"
+		(shape output)
+		(at 280.67 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d8d65a9-01b5-4713-8fa3-8fdecf8fd325")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.8474 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -15920,6 +16094,54 @@
 		(uuid "e0a0a357-e8a7-476a-a34f-c130764aad01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.271 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "~{SS2_RESET}"
+		(shape output)
+		(at 280.67 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0de6d36-21ad-4c6d-9d6f-e9c4cbd766de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.9964 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BE_INT"
+		(shape input)
+		(at 93.98 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e276f0ac-48e8-4305-8404-da86da6b3555")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.7053 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18380,7 +18602,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2582e9e2-5ccf-46de-9b8e-975ffea69d31")
-		(property "Reference" "U4006"
+		(property "Reference" "IC4006"
 			(at 407.67 51.9998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18451,7 +18673,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
-					(reference "U4006")
+					(reference "IC4006")
 					(unit 1)
 				)
 			)
@@ -18547,7 +18769,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "28879938-d1ac-4614-ac05-2ff642e3c69e")
-		(property "Reference" "U4003"
+		(property "Reference" "IC4003"
 			(at 468.63 8.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18623,7 +18845,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
-					(reference "U4003")
+					(reference "IC4003")
 					(unit 3)
 				)
 			)
@@ -18641,7 +18863,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2b183077-616c-48b9-848f-382db085bf64")
-		(property "Reference" "U4003"
+		(property "Reference" "IC4003"
 			(at 422.91 -22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18715,7 +18937,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
-					(reference "U4003")
+					(reference "IC4003")
 					(unit 2)
 				)
 			)
@@ -21799,7 +22021,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "60f91e28-b982-40a8-a82a-3ef5d66ee234")
-		(property "Reference" "U4005"
+		(property "Reference" "IC4005"
 			(at 422.91 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21873,7 +22095,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
-					(reference "U4005")
+					(reference "IC4005")
 					(unit 2)
 				)
 			)
@@ -22465,7 +22687,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6dabf814-6569-4e0c-8113-fc0bbf6f7e44")
-		(property "Reference" "U4003"
+		(property "Reference" "IC4003"
 			(at 394.97 -22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22539,7 +22761,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
-					(reference "U4003")
+					(reference "IC4003")
 					(unit 1)
 				)
 			)
@@ -26399,7 +26621,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "b62b16f2-0780-4323-9d56-618d294c182e")
-		(property "Reference" "U4004"
+		(property "Reference" "IC4004"
 			(at 422.91 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26473,7 +26695,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
-					(reference "U4004")
+					(reference "IC4004")
 					(unit 2)
 				)
 			)
@@ -26645,7 +26867,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bc0de19d-0300-4633-883b-f3a41d1c5e7d")
-		(property "Reference" "U4004"
+		(property "Reference" "IC4004"
 			(at 491.49 8.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26721,7 +26943,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
-					(reference "U4004")
+					(reference "IC4004")
 					(unit 3)
 				)
 			)
@@ -27061,7 +27283,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bf90a810-6854-4037-b078-84048f226040")
-		(property "Reference" "U4005"
+		(property "Reference" "IC4005"
 			(at 501.65 8.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27137,7 +27359,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
-					(reference "U4005")
+					(reference "IC4005")
 					(unit 3)
 				)
 			)
@@ -32023,7 +32245,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f8f5f5c5-c0d2-4bc6-ad92-8dfbcc9807a0")
-		(property "Reference" "U4004"
+		(property "Reference" "IC4004"
 			(at 394.97 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32097,7 +32319,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
-					(reference "U4004")
+					(reference "IC4004")
 					(unit 1)
 				)
 			)
@@ -32354,7 +32576,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fec76f89-fa4e-4738-8357-98111a6611f5")
-		(property "Reference" "U4005"
+		(property "Reference" "IC4005"
 			(at 394.97 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32428,7 +32650,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/c2fb6f44-7647-4597-badb-4e48fc7de398"
-					(reference "U4005")
+					(reference "IC4005")
 					(unit 1)
 				)
 			)

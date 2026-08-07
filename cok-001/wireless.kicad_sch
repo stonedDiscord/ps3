@@ -3977,7 +3977,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "045a8f7e-66fd-4e2a-8b77-56d876957655")
-		(property "Reference" "L3703"
+		(property "Reference" "LF3703"
 			(at 182.88 78.105 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4045,7 +4045,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/a8d3d0f2-2567-4d70-a367-7d8ff0d1aec4"
-					(reference "L3703")
+					(reference "LF3703")
 					(unit 1)
 				)
 			)
@@ -4536,7 +4536,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23e2f2ba-25c1-482e-bc75-536d5e0e68dc")
 		(property "Reference" "Q3701"
 			(at 55.88 105.5877 0)
@@ -4550,7 +4549,7 @@
 			)
 		)
 		(property "Value" "UMH2NTN"
-			(at 55.88 108.1277 0)
+			(at 57.15 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5138,7 +5137,7 @@
 				)
 			)
 		)
-		(property "Value" "Thermistor_PTC"
+		(property "Value" "!"
 			(at 176.8475 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5209,7 +5208,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "4e20c123-9e35-4596-bfa2-a7147a7136d7")
-		(property "Reference" "L3701"
+		(property "Reference" "LF3701"
 			(at 182.88 57.785 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5277,7 +5276,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/a8d3d0f2-2567-4d70-a367-7d8ff0d1aec4"
-					(reference "L3701")
+					(reference "LF3701")
 					(unit 1)
 				)
 			)
@@ -5463,7 +5462,7 @@
 			)
 		)
 		(property "Value" "UMH2NTN"
-			(at 48.26 108.1277 0)
+			(at 46.99 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5555,7 +5554,7 @@
 				)
 			)
 		)
-		(property "Value" "Thermistor_PTC"
+		(property "Value" "!"
 			(at 189.5475 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6422,7 +6421,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "ed363173-915c-4b4c-ae52-904ca59dc350")
-		(property "Reference" "L3702"
+		(property "Reference" "LF3702"
 			(at 175.26 67.945 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6490,7 +6489,7 @@
 		(instances
 			(project "cok-001"
 				(path "/976eb78d-8215-4cc0-9d72-f9d535c7970b/a8d3d0f2-2567-4d70-a367-7d8ff0d1aec4"
-					(reference "L3702")
+					(reference "LF3702")
 					(unit 1)
 				)
 			)

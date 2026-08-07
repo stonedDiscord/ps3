@@ -4291,7 +4291,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 90.17) (xy 184.15 90.17)
+			(xy 158.75 90.17) (xy 184.15 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4541,7 +4541,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 184.15 97.79)
+			(xy 161.29 97.79) (xy 184.15 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4578,6 +4578,16 @@
 			(type default)
 		)
 		(uuid "3036dc2a-f355-40a2-9fea-8ac0d5d71fc0")
+	)
+	(wire
+		(pts
+			(xy 153.67 87.63) (xy 152.4 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30eb0d5d-db32-47bf-b964-c9793c0f6607")
 	)
 	(wire
 		(pts
@@ -4971,7 +4981,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 95.25) (xy 184.15 95.25)
+			(xy 153.67 90.17) (xy 152.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a172a7e-b3ac-41a4-970f-33a650169be0")
+	)
+	(wire
+		(pts
+			(xy 161.29 95.25) (xy 184.15 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5251,6 +5271,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 97.79) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cfd3d64-b070-4628-88ab-a0fc2e1cb02d")
+	)
+	(wire
+		(pts
 			(xy 66.04 53.34) (xy 73.66 53.34)
 		)
 		(stroke
@@ -5331,7 +5361,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 87.63) (xy 184.15 87.63)
+			(xy 158.75 87.63) (xy 184.15 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5808,6 +5838,16 @@
 			(type default)
 		)
 		(uuid "dad05fe1-7133-403b-aa1b-a63f45732ed1")
+	)
+	(wire
+		(pts
+			(xy 156.21 95.25) (xy 152.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db6566ff-8b3c-4f03-90a8-ae691e0f2bfc")
 	)
 	(wire
 		(pts
@@ -10950,7 +10990,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Iron_Coupled_Small_1243")
-		(at 154.94 88.9 180)
+		(at 156.21 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10960,7 +11000,7 @@
 		(dnp no)
 		(uuid "72dac6f8-6883-4092-a201-ebfb6f4d7e45")
 		(property "Reference" "L3401"
-			(at 154.94 92.075 0)
+			(at 156.21 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10969,8 +11009,8 @@
 				)
 			)
 		)
-		(property "Value" "L_Iron_Coupled_Small_1243"
-			(at 154.94 85.725 0)
+		(property "Value" "XX"
+			(at 156.21 85.725 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10980,7 +11020,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_0805USB"
-			(at 154.94 88.9 0)
+			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10991,7 +11031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 88.9 0)
+			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11002,7 +11042,7 @@
 			)
 		)
 		(property "Description" "Coupled inductor with iron core, small symbol"
-			(at 154.94 88.9 0)
+			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13779,7 +13819,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Iron_Coupled_Small_1243")
-		(at 154.94 96.52 180)
+		(at 158.75 96.52 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13787,10 +13827,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b7ccadfc-77e1-43b1-b1fb-10ce3df22eae")
 		(property "Reference" "L3402"
-			(at 154.94 90.17 0)
+			(at 156.21 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13799,8 +13838,8 @@
 				)
 			)
 		)
-		(property "Value" "L_Iron_Coupled_Small_1243"
-			(at 154.94 92.71 0)
+		(property "Value" "XX"
+			(at 161.29 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13810,7 +13849,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_0805USB"
-			(at 154.94 96.52 0)
+			(at 158.75 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13821,7 +13860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 96.52 0)
+			(at 158.75 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13832,7 +13871,7 @@
 			)
 		)
 		(property "Description" "Coupled inductor with iron core, small symbol"
-			(at 154.94 96.52 0)
+			(at 158.75 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
